@@ -1,0 +1,38 @@
+{
+  "brand": "Tideglyph",
+  "brandId": 7442919,
+  "entries": [
+    {
+      "date": "2026-10-16",
+      "week": "2026-10-10 to 2026-10-16",
+      "networks": ["facebook", "instagram"],
+      "status": "Week 1. Account connected 2026-10-15; launch batch published 2026-10-16. Near-zero is expected and normal for a day-one account.",
+      "numbers": {
+        "facebook": {
+          "followers": 0,
+          "followersAcquired": 0,
+          "publishedPostsWithData": 2,
+          "reach": 0,
+          "interactions": 0,
+          "shares": 0,
+          "linkClicks": 0
+        },
+        "instagram": {
+          "followers": 0,
+          "followersGained": 0,
+          "reach": 0,
+          "interactions": 0,
+          "saves": 0,
+          "shares": 0
+        },
+        "tiktok": "not connected",
+        "email": "MailerLite not wired up yet; email metrics skipped"
+      },
+      "ranking": "Could not rank posts by (saves+shares)/reach: reach and engagement are at zero or not yet reported by Meta for the just-published launch batch. No numbers invented.",
+      "clicksToFreeChart": "No signal yet. Facebook post link clicks = 0; Instagram organic link clicks are not exposed by Metricool and the CTA is link-in-bio, so per-post chart clicks are not measurable this week.",
+      "bestHook": "Two people born on the same day can share a star sign and have almost nothing else in common on the chart. Editorial pick (no performance data): challenges a specific belief the reader holds and opens a concrete curiosity gap.",
+      "weakestHook": "A quiet promise. Editorial pick: abstract opener with no curiosity or concrete stakes; the privacy message is strong but the first line does not stop a scroll.",
+      "oneChange": "On Facebook, replace the generic link-in-bio CTA with the actual free-chart URL plus a UTM tag in the post text. Reason: Facebook supports clickable in-post links and Facebook post link clicks are the one per-post click-to-chart signal Metricool exposes; with the link only in bio, next week's review still cannot tell which hook drives chart draws. Instagram stays link-in-bio (it cannot carry post links)."
+    }
+  ]
+}
