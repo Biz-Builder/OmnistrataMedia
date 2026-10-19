@@ -17,7 +17,7 @@ The self-contained engine for Tideglyph's organic posts. A fresh cloud session u
 
 ## Setup (once per run)
 1. Clone this repo with push access and cd to tideglyph/studio.
-2. `pip install pyswisseph --break-system-packages -q`
+2. `pip install pyswisseph --break-system-packages -q`. In the cloud workspace this often fails to build against the system setuptools with an `install_layout` AttributeError. If it does, build it in a fresh venv: `python3 -m venv /tmp/skyenv && /tmp/skyenv/bin/pip install -U pip setuptools wheel -q && /tmp/skyenv/bin/pip install pyswisseph -q`, then run the sky step with that venv (`/tmp/skyenv/bin/python todays_sky.py YYYY-MM-DD`). Only todays_sky.py needs it; make_card.py and render.mjs use the system python and node.
 3. `npm install playwright` in studio (chromium is preinstalled; do not run `playwright install`).
 
 ## Weekly batch (the Monday task)
