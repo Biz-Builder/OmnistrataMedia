@@ -33,6 +33,32 @@
       "bestHook": "Two people born on the same day can share a star sign and have almost nothing else in common on the chart. Editorial pick (no performance data): challenges a specific belief the reader holds and opens a concrete curiosity gap.",
       "weakestHook": "A quiet promise. Editorial pick: abstract opener with no curiosity or concrete stakes; the privacy message is strong but the first line does not stop a scroll.",
       "oneChange": "On Facebook, replace the generic link-in-bio CTA with the actual free-chart URL plus a UTM tag in the post text. Reason: Facebook supports clickable in-post links and Facebook post link clicks are the one per-post click-to-chart signal Metricool exposes; with the link only in bio, next week's review still cannot tell which hook drives chart draws. Instagram stays link-in-bio (it cannot carry post links)."
+    },
+    {
+      "date": "2026-10-19",
+      "type": "weekly-batch-scheduled",
+      "window": "2026-10-19 to 2026-10-25",
+      "networks": ["facebook", "instagram"],
+      "autoPublish": true,
+      "slots": "07:00 today's sky, 18:00 pillar (Africa/Johannesburg)",
+      "cta": "Free chart URL tideglyph.com/chart in every caption (clean, no UTM).",
+      "posts": [
+        {"date": "2026-10-19", "slot": "07:00", "kind": "todays-sky", "transit": "Mars trine Saturn", "metricoolId": 399602832},
+        {"date": "2026-10-19", "slot": "18:00", "pillar": "whole-chart differentiator (same sign, different sky)", "metricoolId": 399603070},
+        {"date": "2026-10-20", "slot": "07:00", "kind": "todays-sky", "transit": "Moon opposition Mars", "metricoolId": 399603091},
+        {"date": "2026-10-20", "slot": "18:00", "pillar": "explainer: rising sign", "metricoolId": 399603109},
+        {"date": "2026-10-21", "slot": "07:00", "kind": "todays-sky", "transit": "Moon enters Pisces", "metricoolId": 399603125},
+        {"date": "2026-10-21", "slot": "18:00", "pillar": "privacy: no ads, no tracking", "metricoolId": 399603141},
+        {"date": "2026-10-22", "slot": "07:00", "kind": "todays-sky", "transit": "Moon in Pisces", "metricoolId": 399603197},
+        {"date": "2026-10-22", "slot": "18:00", "pillar": "sign spotlight: Libra (season closing)", "metricoolId": 399603229},
+        {"date": "2026-10-23", "slot": "07:00", "kind": "todays-sky", "transit": "Sun conjunction Venus", "metricoolId": 399603251},
+        {"date": "2026-10-23", "slot": "18:00", "pillar": "the record that remembers (journal)", "metricoolId": 399603274},
+        {"date": "2026-10-24", "slot": "07:00", "kind": "todays-sky", "transit": "Sun conjunction Venus (Aries Moon angle)", "metricoolId": 399603298},
+        {"date": "2026-10-24", "slot": "18:00", "pillar": "explainer: Saturn return", "metricoolId": 399603349},
+        {"date": "2026-10-25", "slot": "07:00", "kind": "todays-sky", "transit": "Sun conjunction Venus (Venus retrograde angle)", "metricoolId": 399603360},
+        {"date": "2026-10-25", "slot": "18:00", "pillar": "sign spotlight: Scorpio (season begins)", "metricoolId": 399603393}
+      ],
+      "note": "Veto model: all 14 publish automatically on Facebook and Instagram unless Daniel edits or pulls them in Metricool. Pillar rotation covered all five pillars; explainer and sign spotlight each ran twice with distinct topics. Sun conjunction Venus repeated 23-25 so each day used a different angle. Facebook and Instagram posted together as one post per slot; the 2026-10-16 oneChange (FB-only clickable UTM link) was NOT applied because it needs the networks split into separate posts, which would deviate from the one-post-both-networks model. Flagged to Daniel for a decision."
     }
   ]
 }
