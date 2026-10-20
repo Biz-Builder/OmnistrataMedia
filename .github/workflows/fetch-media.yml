@@ -1,0 +1,52 @@
+name: Fetch media
+# Downloads images from temporary links (such as Canva exports) into this repo.
+# Run it with an "items" input: a JSON list of {"path": "<repo path>", "url": "<link>"}.
+on:
+  workflow_dispatch:
+    inputs:
+      items:
+        description: 'JSON list of {"path": "...", "url": "..."}'
+        required: true
+      message:
+        description: Commit message
+        required: false
+        default: Fetch media
+permissions:
+  contents: write
+concurrency:
+  group: fetch-media
+  cancel-in-progress: false
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Download each item
+        env:
+          ITEMS: ${{ inputs.items }}
+        run: |
+          set -euo pipefail
+          echo "$ITEMS" | jq -c '.[]' | while read -r item; do
+            path=$(echo "$item" | jq -r '.path')
+            url=$(echo "$item" | jq -r '.url')
+            case "$path" in
+              /*|*..*|.github/*) echo "Refusing path $path"; exit 1;;
+            esac
+            mkdir -p "$(dirname "$path")"
+            curl -fsSL --retry 3 -o "$path" "$url"
+            type=$(file -b --mime-type "$path")
+            case "$type" in
+              image/*|video/*) echo "Saved $path ($type)";;
+              *) echo "Not an image or video: $path ($type)"; rm -f "$path"; exit 1;;
+            esac
+          done
+      - name: Commit
+        env:
+          MSG: ${{ inputs.message }}
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A
+          if git diff --cached --quiet; then echo "Nothing new"; exit 0; fi
+          git commit -m "$MSG"
+          git push
