@@ -5,7 +5,10 @@
     {
       "date": "2026-10-16",
       "week": "2026-10-10 to 2026-10-16",
-      "networks": ["facebook", "instagram"],
+      "networks": [
+        "facebook",
+        "instagram"
+      ],
       "status": "Week 1. Account connected 2026-10-15; launch batch published 2026-10-16. Near-zero is expected and normal for a day-one account.",
       "numbers": {
         "facebook": {
@@ -38,27 +41,145 @@
       "date": "2026-10-19",
       "type": "weekly-batch-scheduled",
       "window": "2026-10-19 to 2026-10-25",
-      "networks": ["facebook", "instagram"],
+      "networks": [
+        "facebook",
+        "instagram"
+      ],
       "autoPublish": true,
       "slots": "07:00 today's sky, 18:00 pillar (Africa/Johannesburg)",
       "cta": "Free chart URL tideglyph.com/chart in every caption (clean, no UTM).",
       "posts": [
-        {"date": "2026-10-19", "slot": "07:00", "kind": "todays-sky", "transit": "Mars trine Saturn", "metricoolId": 399602832},
-        {"date": "2026-10-19", "slot": "18:00", "pillar": "whole-chart differentiator (same sign, different sky)", "metricoolId": 399603070},
-        {"date": "2026-10-20", "slot": "07:00", "kind": "todays-sky", "transit": "Moon opposition Mars", "metricoolId": 399603091},
-        {"date": "2026-10-20", "slot": "18:00", "pillar": "explainer: rising sign", "metricoolId": 399603109},
-        {"date": "2026-10-21", "slot": "07:00", "kind": "todays-sky", "transit": "Moon enters Pisces", "metricoolId": 399603125},
-        {"date": "2026-10-21", "slot": "18:00", "pillar": "privacy: no ads, no tracking", "metricoolId": 399603141},
-        {"date": "2026-10-22", "slot": "07:00", "kind": "todays-sky", "transit": "Moon in Pisces", "metricoolId": 399603197},
-        {"date": "2026-10-22", "slot": "18:00", "pillar": "sign spotlight: Libra (season closing)", "metricoolId": 399603229},
-        {"date": "2026-10-23", "slot": "07:00", "kind": "todays-sky", "transit": "Sun conjunction Venus", "metricoolId": 399603251},
-        {"date": "2026-10-23", "slot": "18:00", "pillar": "the record that remembers (journal)", "metricoolId": 399603274},
-        {"date": "2026-10-24", "slot": "07:00", "kind": "todays-sky", "transit": "Sun conjunction Venus (Aries Moon angle)", "metricoolId": 399603298},
-        {"date": "2026-10-24", "slot": "18:00", "pillar": "explainer: Saturn return", "metricoolId": 399603349},
-        {"date": "2026-10-25", "slot": "07:00", "kind": "todays-sky", "transit": "Sun conjunction Venus (Venus retrograde angle)", "metricoolId": 399603360},
-        {"date": "2026-10-25", "slot": "18:00", "pillar": "sign spotlight: Scorpio (season begins)", "metricoolId": 399603393}
+        {
+          "date": "2026-10-19",
+          "slot": "07:00",
+          "kind": "todays-sky",
+          "transit": "Mars trine Saturn",
+          "metricoolId": 399602832
+        },
+        {
+          "date": "2026-10-19",
+          "slot": "18:00",
+          "pillar": "whole-chart differentiator (same sign, different sky)",
+          "metricoolId": 399603070
+        },
+        {
+          "date": "2026-10-20",
+          "slot": "07:00",
+          "kind": "todays-sky",
+          "transit": "Moon opposition Mars",
+          "metricoolId": 399603091
+        },
+        {
+          "date": "2026-10-20",
+          "slot": "18:00",
+          "pillar": "explainer: rising sign",
+          "metricoolId": 399603109
+        },
+        {
+          "date": "2026-10-21",
+          "slot": "07:00",
+          "kind": "todays-sky",
+          "transit": "Moon enters Pisces",
+          "metricoolId": 399603125
+        },
+        {
+          "date": "2026-10-21",
+          "slot": "18:00",
+          "pillar": "privacy: no ads, no tracking",
+          "metricoolId": 399603141
+        },
+        {
+          "date": "2026-10-22",
+          "slot": "07:00",
+          "kind": "todays-sky",
+          "transit": "Moon in Pisces",
+          "metricoolId": 399603197
+        },
+        {
+          "date": "2026-10-22",
+          "slot": "18:00",
+          "pillar": "sign spotlight: Libra (season closing)",
+          "metricoolId": 399603229
+        },
+        {
+          "date": "2026-10-23",
+          "slot": "07:00",
+          "kind": "todays-sky",
+          "transit": "Sun conjunction Venus",
+          "metricoolId": 399603251
+        },
+        {
+          "date": "2026-10-23",
+          "slot": "18:00",
+          "pillar": "the record that remembers (journal)",
+          "metricoolId": 399603274
+        },
+        {
+          "date": "2026-10-24",
+          "slot": "07:00",
+          "kind": "todays-sky",
+          "transit": "Sun conjunction Venus (Aries Moon angle)",
+          "metricoolId": 399603298
+        },
+        {
+          "date": "2026-10-24",
+          "slot": "18:00",
+          "pillar": "explainer: Saturn return",
+          "metricoolId": 399603349
+        },
+        {
+          "date": "2026-10-25",
+          "slot": "07:00",
+          "kind": "todays-sky",
+          "transit": "Sun conjunction Venus (Venus retrograde angle)",
+          "metricoolId": 399603360
+        },
+        {
+          "date": "2026-10-25",
+          "slot": "18:00",
+          "pillar": "sign spotlight: Scorpio (season begins)",
+          "metricoolId": 399603393
+        }
       ],
       "note": "Veto model: all 14 publish automatically on Facebook and Instagram unless Daniel edits or pulls them in Metricool. Pillar rotation covered all five pillars; explainer and sign spotlight each ran twice with distinct topics. Sun conjunction Venus repeated 23-25 so each day used a different angle. Facebook and Instagram posted together as one post per slot; the 2026-10-16 oneChange (FB-only clickable UTM link) was NOT applied because it needs the networks split into separate posts, which would deviate from the one-post-both-networks model. Flagged to Daniel for a decision."
+    },
+    {
+      "date": "2026-10-23",
+      "week": "2026-10-17 to 2026-10-23",
+      "networks": [
+        "facebook",
+        "instagram"
+      ],
+      "status": "Week 2 (account 8 days old). Scheduled batch publishing 2/day on FB+IG. Reach still in low single digits per post; engagement effectively zero. Near-zero remains normal at this stage. No numbers invented. Review-only run: nothing posted, scheduled, or changed.",
+      "numbers": {
+        "instagram": {
+          "postsWithData": 12,
+          "reach": 23,
+          "views": 39,
+          "saves": 0,
+          "shares": 0,
+          "comments": 0,
+          "likes": 0,
+          "followsFromPosts": 0
+        },
+        "facebook": {
+          "postsWithData": 12,
+          "reach": 11,
+          "reactions": 0,
+          "shares": 0,
+          "comments": 0,
+          "linkClicks": 0
+        },
+        "combinedReach": 34,
+        "tiktok": "not connected",
+        "email": "MailerLite not wired up yet; email metrics skipped"
+      },
+      "ranking": "(saves+shares)/reach = 0 for every post this week: no saves or shares were recorded on either network, so the target metric cannot rank the posts yet. Reach itself is the limiter at 1-5 per post. Furthest-traveled post by raw reach was the Instagram 'two people born weeks apart' pillar (reach 5, 8 views).",
+      "clicksToFreeChart": "Still no measurable signal. Facebook post link clicks = 0 even though today's-sky captions now carry the raw tideglyph.com/chart URL; photo-post captions do not yield a clean link-click metric and reach is too low for clicks regardless. Instagram stays link-in-bio with no per-post click data.",
+      "bestHook": "'Two people born weeks apart can share a star sign and still have almost nothing else in common on the chart.' Editorial pick backed by the thin reach signal: the sharpest statement of the whole-chart differentiator and the furthest-traveled post of the week.",
+      "weakestHook": "'As the Sun finishes its trip through Libra.' Reached 0 on Instagram and 1 on Facebook, the week's lowest. It leans on the generic sun-sign framing the brand positions against, so the opener works against the differentiator.",
+      "oneChange": "Make Monday's daily 'today's sky' post a short Reel (vertical video) instead of a static image. Reason: reach is the binding constraint. Static feed photos on an 8-day-old account are shown almost only to existing followers (near zero), while Reels are the one organic surface Instagram distributes to non-followers. Until posts reach people, no hook or CTA test can produce signal.",
+      "note": "Prior oneChange (FB-only clickable UTM link) is still pending Daniel's decision on splitting FB/IG into separate posts. It was partially realised in that today's-sky captions now include the raw chart URL, but photo-post link clicks still read 0. Not repeated as this week's change because distribution, not measurement, is now the bottleneck."
     }
   ]
 }
