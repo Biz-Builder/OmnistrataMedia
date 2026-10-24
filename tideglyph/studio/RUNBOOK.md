@@ -19,6 +19,7 @@ The self-contained engine for Tideglyph's organic posts. A fresh cloud session u
 - No health, money or love claims. No medical or financial advice.
 - Plain English that travels to the US and UK. No South African only references, no slang.
 - No em dashes anywhere.
+- Write like a person. No "It's not X, it's Y" lines, no lists of absences ("No ads, no tracking, no noise"; one plain absence such as "No card" is fine), no "The result? ..." or "The best part: ..." reveals, no stock phrases ("Unlock", "Say goodbye to", "Here's the thing"), no one-sentence-per-line posts, no engagement bait ("Thoughts?", "Agree?"), no emoji as bullets. End on the point or on a real question.
 - Today's sky: one short headline line plus one journal question. Pillars: a hook plus two or three lines, ending on the call to action.
 
 ## Setup (once per run)
