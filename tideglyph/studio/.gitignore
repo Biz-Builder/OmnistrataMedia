@@ -1,4 +1,5 @@
-node_modules/
-_card.html
-_ad.html
 __pycache__/
+_ad.html
+_card.html
+_reel.html
+node_modules/
