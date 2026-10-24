@@ -1,0 +1,77 @@
+{
+ "brand": "TablePics",
+ "brandId": 7462744,
+ "entries": [
+  {
+   "date": "2026-10-16",
+   "type": "launch",
+   "note": "20 carousels scheduled 16 Oct to 29 Nov, Tue 12:30, Thu 18:30, Sun 18:30, Instagram and Facebook together."
+  },
+  {
+   "date": "2026-10-20",
+   "type": "change",
+   "note": "Photo covers on 15 queued posts; 05-rehearsal reworded for both upload-window rules. Covers pending quota: 12-cohosts, 18-still-time, 19-date-moved."
+  },
+  {
+   "date": "2026-10-21",
+   "type": "batch",
+   "note": "Grid burst: 120 guests repost (22 Oct 12:30), How it works repost (24 Oct 12:30), singles January (26 Oct 12:30) and Your 50th (28 Oct 12:30). Old 120 guests post archived by Daniel."
+  },
+  {
+   "date": "2026-10-24",
+   "type": "review",
+   "numbers": {
+    "organic_ig_reach_per_post": "4 to 16",
+    "organic_fb_reach_per_post": "1 to 38",
+    "ads_spend_19_24_oct": "R705",
+    "ads_landing_page_views": 393,
+    "cost_per_lpv": "R1.79",
+    "umami_visitors_22_24_oct": 173,
+    "bounce_rate": "88%",
+    "choose_tier": 10,
+    "order_start": 0,
+    "paid": 0
+   },
+   "best_ad_angles": [
+    "Guest book",
+    "January",
+    "On their phones"
+   ],
+   "change": "Organic now supports the ads: two product Reels a week, Facebook as separate posts with tagged links. Order form onto each event page requested from Alex. Weekly Monday batch and Friday review set up."
+  },
+  {
+   "date": "2026-10-24",
+   "type": "batch",
+   "posts": [
+    {
+     "date": "2026-10-27 18:30",
+     "network": "instagram",
+     "kind": "reel",
+     "angle": "weddings",
+     "metricool_id": 404897332
+    },
+    {
+     "date": "2026-10-27 18:30",
+     "network": "facebook",
+     "kind": "reel",
+     "angle": "weddings",
+     "metricool_id": 404897341
+    },
+    {
+     "date": "2026-10-30 18:30",
+     "network": "instagram",
+     "kind": "reel",
+     "angle": "year-end",
+     "metricool_id": 404897350
+    },
+    {
+     "date": "2026-10-30 18:30",
+     "network": "facebook",
+     "kind": "reel",
+     "angle": "year-end",
+     "metricool_id": 404897359
+    }
+   ]
+  }
+ ]
+}
