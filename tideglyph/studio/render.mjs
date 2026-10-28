@@ -7,8 +7,10 @@ function findChrome(){
   try {
     for (const d of fs.readdirSync(base)) {
       if (d.startsWith('chromium-')) {
-        const p = `${base}/${d}/chrome-linux/chrome`;
-        if (fs.existsSync(p)) return p;
+        for (const sub of ['chrome-linux', 'chrome-linux64']) {
+          const p = `${base}/${d}/${sub}/chrome`;
+          if (fs.existsSync(p)) return p;
+        }
       }
     }
   } catch (e) {}
