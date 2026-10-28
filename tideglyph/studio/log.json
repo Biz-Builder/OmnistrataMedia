@@ -180,6 +180,233 @@
       "weakestHook": "'As the Sun finishes its trip through Libra.' Reached 0 on Instagram and 1 on Facebook, the week's lowest. It leans on the generic sun-sign framing the brand positions against, so the opener works against the differentiator.",
       "oneChange": "Make Monday's daily 'today's sky' post a short Reel (vertical video) instead of a static image. Reason: reach is the binding constraint. Static feed photos on an 8-day-old account are shown almost only to existing followers (near zero), while Reels are the one organic surface Instagram distributes to non-followers. Until posts reach people, no hook or CTA test can produce signal.",
       "note": "Prior oneChange (FB-only clickable UTM link) is still pending Daniel's decision on splitting FB/IG into separate posts. It was partially realised in that today's-sky captions now include the raw chart URL, but photo-post link clicks still read 0. Not repeated as this week's change because distribution, not measurement, is now the bottleneck."
+    },
+    {
+      "date": "2026-10-28",
+      "type": "weekly-batch-scheduled",
+      "window": "2026-10-29 to 2026-11-04",
+      "networks": [
+        "facebook",
+        "instagram"
+      ],
+      "autoPublish": true,
+      "slots": "07:00 today's sky Reel, 18:00 pillar static card (Africa/Johannesburg)",
+      "model": "Each slot is two separate posts: an Instagram post and a Facebook post. 07:00 is a Reel on both (videoCoverMilliseconds 7500). 18:00 is a static POST on both. Instagram captions end \"link in bio\"; Facebook captions carry the tagged tideglyph.com/chart link with utm_content YYYY-MM-DD_sky or _pillar (the birth-time pillar links /moon-sign-calculator).",
+      "cta": "IG: link in bio. FB: tagged chart URL per post (moon-sign-calculator for the 2026-11-01 pillar).",
+      "pillarRotation": "All seven pillars once each, no repeats: one in twelve (29), what the free chart shows (30), plain explainer big three (31), don't know your birth time (1 Nov), the journal (2), privacy (3), sign spotlight Scorpio (4). Explainer avoided last week's rising and Saturn return topics.",
+      "posts": [
+        {
+          "date": "2026-10-29",
+          "slot": "07:00",
+          "network": "instagram",
+          "kind": "todays-sky",
+          "transit": "Moon enters Cancer",
+          "metricoolId": 409088204
+        },
+        {
+          "date": "2026-10-29",
+          "slot": "07:00",
+          "network": "facebook",
+          "kind": "todays-sky",
+          "transit": "Moon enters Cancer",
+          "metricoolId": 409088466
+        },
+        {
+          "date": "2026-10-29",
+          "slot": "18:00",
+          "network": "instagram",
+          "pillar": "one in twelve",
+          "metricoolId": 409088492
+        },
+        {
+          "date": "2026-10-29",
+          "slot": "18:00",
+          "network": "facebook",
+          "pillar": "one in twelve",
+          "metricoolId": 409088547
+        },
+        {
+          "date": "2026-10-30",
+          "slot": "07:00",
+          "network": "instagram",
+          "kind": "todays-sky",
+          "transit": "Mercury square Mars",
+          "metricoolId": 409089376
+        },
+        {
+          "date": "2026-10-30",
+          "slot": "07:00",
+          "network": "facebook",
+          "kind": "todays-sky",
+          "transit": "Mercury square Mars",
+          "metricoolId": 409089412
+        },
+        {
+          "date": "2026-10-30",
+          "slot": "18:00",
+          "network": "instagram",
+          "pillar": "what the free chart shows",
+          "metricoolId": 409089432
+        },
+        {
+          "date": "2026-10-30",
+          "slot": "18:00",
+          "network": "facebook",
+          "pillar": "what the free chart shows",
+          "metricoolId": 409089453
+        },
+        {
+          "date": "2026-10-31",
+          "slot": "07:00",
+          "network": "instagram",
+          "kind": "todays-sky",
+          "transit": "Mercury square Mars, Moon in Cancer",
+          "metricoolId": 409089479
+        },
+        {
+          "date": "2026-10-31",
+          "slot": "07:00",
+          "network": "facebook",
+          "kind": "todays-sky",
+          "transit": "Mercury square Mars, Moon in Cancer",
+          "metricoolId": 409089513
+        },
+        {
+          "date": "2026-10-31",
+          "slot": "18:00",
+          "network": "instagram",
+          "pillar": "a plain explainer (big three)",
+          "metricoolId": 409089536
+        },
+        {
+          "date": "2026-10-31",
+          "slot": "18:00",
+          "network": "facebook",
+          "pillar": "a plain explainer (big three)",
+          "metricoolId": 409089552
+        },
+        {
+          "date": "2026-11-01",
+          "slot": "07:00",
+          "network": "instagram",
+          "kind": "todays-sky",
+          "transit": "Venus sextile Jupiter",
+          "metricoolId": 409090126
+        },
+        {
+          "date": "2026-11-01",
+          "slot": "07:00",
+          "network": "facebook",
+          "kind": "todays-sky",
+          "transit": "Venus sextile Jupiter",
+          "metricoolId": 409090303
+        },
+        {
+          "date": "2026-11-01",
+          "slot": "18:00",
+          "network": "instagram",
+          "pillar": "don't know your birth time",
+          "metricoolId": 409090421
+        },
+        {
+          "date": "2026-11-01",
+          "slot": "18:00",
+          "network": "facebook",
+          "pillar": "don't know your birth time",
+          "metricoolId": 409090663
+        },
+        {
+          "date": "2026-11-02",
+          "slot": "07:00",
+          "network": "instagram",
+          "kind": "todays-sky",
+          "transit": "Venus sextile Jupiter, Moon in Leo",
+          "metricoolId": 409090964
+        },
+        {
+          "date": "2026-11-02",
+          "slot": "07:00",
+          "network": "facebook",
+          "kind": "todays-sky",
+          "transit": "Venus sextile Jupiter, Moon in Leo",
+          "metricoolId": 409091058
+        },
+        {
+          "date": "2026-11-02",
+          "slot": "18:00",
+          "network": "instagram",
+          "pillar": "the journal",
+          "metricoolId": 409091226
+        },
+        {
+          "date": "2026-11-02",
+          "slot": "18:00",
+          "network": "facebook",
+          "pillar": "the journal",
+          "metricoolId": 409091309
+        },
+        {
+          "date": "2026-11-03",
+          "slot": "07:00",
+          "network": "instagram",
+          "kind": "todays-sky",
+          "transit": "Venus sextile Jupiter, Sun near Mercury",
+          "metricoolId": 409091965
+        },
+        {
+          "date": "2026-11-03",
+          "slot": "07:00",
+          "network": "facebook",
+          "kind": "todays-sky",
+          "transit": "Venus sextile Jupiter, Sun near Mercury",
+          "metricoolId": 409091985
+        },
+        {
+          "date": "2026-11-03",
+          "slot": "18:00",
+          "network": "instagram",
+          "pillar": "privacy",
+          "metricoolId": 409092027
+        },
+        {
+          "date": "2026-11-03",
+          "slot": "18:00",
+          "network": "facebook",
+          "pillar": "privacy",
+          "metricoolId": 409092090
+        },
+        {
+          "date": "2026-11-04",
+          "slot": "07:00",
+          "network": "instagram",
+          "kind": "todays-sky",
+          "transit": "Venus sextile Jupiter, Sun sextile Moon",
+          "metricoolId": 409092262
+        },
+        {
+          "date": "2026-11-04",
+          "slot": "07:00",
+          "network": "facebook",
+          "kind": "todays-sky",
+          "transit": "Venus sextile Jupiter, Sun sextile Moon",
+          "metricoolId": 409092313
+        },
+        {
+          "date": "2026-11-04",
+          "slot": "18:00",
+          "network": "instagram",
+          "pillar": "sign spotlight (Scorpio)",
+          "metricoolId": 409092355
+        },
+        {
+          "date": "2026-11-04",
+          "slot": "18:00",
+          "network": "facebook",
+          "pillar": "sign spotlight (Scorpio)",
+          "metricoolId": 409092383
+        }
+      ],
+      "note": "Veto model: all 28 posts publish automatically on Facebook and Instagram unless Daniel edits or pulls them in Metricool. This week applied the oneChange from the week-2 review: 07:00 today's sky is now a Reel on both networks (reach was the binding constraint), and Facebook and Instagram run as separate posts so the Facebook link carries a first-party UTM (the earlier pending oneChange). Media hosted in Biz-Builder/OmnistrataMedia, raw PNG and MP4 URLs confirmed loading before scheduling. Mercury square Mars repeats 30-31 Oct and Venus sextile Jupiter 1-4 Nov; each day used a distinct angle and journal question. isAiGenerated left false (typographic cards and Reels)."
     }
   ]
 }
