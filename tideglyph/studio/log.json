@@ -407,6 +407,15 @@
         }
       ],
       "note": "Veto model: all 28 posts publish automatically on Facebook and Instagram unless Daniel edits or pulls them in Metricool. This week applied the oneChange from the week-2 review: 07:00 today's sky is now a Reel on both networks (reach was the binding constraint), and Facebook and Instagram run as separate posts so the Facebook link carries a first-party UTM (the earlier pending oneChange). Media hosted in Biz-Builder/OmnistrataMedia, raw PNG and MP4 URLs confirmed loading before scheduling. Mercury square Mars repeats 30-31 Oct and Venus sextile Jupiter 1-4 Nov; each day used a distinct angle and journal question. isAiGenerated left false (typographic cards and Reels)."
+    },
+    {
+      "date": "2026-10-28",
+      "type": "weekly-batch-revision",
+      "window": "2026-10-29 to 2026-11-04",
+      "change": "Added photo backgrounds to all media at Daniel request (was typographic). Celestial photos on the 7 today-sky reels, people photos on the 7 pillars, composited with a dark scrim and light text via new studio renderers make_card_photo.py and make_reel_photo.py.",
+      "photos": "Generated with Canva AI, pulled full-size into tideglyph/photos via the holder design + Fetch media workflow. Reels: sky-moon-water (29), sky-dusk (30-31), sky-dawn (1-2 Nov), sky-starfield (3-4 Nov). Pillars: people-crowd (one in twelve), people-phone (free chart), people-portrait (big three + Scorpio), people-window (no birth time), people-journal (journal), people-home (privacy).",
+      "metricool": "All 28 scheduled posts updated in place (brand 7442919) to the photo media with a cache-busting ?v=2 so Metricool re-hosted the new files. Captions, times, networks, cover frame (7500ms) unchanged. Post ids were reassigned by the update; uuids unchanged. isAiGenerated left false (typographic/scrim composites over AI photos; organic Meta only requires the flag for photorealistic AI video or audio).",
+      "renderer_fix": "render.mjs and render_reel.mjs now also detect the chrome-linux64 chromium layout."
     }
   ]
 }
