@@ -67,10 +67,12 @@ Setup: `pip install playwright qrcode --break-system-packages` if missing; Chrom
 - Schedule in Metricool brand 7462744 with autoPublish true. Reels: `instagramData: {type: "REEL", showReelOnFeed: true, isAiGenerated: false}`, `facebookData: {type: "REEL"}`, `videoCoverMilliseconds: 1500`. Posts: type `POST` on both.
 - Pinning and highlights are manual in the Instagram app. Daniel pins the How it works post (reposted 24 Oct).
 
-## Open items (as of 24 Oct)
+## Open items (as of 28 Oct)
 
-- Three queued posts still have text covers waiting for Canva quota: co-hosts (10 Nov), Function in two weeks (24 Nov), Event date moved (26 Nov). Posts 18 and 19 (24 and 26 Nov) also need the upload-window rewording from rule 4. Daniel approved both changes on 20 Oct.
-- Five covers reuse ad photos (birthday, slideshow, signal, photo checks, pricing). Swap for new photos when quota allows, if Daniel agrees.
+- Every queued carousel now has a photo cover (co-hosts, still-time and date-moved done 28 Oct with the upload-window rewording).
+- Five covers reuse ad photos (birthday, slideshow, signal, photo checks, pricing). Swap them for new photos if Daniel agrees. Canva is on the Pro trial from 28 Oct, so the quota is not the limit for now.
+- The 19 Nov pricing post states the refund terms (money back in full while no guest has added media, within 7 days of payment or more than 7 days before the event). Refunds are a rule that may change (rule 4): check them against the live site and the Confluence draft plans before 19 Nov.
+- The live site could not be read from the cloud run on 28 Oct (proxy blocked tablepics.co.za, and the WebFetch permission timed out). Claims were matched to the queued posts instead. Ask Daniel to allow the domain.
 - Content from 1 December: weddings first.
 
 ## Monday batch (every Monday, 07:30)
