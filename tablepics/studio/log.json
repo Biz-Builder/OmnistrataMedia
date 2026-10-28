@@ -82,57 +82,84 @@
      "network": "instagram",
      "kind": "reel",
      "angle": "year-end phones",
-     "status": "draft",
+     "status": "scheduled",
      "media": "tablepics/reels/2026-11-03-yearend-phones.mp4",
-     "metricool_id": 409088615
+     "metricool_id": 409258803
     },
     {
      "date": "2026-11-03 18:30",
      "network": "facebook",
      "kind": "reel",
      "angle": "year-end phones",
-     "status": "draft",
+     "status": "scheduled",
      "media": "tablepics/reels/2026-11-03-yearend-phones.mp4",
-     "metricool_id": 409088626
+     "metricool_id": 409259120
     },
     {
      "date": "2026-11-06 18:30",
      "network": "instagram",
      "kind": "reel",
      "angle": "birthday phones",
-     "status": "draft",
+     "status": "scheduled",
      "media": "tablepics/reels/2026-11-06-birthday-phones.mp4",
-     "metricool_id": 409088670
+     "metricool_id": 409259135
     },
     {
      "date": "2026-11-06 18:30",
      "network": "facebook",
      "kind": "reel",
      "angle": "birthday phones",
-     "status": "draft",
+     "status": "scheduled",
      "media": "tablepics/reels/2026-11-06-birthday-phones.mp4",
-     "metricool_id": 409088691
+     "metricool_id": 409259164
     },
     {
      "date": "2026-11-10 18:30",
      "network": "instagram",
      "kind": "reel",
      "angle": "year-end no app",
-     "status": "draft",
+     "status": "scheduled",
      "media": "tablepics/reels/2026-11-10-yearend-noapp.mp4",
-     "metricool_id": 409088716
+     "metricool_id": 409259179
     },
     {
      "date": "2026-11-10 18:30",
      "network": "facebook",
      "kind": "reel",
      "angle": "year-end no app",
-     "status": "draft",
+     "status": "scheduled",
      "media": "tablepics/reels/2026-11-10-yearend-noapp.mp4",
-     "metricool_id": 409088740
+     "metricool_id": 409259201
     }
    ],
    "note": "Run on Wed 28 Oct. Filled the three empty Reel slots to 11 Nov (3, 6, 10 Nov). All six went in as Metricool drafts, not scheduled: the live site tablepics.co.za could not be read from this run (proxy and fetch permission blocked), so claims were not matched to it. Canva quota ran out after one image (birthday-60th.jpg); open-item covers for 12-cohosts, 18-still-time, 19-date-moved and the 18/19 upload-window rewording still pending. No Friday review since 24 Oct."
+  },
+  {
+   "date": "2026-10-28",
+   "type": "change",
+   "note": "Daniel (live): Canva Pro trial on, get the content scheduled to support the ads. The six 3/6/10 Nov Reel drafts switched to scheduled (ids updated in the 28 Oct batch). New photos: cohosts, still-time, date-moved, wedding-guestbook. Covers rendered and pushed for 12-cohosts, 18-still-time, 19-date-moved, plus reworded slides 18/03-v2 and 19/02-v2. Swapping them into the queued posts (397758351, 397758861, 397758928) was blocked by the permission check; waiting on Daniel's explicit yes this session."
+  },
+  {
+   "date": "2026-10-28",
+   "type": "batch",
+   "posts": [
+    {
+     "date": "2026-11-13 18:30",
+     "network": "instagram",
+     "kind": "reel",
+     "angle": "weddings guest book",
+     "media": "tablepics/reels/2026-11-13-weddings-guestbook.mp4",
+     "metricool_id": 409262450
+    },
+    {
+     "date": "2026-11-13 18:30",
+     "network": "facebook",
+     "kind": "reel",
+     "angle": "weddings guest book",
+     "media": "tablepics/reels/2026-11-13-weddings-guestbook.mp4",
+     "metricool_id": 409262468
+    }
+   ]
   }
  ]
 }
