@@ -72,6 +72,67 @@
      "metricool_id": 404897359
     }
    ]
+  },
+  {
+   "date": "2026-10-28",
+   "type": "batch",
+   "posts": [
+    {
+     "date": "2026-11-03 18:30",
+     "network": "instagram",
+     "kind": "reel",
+     "angle": "year-end phones",
+     "status": "draft",
+     "media": "tablepics/reels/2026-11-03-yearend-phones.mp4",
+     "metricool_id": 409088615
+    },
+    {
+     "date": "2026-11-03 18:30",
+     "network": "facebook",
+     "kind": "reel",
+     "angle": "year-end phones",
+     "status": "draft",
+     "media": "tablepics/reels/2026-11-03-yearend-phones.mp4",
+     "metricool_id": 409088626
+    },
+    {
+     "date": "2026-11-06 18:30",
+     "network": "instagram",
+     "kind": "reel",
+     "angle": "birthday phones",
+     "status": "draft",
+     "media": "tablepics/reels/2026-11-06-birthday-phones.mp4",
+     "metricool_id": 409088670
+    },
+    {
+     "date": "2026-11-06 18:30",
+     "network": "facebook",
+     "kind": "reel",
+     "angle": "birthday phones",
+     "status": "draft",
+     "media": "tablepics/reels/2026-11-06-birthday-phones.mp4",
+     "metricool_id": 409088691
+    },
+    {
+     "date": "2026-11-10 18:30",
+     "network": "instagram",
+     "kind": "reel",
+     "angle": "year-end no app",
+     "status": "draft",
+     "media": "tablepics/reels/2026-11-10-yearend-noapp.mp4",
+     "metricool_id": 409088716
+    },
+    {
+     "date": "2026-11-10 18:30",
+     "network": "facebook",
+     "kind": "reel",
+     "angle": "year-end no app",
+     "status": "draft",
+     "media": "tablepics/reels/2026-11-10-yearend-noapp.mp4",
+     "metricool_id": 409088740
+    }
+   ],
+   "note": "Run on Wed 28 Oct. Filled the three empty Reel slots to 11 Nov (3, 6, 10 Nov). All six went in as Metricool drafts, not scheduled: the live site tablepics.co.za could not be read from this run (proxy and fetch permission blocked), so claims were not matched to it. Canva quota ran out after one image (birthday-60th.jpg); open-item covers for 12-cohosts, 18-still-time, 19-date-moved and the 18/19 upload-window rewording still pending. No Friday review since 24 Oct."
   }
  ]
 }
