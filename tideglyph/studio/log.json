@@ -416,6 +416,51 @@
       "photos": "Generated with Canva AI, pulled full-size into tideglyph/photos via the holder design + Fetch media workflow. Reels: sky-moon-water (29), sky-dusk (30-31), sky-dawn (1-2 Nov), sky-starfield (3-4 Nov). Pillars: people-crowd (one in twelve), people-phone (free chart), people-portrait (big three + Scorpio), people-window (no birth time), people-journal (journal), people-home (privacy).",
       "metricool": "All 28 scheduled posts updated in place (brand 7442919) to the photo media with a cache-busting ?v=2 so Metricool re-hosted the new files. Captions, times, networks, cover frame (7500ms) unchanged. Post ids were reassigned by the update; uuids unchanged. isAiGenerated left false (typographic/scrim composites over AI photos; organic Meta only requires the flag for photorealistic AI video or audio).",
       "renderer_fix": "render.mjs and render_reel.mjs now also detect the chrome-linux64 chromium layout."
+    },
+    {
+      "date": "2026-10-30",
+      "type": "review",
+      "week": "2026-10-24 to 2026-10-30",
+      "networks": [
+        "facebook",
+        "instagram"
+      ],
+      "status": "Week 3 (account 15 days old). Review-only run: nothing posted, scheduled or changed. Reach still single digits per post and engagement effectively zero, which stays normal at this stage. The account's first Reel went out 2026-10-29 and out-reached every static post. A 3-day posting gap sat in the middle of the week (Oct 26-28, no posts on either network); posting resumed Oct 29. The Oct 30 posts (midday carousel and evening slot) are too new to have data. No numbers invented.",
+      "numbers": {
+        "instagram": {
+          "postsWithData": 6,
+          "feedReach": 12,
+          "reelReach": 9,
+          "reach": 21,
+          "views": 37,
+          "saves": 0,
+          "shares": 0,
+          "comments": 0,
+          "likes": 0,
+          "followsFromPosts": 0,
+          "followers": 5,
+          "followersGainedThisWeek": "about +2 (3 on Oct 24 to 5 by Oct 28)"
+        },
+        "facebook": {
+          "postsWithData": 6,
+          "reach": 15,
+          "reactions": 1,
+          "shares": 0,
+          "comments": 0,
+          "linkClicks": 0,
+          "followersAcquired": 0
+        },
+        "combinedReach": 36,
+        "tiktok": "not connected",
+        "email": "MailerLite not wired up for Tideglyph yet (2 subscribers total on the account, no campaigns); email metrics skipped per method until the list, nurture and sending domain are live."
+      },
+      "ranking": "(saves+shares)/reach = 0 for every post again: no saves or shares on either network, so the target metric still cannot rank posts. Ranked on raw reach as the distribution proxy (method B1: while reach is the binding constraint, read distribution, not hooks or CTAs). Furthest-traveled: the Instagram Moon-in-Cancer Reel, reach 9 / 11 views, the first Reel and the only item to break past single-digit static reach (static feed posts ran 1-5).",
+      "clicksToFreeChart": "No measurable signal. Facebook post link clicks = 0 across all posts (reach too low for clicks regardless); the Oct 29 FB Reel carried the UTM chart link in-caption and recorded 0 link clicks on reach 0. Instagram stays link-in-bio, no per-post click data.",
+      "bestHook": "Oct 29 Moon-in-Cancer Reel: 'What makes a place feel like home to you?' Furthest-traveled item of the week. In plain terms it names a feeling everyone recognises and invites a one-word answer, and it rode the Reel format that actually reaches non-followers. Runner-up on structure: the pillar 'Ever read your horoscope and felt it was written for a stranger?', which opens on the reader's own experience (problem first) before any astrology. Both are editorial reads: reach is still too thin to crown a hook.",
+      "weakestHook": "The today's-sky posts that open on planetary mechanics before any human angle, e.g. Oct 25 'With Venus moving backward through the sky, today's meeting with the Sun has a reflective, looking-back quality.' A cold reader has no reason to care by line one; the relatable question is buried under the jargon. Lowest views-per-reach of the week. Caveat: single-digit reach makes this a read, not a verdict.",
+      "oneChange": "Format, for Monday 2026-11-02: make the 18:00 pillar slot a Reel/video too, so both Monday slots are video rather than one Reel plus one static image. The week's single Reel reached 9 vs 1-5 for every static feed post, and on a roughly 5-follower account Reels are the one format Instagram shows to non-followers. Reach is the binding constraint in launch (method B1), so move the static pillars toward video before testing hooks or CTAs.",
+      "crossBrandLesson": "First hard number behind the already-recorded launch-weeks rule (B1): on a near-empty account a single Reel reached 9 people vs 1-5 for static feed posts. Genuinely cross-brand but n=1 so far; proposed as the first B2 'Content that works' data point once a second week confirms it. No method change needed this week.",
+      "runType": "review-only; no public changes"
     }
   ]
 }
