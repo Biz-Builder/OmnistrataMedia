@@ -165,6 +165,118 @@
    "date": "2026-10-28",
    "type": "change",
    "note": "Daniel said yes in chat: photo covers swapped into 12-cohosts (10 Nov, now 409263658), 18-still-time (24 Nov, now 409263682, slide 3 and caption reworded to 'can open up to 7 days before') and 19-date-moved (26 Nov, now 409263709, slide 2 and caption reworded to 'any time before the uploads open'). Text-cover open item closed."
+  },
+  {
+   "date": "2026-11-02",
+   "type": "batch",
+   "posts": [],
+   "queued_checked": [
+    {
+     "date": "2026-11-03 12:30",
+     "network": "instagram+facebook",
+     "kind": "carousel",
+     "angle": "year-end slideshow",
+     "metricool_id": 400998338
+    },
+    {
+     "date": "2026-11-03 18:30",
+     "network": "instagram",
+     "kind": "reel",
+     "angle": "year-end phones",
+     "metricool_id": 409258803
+    },
+    {
+     "date": "2026-11-03 18:30",
+     "network": "facebook",
+     "kind": "reel",
+     "angle": "year-end phones",
+     "metricool_id": 409259120
+    },
+    {
+     "date": "2026-11-05 18:30",
+     "network": "instagram+facebook",
+     "kind": "carousel",
+     "angle": "weddings guest book",
+     "metricool_id": 400998415
+    },
+    {
+     "date": "2026-11-06 18:30",
+     "network": "instagram",
+     "kind": "reel",
+     "angle": "birthday phones",
+     "metricool_id": 409259135
+    },
+    {
+     "date": "2026-11-06 18:30",
+     "network": "facebook",
+     "kind": "reel",
+     "angle": "birthday phones",
+     "metricool_id": 409259164
+    },
+    {
+     "date": "2026-11-08 18:30",
+     "network": "instagram+facebook",
+     "kind": "carousel",
+     "angle": "weddings weak signal",
+     "metricool_id": 400998488
+    },
+    {
+     "date": "2026-11-10 12:30",
+     "network": "instagram+facebook",
+     "kind": "carousel",
+     "angle": "year-end co-hosts",
+     "metricool_id": 409263658
+    },
+    {
+     "date": "2026-11-10 18:30",
+     "network": "instagram",
+     "kind": "reel",
+     "angle": "year-end no app",
+     "metricool_id": 409259179
+    },
+    {
+     "date": "2026-11-10 18:30",
+     "network": "facebook",
+     "kind": "reel",
+     "angle": "year-end no app",
+     "metricool_id": 409259201
+    },
+    {
+     "date": "2026-11-12 18:30",
+     "network": "instagram+facebook",
+     "kind": "carousel",
+     "angle": "privacy",
+     "metricool_id": 400998560
+    },
+    {
+     "date": "2026-11-13 18:30",
+     "network": "instagram",
+     "kind": "reel",
+     "angle": "weddings guest book",
+     "metricool_id": 409262450
+    },
+    {
+     "date": "2026-11-13 18:30",
+     "network": "facebook",
+     "kind": "reel",
+     "angle": "weddings guest book",
+     "metricool_id": 409262468
+    },
+    {
+     "date": "2026-11-15 18:30",
+     "network": "instagram+facebook",
+     "kind": "carousel",
+     "angle": "weddings photo checks",
+     "metricool_id": 400998646
+    }
+   ],
+   "note": "Monday batch. All 10 weekly-plan slots from 3 to 16 Nov were already filled, so no new posts, no renders, no media pushed, no scheduled post changed. First empty slot is Tue 17 Nov 18:30 (Reel), then Fri 20 Nov and Tue 24 Nov, for the 9 Nov batch. Only 4 of the 10 slots in the window are year-end, so the next Reels should lean year-end per the plan.",
+   "open_items": {
+    "refund_check_19_nov": "Post 400999539. Confluence (Refund Line PRD and Spec, shipped 27 Oct) confirms 'full refund within 7 days of payment, while no guest has added media'. The 'or cancel more than 7 days before the event' half appears only on the marketing build request; the PRD says the terms hold a separate cancelled-event rule whose wording could not be read. Not changed; asked Daniel.",
+    "live_site": "tablepics.co.za still blocked: proxy 403, WebFetch permission timed out. Tier facts matched to Confluence Album Purchase page only.",
+    "cover_photo_swaps": "Five covers on reused ad photos still need Daniel's yes.",
+    "friday_review": "No review since 24 Oct. The TablePics Friday review task is disabled (suspension reason device_absent), so there was no recommendation for this batch."
+   }
   }
  ]
 }
