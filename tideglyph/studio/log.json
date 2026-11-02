@@ -461,6 +461,150 @@
       "oneChange": "Format, for Monday 2026-11-02: make the 18:00 pillar slot a Reel/video too, so both Monday slots are video rather than one Reel plus one static image. The week's single Reel reached 9 vs 1-5 for every static feed post, and on a roughly 5-follower account Reels are the one format Instagram shows to non-followers. Reach is the binding constraint in launch (method B1), so move the static pillars toward video before testing hooks or CTAs.",
       "crossBrandLesson": "First hard number behind the already-recorded launch-weeks rule (B1): on a near-empty account a single Reel reached 9 people vs 1-5 for static feed posts. Genuinely cross-brand but n=1 so far; proposed as the first B2 'Content that works' data point once a second week confirms it. No method change needed this week.",
       "runType": "review-only; no public changes"
+    },
+    {
+      "date": "2026-11-02",
+      "type": "weekly-batch-scheduled",
+      "window": "2026-11-05 to 2026-11-08",
+      "brandId": 7442919,
+      "brand": "Tideglyph",
+      "timezone": "Africa/Johannesburg",
+      "slots": "07:00 today's sky Reel, 18:00 pillar static card (Africa/Johannesburg)",
+      "model": "Monday batch firing 05:33 SAST. Next-7-days window is Nov 2 to Nov 8; Nov 2-4 were already built and scheduled by the prior batch (verified in Metricool, untouched), so this run covered the remaining Nov 5-8. Each slot is two separate posts (Instagram + Facebook), autoPublish true. 07:00 Reel on both (videoCoverMilliseconds 7500), media the MP4. 18:00 static POST on both, media the pillar PNG. IG captions end 'link in bio'; FB captions carry the tagged tideglyph.com/chart link (the birth-time pillar links /moon-sign-calculator), utm_content YYYY-MM-DD_sky or _pillar.",
+      "cta": "IG: link in bio. FB: tagged chart URL per post (moon-sign-calculator for the 2026-11-07 pillar).",
+      "pillarRotation": "Nov 5 one in twelve, Nov 6 what the free chart shows, Nov 7 don't know your birth time, Nov 8 plain explainer (rising sign). No repeats; follows Nov 2-4 (journal/privacy/sign spotlight) with no overlap. Explainer topic rising sign chosen because last week's explainer was big three (Oct 31).",
+      "renderer": "Typographic make_card.py / make_reel.py per RUNBOOK (24 Oct), not the photo renderers; see report note on the Oct 28 photo-led lesson.",
+      "posts": [
+        {
+          "date": "2026-11-05",
+          "slot": "07:00",
+          "network": "instagram",
+          "kind": "today's sky Reel",
+          "media": "reels/2026-11-05.mp4",
+          "metricoolId": 413517378
+        },
+        {
+          "date": "2026-11-05",
+          "slot": "07:00",
+          "network": "facebook",
+          "kind": "today's sky Reel",
+          "media": "reels/2026-11-05.mp4",
+          "metricoolId": 413517382
+        },
+        {
+          "date": "2026-11-05",
+          "slot": "18:00",
+          "network": "instagram",
+          "pillar": "one in twelve",
+          "media": "pillars/2026-11-05.png",
+          "metricoolId": 413517389
+        },
+        {
+          "date": "2026-11-05",
+          "slot": "18:00",
+          "network": "facebook",
+          "pillar": "one in twelve",
+          "media": "pillars/2026-11-05.png",
+          "metricoolId": 413517398
+        },
+        {
+          "date": "2026-11-06",
+          "slot": "07:00",
+          "network": "instagram",
+          "kind": "today's sky Reel",
+          "media": "reels/2026-11-06.mp4",
+          "metricoolId": 413517690
+        },
+        {
+          "date": "2026-11-06",
+          "slot": "07:00",
+          "network": "facebook",
+          "kind": "today's sky Reel",
+          "media": "reels/2026-11-06.mp4",
+          "metricoolId": 413517695
+        },
+        {
+          "date": "2026-11-06",
+          "slot": "18:00",
+          "network": "instagram",
+          "pillar": "what the free chart shows",
+          "media": "pillars/2026-11-06.png",
+          "metricoolId": 413517707
+        },
+        {
+          "date": "2026-11-06",
+          "slot": "18:00",
+          "network": "facebook",
+          "pillar": "what the free chart shows",
+          "media": "pillars/2026-11-06.png",
+          "metricoolId": 413517712
+        },
+        {
+          "date": "2026-11-07",
+          "slot": "07:00",
+          "network": "instagram",
+          "kind": "today's sky Reel",
+          "media": "reels/2026-11-07.mp4",
+          "metricoolId": 413517725
+        },
+        {
+          "date": "2026-11-07",
+          "slot": "07:00",
+          "network": "facebook",
+          "kind": "today's sky Reel",
+          "media": "reels/2026-11-07.mp4",
+          "metricoolId": 413517736
+        },
+        {
+          "date": "2026-11-07",
+          "slot": "18:00",
+          "network": "instagram",
+          "pillar": "don't know your birth time",
+          "media": "pillars/2026-11-07.png",
+          "metricoolId": 413517747
+        },
+        {
+          "date": "2026-11-07",
+          "slot": "18:00",
+          "network": "facebook",
+          "pillar": "don't know your birth time",
+          "media": "pillars/2026-11-07.png",
+          "metricoolId": 413517756
+        },
+        {
+          "date": "2026-11-08",
+          "slot": "07:00",
+          "network": "instagram",
+          "kind": "today's sky Reel",
+          "media": "reels/2026-11-08.mp4",
+          "metricoolId": 413517950
+        },
+        {
+          "date": "2026-11-08",
+          "slot": "07:00",
+          "network": "facebook",
+          "kind": "today's sky Reel",
+          "media": "reels/2026-11-08.mp4",
+          "metricoolId": 413517959
+        },
+        {
+          "date": "2026-11-08",
+          "slot": "18:00",
+          "network": "instagram",
+          "pillar": "a plain explainer (rising sign)",
+          "media": "pillars/2026-11-08.png",
+          "metricoolId": 413517974
+        },
+        {
+          "date": "2026-11-08",
+          "slot": "18:00",
+          "network": "facebook",
+          "pillar": "a plain explainer (rising sign)",
+          "media": "pillars/2026-11-08.png",
+          "metricoolId": 413517983
+        }
+      ],
+      "note": "Veto model: all 16 publish automatically on Facebook and Instagram unless Daniel edits or pulls them in Metricool. Nothing held as a draft this run; no line judged unsure enough to draft. Media pushed to OmnistrataMedia main; one raw PNG and one raw MP4 confirmed 200."
     }
   ]
 }
