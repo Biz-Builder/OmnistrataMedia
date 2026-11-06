@@ -605,6 +605,52 @@
         }
       ],
       "note": "Veto model: all 16 publish automatically on Facebook and Instagram unless Daniel edits or pulls them in Metricool. Nothing held as a draft this run; no line judged unsure enough to draft. Media pushed to OmnistrataMedia main; one raw PNG and one raw MP4 confirmed 200."
+    },
+    {
+      "date": "2026-11-06",
+      "type": "review",
+      "week": "2026-10-31 to 2026-11-06",
+      "networks": [
+        "facebook",
+        "instagram"
+      ],
+      "status": "Week 4. Account connected 2026-10-15. Distribution still near zero, normal for a 3-week-old account with no ad spend. Oct 30 launch posts were covered in last week's review and are excluded here.",
+      "numbers": {
+        "instagram": {
+          "followers": 5,
+          "followersGainedNet": "ended week at 5; Metricool reported no daily gain/loss in window",
+          "feedPostsWithData": 6,
+          "feedReach": 17,
+          "feedViews": 21,
+          "feedInteractions": 2,
+          "saves": 0,
+          "shares": 0,
+          "reelsPublished": 6,
+          "reelsReach": 160,
+          "reelsViews": 186,
+          "reelsInteractions": 0,
+          "note": "Account-level reach metric (IGEV06) returned large, inconsistent daily values (e.g. 1412, 987) that do not reconcile with post-level reach; treated as unreliable and not used. Feed and reel reach above are the per-format figures."
+        },
+        "facebook": {
+          "followers": 1,
+          "followersAcquired": 1,
+          "feedPostsWithData": 6,
+          "feedReach": 3,
+          "interactions": 0,
+          "shares": 0,
+          "linkClicks": 0,
+          "reelsPublished": 6,
+          "reelsVideoViews": 0
+        },
+        "tiktok": "not connected",
+        "email": "MailerLite not wired up yet; email metrics skipped"
+      },
+      "ranking": "Could not rank by (saves+shares)/reach: saves and shares are zero on every post this week, so the ratio is zero across the board. Fell back to reach. Clear pattern: Reels far outreach static feed images. On Instagram, the 6 today's-sky Reels reached ~160 people combined (best: Nov 5 Reel, reach 72, views 85) versus ~17 total for the 6 static pillar feed posts. Facebook reach stayed at 0-1 per post on both formats.",
+      "clicksToFreeChart": "No signal yet. Facebook in-post link clicks = 0 all week (the full chart URL + UTM is now in FB post text, per last week's change, so the pipe is in place; reach is the bottleneck, not the CTA). Instagram remains link-in-bio and exposes no per-post click metric.",
+      "bestHook": "Instagram, Oct 31 pillar: 'Heard people mention their big three and nodded along without being quite sure what it meant?' Top feed reach (5) and views (7) and one of only two likes all week. Why it works: it names a phrase people have actually heard in conversation (the big three) and admits the small discomfort of not knowing it, which is a precise, personal curiosity gap rather than a generic question.",
+      "weakestHook": "Instagram, Nov 5 pillar: 'Ever read your horoscope and feel it could belong to anyone?' Bottom of the week on reach (1) and views (1). Why it is weak: an abstract yes/no rhetorical opener built on a familiar cliche; it does not name anything concrete or promise a specific payoff, so it gives a cold scroller no reason to stop. (The Nov 3 privacy post is also a soft opener, but that is a trust message by design, not a hook.)",
+      "oneChange": "Format change for Monday's batch: convert the pillar/educational concepts into short Reels (or add at least one Reel-pillar), instead of running them only as static feed images. Reason: on a 3-week-old account with ~5 followers, Reels are the only format reaching non-followers. This week Instagram Reels reached ~160 people versus ~17 for static pillar images, roughly a 9x gap. The pillar writing is strong; it just needs the format that the algorithm actually distributes to a cold audience. Keep the today's-sky Reels as they are.",
+      "note": "Review only. Nothing posted, scheduled, changed or pulled this run. Numbers pulled from Metricool brand 7442919, facebook + instagram, 2026-10-31 to 2026-11-06 (Africa/Johannesburg). TikTok not connected. No numbers invented; zeros are real."
     }
   ]
 }
