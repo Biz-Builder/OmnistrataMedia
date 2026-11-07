@@ -652,5 +652,36 @@
       "oneChange": "Format change for Monday's batch: convert the pillar/educational concepts into short Reels (or add at least one Reel-pillar), instead of running them only as static feed images. Reason: on a 3-week-old account with ~5 followers, Reels are the only format reaching non-followers. This week Instagram Reels reached ~160 people versus ~17 for static pillar images, roughly a 9x gap. The pillar writing is strong; it just needs the format that the algorithm actually distributes to a cold audience. Keep the today's-sky Reels as they are.",
       "note": "Review only. Nothing posted, scheduled, changed or pulled this run. Numbers pulled from Metricool brand 7442919, facebook + instagram, 2026-10-31 to 2026-11-06 (Africa/Johannesburg). TikTok not connected. No numbers invented; zeros are real."
     }
+  ],
+  "events": [
+    {
+      "type": "tiktok-launch",
+      "date": "2026-11-07",
+      "note": "TikTok @tideglyph connected to brand 7442919. Four launch posts scheduled with autoPublish false so Daniel adds a trending sound in the TikTok app when Metricool notifies him.",
+      "posts": [
+        {
+          "time": "12:50",
+          "kind": "start-here carousel (7 photos)",
+          "metricoolId": 419832711
+        },
+        {
+          "time": "13:20",
+          "kind": "today's sky Reel 2026-11-07",
+          "metricoolId": 419832728
+        },
+        {
+          "time": "14:00",
+          "kind": "evergreen Reel one in twelve",
+          "media": "reels-evergreen/one-in-twelve.mp4",
+          "metricoolId": 419832740
+        },
+        {
+          "time": "14:40",
+          "kind": "evergreen Reel big three",
+          "media": "reels-evergreen/big-three.mp4",
+          "metricoolId": 419832781
+        }
+      ]
+    }
   ]
 }
