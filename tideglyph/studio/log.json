@@ -657,29 +657,30 @@
     {
       "type": "tiktok-launch",
       "date": "2026-11-07",
-      "note": "TikTok @tideglyph connected to brand 7442919. Four launch posts scheduled with autoPublish false so Daniel adds a trending sound in the TikTok app when Metricool notifies him.",
+      "note": "TikTok @tideglyph connected to brand 7442919. Four launch posts, autoPublish true. Reels re-rendered with Tideglyph's own music bed (make_music.py); carousel uses TikTok autoAddMusic.",
       "posts": [
         {
           "time": "12:50",
           "kind": "start-here carousel (7 photos)",
-          "metricoolId": 419832711
+          "metricoolId": 419835082
         },
         {
           "time": "13:20",
           "kind": "today's sky Reel 2026-11-07",
-          "metricoolId": 419832728
+          "metricoolId": 419836102,
+          "media": "reels/2026-11-07-m.mp4"
         },
         {
           "time": "14:00",
           "kind": "evergreen Reel one in twelve",
-          "media": "reels-evergreen/one-in-twelve.mp4",
-          "metricoolId": 419832740
+          "media": "reels-evergreen/one-in-twelve-m.mp4",
+          "metricoolId": 419836110
         },
         {
           "time": "14:40",
           "kind": "evergreen Reel big three",
-          "media": "reels-evergreen/big-three.mp4",
-          "metricoolId": 419832781
+          "media": "reels-evergreen/big-three-m.mp4",
+          "metricoolId": 419836122
         }
       ]
     }

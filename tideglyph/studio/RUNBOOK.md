@@ -26,6 +26,7 @@ The self-contained engine for Tideglyph's organic posts. A fresh cloud session u
 1. Clone this repo with push access and cd to tideglyph/studio.
 2. `pip install pyswisseph --break-system-packages -q`. In the cloud workspace this often fails to build against the system setuptools with an `install_layout` AttributeError. If it does, build it in a fresh venv: `python3 -m venv /tmp/skyenv && /tmp/skyenv/bin/pip install -U pip setuptools wheel -q && /tmp/skyenv/bin/pip install pyswisseph -q`, then run the sky step with that venv (`/tmp/skyenv/bin/python todays_sky.py YYYY-MM-DD`). Only todays_sky.py needs it; make_card.py, make_reel.py and the renderers use the system python and node.
 3. `npm install playwright` in studio (chromium is preinstalled; do not run `playwright install`). make_reel.py uses the system ffmpeg, and installs imageio-ffmpeg itself if ffmpeg is missing.
+4. Music: make_reel.py mixes Tideglyph's own ambient bed (`audio/tideglyph-bed.m4a`, made by make_music.py, owned outright) under every Reel automatically, starting at a different point per headline. Never add library or trending music; Daniel decided on 7 Nov 2026 to stay hands-off. Photo posts to TikTok set `autoAddMusic: true`.
 
 ## Weekly batch (the Monday task)
 For each of the next 7 days:
