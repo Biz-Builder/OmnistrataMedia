@@ -277,6 +277,76 @@
     "cover_photo_swaps": "Five covers on reused ad photos still need Daniel's yes.",
     "friday_review": "No review since 24 Oct. The TablePics Friday review task is disabled (suspension reason device_absent), so there was no recommendation for this batch."
    }
+  },
+  {
+   "date": "2026-11-07",
+   "type": "review",
+   "period": "2026-11-02 to 2026-11-07 (run fired Sat 7 Nov, scheduled for Fri 6 Nov)",
+   "numbers": {
+    "organic_posts": "4 (2 carousels, 2 Reels), each on IG and FB",
+    "ig_reach": {
+     "03 Nov year-end slideshow carousel": 4,
+     "03 Nov year-end phones Reel": 7,
+     "05 Nov wedding guest book carousel": 3,
+     "06 Nov birthday phones Reel": 1
+    },
+    "fb_reach": {
+     "03 Nov carousel": 2,
+     "03 Nov Reel": 0,
+     "05 Nov carousel": 1,
+     "06 Nov Reel": 0
+    },
+    "saves_shares_all_posts": 0,
+    "likes": "0 on IG, 1 on FB (03 Nov Reel)",
+    "fb_link_clicks": 0,
+    "metricool_ig_reach_note": "Not zero but 1 to 7 per post; asked Daniel to confirm from the Instagram app",
+    "ads_status": "All TP campaigns (and the TG campaign) set Inactive by Daniel on 2 Nov 10:20 in the Ads Manager iOS app; spend 0 from 3 Nov",
+    "ads_spend_2_nov": "R49.70 across TP ads",
+    "ads_landing_page_views": 24,
+    "cost_per_lpv": {
+     "Year-end January": "R1.96",
+     "Weddings 120 cameras": "R1.91",
+     "Birthdays On their phones": "R3.21",
+     "Year-end Everyone's phone": "R1.33 (1 LPV)"
+    },
+    "ctr": {
+     "Year-end January": "2.33%",
+     "Weddings 120 cameras": "2.86%",
+     "Birthdays On their phones": "2.22%",
+     "Year-end Everyone's phone": "1.89%"
+    },
+    "umami_visitors": 41,
+    "umami_visitors_prev_period": 526,
+    "channels": {
+     "paidAds (utm_source meta)": 26,
+     "direct": 13,
+     "organicSearch": 2
+    },
+    "organic_fb_visits (tablepics_organic)": 2,
+    "utm_content": {
+     "yearend-3-january": 15,
+     "wedding-1-cameras": 8,
+     "birthday-1-never-see": 2,
+     "yearend-1-everyones-phone": 1,
+     "2026-11-03_reel": 1,
+     "2026-11-06_reel": 1
+    },
+    "bounce_rate": "92.9%",
+    "choose_tier": 1,
+    "order_start": 2,
+    "order_submit": 0,
+    "payment_cancelled": 0,
+    "paid": 0,
+    "order_start_note": "Both order-starts fired within 40 seconds of the organic FB Reel publishing (desktop, Windows, IE and US), the same sessions as the 2 organic visits. Almost certainly Meta's link preview crawler, not people. Real order-starts: 0."
+   },
+   "ranking_saves_plus_shares_per_reach": "All four posts at 0. No ranking possible; ordered by reach instead.",
+   "best_hook": "03 Nov year-end Reel: 'Year-end photos end up on everyone's phone, and most of them never reach the people who organised the night.' Most reach (7 IG, 10 views) and the only like. In season, names a problem the organiser feels this month.",
+   "weakest_hook": "06 Nov birthday Reel: 'The best photos from a 50th or a 60th...' Reach 1 IG, 0 FB. Off-season and narrow (only people with a 50th or 60th coming up), and the hook takes a long sentence to land.",
+   "change": "Monday batch: every new Reel is year-end and opens on the same 'photos on everyone's phone' problem line, varied in setting only, until the year-end window closes.",
+   "flags": [
+    "Ten queued carousels (8 Nov to 29 Nov) say 'tablepics.com (link in bio)'. The site is tablepics.co.za and the FB versions carry no tracked link. Not changed; for Daniel to decide.",
+    "Ads off since 2 Nov, so this week's site numbers are not comparable with last week."
+   ]
   }
  ]
 }
