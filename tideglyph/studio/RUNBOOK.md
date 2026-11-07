@@ -7,7 +7,7 @@ The self-contained engine for Tideglyph's organic posts. A fresh cloud session u
 - Media host: this repo, Biz-Builder/OmnistrataMedia (public). Raw URL pattern: https://raw.githubusercontent.com/Biz-Builder/OmnistrataMedia/main/<path>
   - Today's sky cards: tideglyph/todays-sky/YYYY-MM-DD.png. Today's sky Reels: tideglyph/reels/YYYY-MM-DD.mp4. Pillar cards: tideglyph/pillars/YYYY-MM-DD.png.
 - Timezone: Africa/Johannesburg (UTC+02:00). Daily slots: 07:00 (today's sky, as a Reel) and 18:00 (a pillar, static card, US-facing).
-- Networks: Facebook and Instagram, as SEPARATE posts (from 26 Oct 2026). Add TikTok once its account is connected in Metricool.
+- Networks: Facebook and Instagram, as SEPARATE posts (from 26 Oct 2026). TikTok @tideglyph (Business account, connected to brand 7442919 on 7 Nov 2026) gets the 07:00 Reel only, as its own third post.
 
 ## Why the format is what it is (decided 24 Oct 2026)
 - Organic reach was 34 people across 24 posts in week 2. Static posts on a new account reach almost only followers. Reels are the format Instagram shows to non-followers, so the daily today's sky post is a Reel.
@@ -47,18 +47,19 @@ Rotate through these, one per day. Each supports the ads.
 7. **Sign spotlight.** The current season's sign, through the whole-chart lens, never as a horoscope. Avoid generic Sun-sign openers; the weakest post of week 2 was "As the Sun finishes its trip through Libra".
 
 ## Schedule (veto model)
-Each slot is TWO Metricool posts in brand 7442919, autoPublish true, same time, same media:
+Each slot is separate Metricool posts in brand 7442919, autoPublish true, same time, same media: three at 07:00 (Instagram, Facebook, TikTok), two at 18:00 (Instagram, Facebook):
 
-| Slot | Instagram post | Facebook post |
-| --- | --- | --- |
-| 07:00 today's sky | `instagramData: {type: "REEL", showReelOnFeed: true}`, media = the Reel's raw MP4 URL, `videoCoverMilliseconds: 7500` | `facebookData: {type: "REEL"}`, same MP4, `videoCoverMilliseconds: 7500` |
-| 18:00 pillar | `instagramData: {type: "POST"}`, media = the pillar PNG | `facebookData: {type: "POST"}`, same PNG |
+| Slot | Instagram post | Facebook post | TikTok post |
+| --- | --- | --- | --- |
+| 07:00 today's sky | `instagramData: {type: "REEL", showReelOnFeed: true}`, media = the Reel's raw MP4 URL, `videoCoverMilliseconds: 7500` | `facebookData: {type: "REEL"}`, same MP4, `videoCoverMilliseconds: 7500` | `tiktokData: {privacyOption: "PUBLIC_TO_EVERYONE", title: <the headline line>, autoAddMusic: false, isAigc: false}`, same MP4, `videoCoverMilliseconds: 7500` |
+| 18:00 pillar | `instagramData: {type: "POST"}`, media = the pillar PNG | `facebookData: {type: "POST"}`, same PNG | none |
 
 Captions:
 - Instagram caption ends with: "Your free chart: link in bio."
 - Facebook caption ends with the tagged link (no shortener):
   `https://tideglyph.com/chart?utm_source=facebook&utm_medium=organic_social&utm_campaign=tideglyph_organic&utm_content=YYYY-MM-DD_sky` (07:00) or `..._pillar` (18:00). The "Don't know your birth time?" pillar links `/moon-sign-calculator` with the same tags.
-- Leave `isAiGenerated` false: the cards and Reels are typographic designs, not AI imagery.
+- TikTok caption: the headline line, the journal question, then "Free chart: tideglyph.com/chart" as plain text (TikTok captions carry no clickable link). Add three or four plain hashtags at the end: #astrology #birthchart #bigthree plus the day's sign or planet. Once the TikTok bio link is live, end with "Free chart: link in bio." instead.
+- Leave `isAiGenerated` (Instagram) and `isAigc` (TikTok) false: the cards and Reels are typographic designs, not AI imagery.
 
 After scheduling, send Daniel the Metricool planner link and a one-line summary per day so he can edit or pull anything before it fires. Flag any line that could read as a prediction so his eye goes straight to it.
 
@@ -66,6 +67,7 @@ If the Metricool connector is NOT available in this session: still generate, bui
 
 ## Guardrails
 - Never schedule to any brand but 7442919. Never touch BBD.
-- Keep posting paced: two slots a day per network, never a burst.
+- Keep posting paced: two slots a day on Instagram and Facebook, one on TikTok, never a burst.
+- TikTok's bio link needs TikTok's business verification, which Daniel is completing (7 Nov 2026). It should be `https://tideglyph.com/chart?utm_source=tiktok&utm_medium=organic_social&utm_campaign=tideglyph_organic&utm_content=bio`.
 - Instagram's bio link is set by Daniel by hand. It should be `https://tideglyph.com/chart?utm_source=instagram&utm_medium=organic_social&utm_campaign=tideglyph_organic&utm_content=bio`.
 - Pinning is manual in the apps. Daniel pins three explainer posts (one in twelve, what the free chart shows, privacy) once they exist.
