@@ -71,8 +71,18 @@ if __name__ == "__main__":
     hp = HERE / "_reel.html"; hp.write_text(html(spec))
     frames = pathlib.Path(tempfile.mkdtemp(prefix="reel_"))
     subprocess.run(["node", str(HERE / "render_reel.mjs"), str(hp), str(frames), str(FPS), str(SECONDS)], check=True)
+    # Tideglyph's own ambient bed (make_music.py), started at a point picked from the
+    # headline so each Reel opens on a different part of it. Silent if the file is missing.
+    bed = HERE / "audio" / "tideglyph-bed.m4a"
+    if bed.exists():
+        start = sum(map(ord, spec["headline"])) % 48
+        audio = ["-ss", str(start), "-i", str(bed), "-filter_complex",
+                 f"[1:a]atrim=0:{SECONDS},asetpts=PTS-STARTPTS,afade=t=in:st=0:d=0.4,afade=t=out:st={SECONDS - 1.2}:d=1.2,volume=0.9[a]",
+                 "-map", "0:v", "-map", "[a]"]
+    else:
+        audio = ["-f", "lavfi", "-i", "anullsrc=r=44100:cl=stereo"]
     subprocess.run([ffmpeg_bin(), "-y", "-loglevel", "error", "-framerate", str(FPS), "-i", str(frames / "f%04d.png"),
-                    "-f", "lavfi", "-i", "anullsrc=r=44100:cl=stereo", "-shortest",
+                    *audio, "-shortest",
                     "-c:v", "libx264", "-pix_fmt", "yuv420p", "-profile:v", "high", "-crf", "20",
                     "-c:a", "aac", "-b:a", "128k", "-movflags", "+faststart", str(out)], check=True)
     shutil.rmtree(frames, ignore_errors=True)
