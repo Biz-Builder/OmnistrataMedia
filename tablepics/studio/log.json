@@ -347,6 +347,100 @@
     "Ten queued carousels (8 Nov to 29 Nov) say 'tablepics.com (link in bio)'. The site is tablepics.co.za and the FB versions carry no tracked link. Not changed; for Daniel to decide.",
     "Ads off since 2 Nov, so this week's site numbers are not comparable with last week."
    ]
+  },
+  {
+   "date": "2026-11-09",
+   "type": "batch",
+   "posts": [
+    {
+     "date": "2026-11-17 18:30",
+     "network": "instagram",
+     "kind": "reel",
+     "angle": "year-end team photos on everyone's phone",
+     "hook": "Team photos? On everyone's phone.",
+     "media": "tablepics/reels/2026-11-17-yearend-team.mp4",
+     "metricool_id": 421384328
+    },
+    {
+     "date": "2026-11-17 18:30",
+     "network": "facebook",
+     "kind": "reel",
+     "angle": "year-end team photos on everyone's phone",
+     "hook": "Team photos? On everyone's phone.",
+     "media": "tablepics/reels/2026-11-17-yearend-team.mp4",
+     "metricool_id": 421384337
+    },
+    {
+     "date": "2026-11-20 18:30",
+     "network": "instagram",
+     "kind": "reel",
+     "angle": "year-end dinner photos on everyone's phone",
+     "hook": "Dinner photos? On everyone's phone.",
+     "media": "tablepics/reels/2026-11-20-yearend-dinner.mp4",
+     "metricool_id": 421384348
+    },
+    {
+     "date": "2026-11-20 18:30",
+     "network": "facebook",
+     "kind": "reel",
+     "angle": "year-end dinner photos on everyone's phone",
+     "hook": "Dinner photos? On everyone's phone.",
+     "media": "tablepics/reels/2026-11-20-yearend-dinner.mp4",
+     "metricool_id": 421384354
+    }
+   ],
+   "queued_checked": [
+    {
+     "date": "2026-11-10 12:30",
+     "metricool_id": 409263658
+    },
+    {
+     "date": "2026-11-10 18:30",
+     "metricool_id": [
+      409259179,
+      409259201
+     ]
+    },
+    {
+     "date": "2026-11-12 18:30",
+     "metricool_id": 400998560
+    },
+    {
+     "date": "2026-11-13 18:30",
+     "metricool_id": [
+      409262450,
+      409262468
+     ]
+    },
+    {
+     "date": "2026-11-15 18:30",
+     "metricool_id": 400998646
+    },
+    {
+     "date": "2026-11-17 12:30",
+     "metricool_id": 400999068
+    },
+    {
+     "date": "2026-11-19 18:30",
+     "metricool_id": 400999539
+    },
+    {
+     "date": "2026-11-22 18:30",
+     "metricool_id": 400999752
+    },
+    {
+     "date": "2026-11-24 12:30",
+     "metricool_id": 409263682
+    }
+   ],
+   "note": "Monday batch. Window 9 to 22 Nov: the only empty slots were the Tue 17 and Fri 20 Nov 18:30 Reels; both filled with year-end Reels opening on the 'on everyone's phone' problem line per the 7 Nov review's one change, varied in setting (team at an evening function, cohosts.jpg; formal dinner, messages.jpg with opener pos 22% 25%). Reused existing photos, no Canva images. make_reel.py gained an optional 'pos' for the opener photo. QR in scene 2 decodes to https://tablepics.com on both. Raw URLs confirmed 200. Nothing already scheduled was changed. Next empty slot: Tue 24 Nov 18:30 Reel, then Thu 26 Nov, Fri 27 Nov.",
+   "open_items": {
+    "refund_check_19_nov": "Post 400999539 publishes 19 Nov with refund wording still unverified against the live site (cloud run cannot read tablepics.co.za). No new refund info in Confluence since 2 Nov. Needs Daniel's yes to change or confirm.",
+    "live_site": "tablepics.co.za still not readable: WebFetch permission timed out again. New Reel claims kept to the fixed facts in the task brief and runbook (QR card per table, phone camera, no app, one private album, full quality, From R299 paid once, no fee for each guest).",
+    "tablepics_com": "The Reel end card shows tablepics.com and the QR encodes https://tablepics.com, as the runbook requires; ten queued carousels also say tablepics.com. Site is tablepics.co.za. Still for Daniel to decide.",
+    "cover_photo_swaps": "Five covers on reused ad photos still need Daniel's yes.",
+    "reserve_your_album": "Confluence 'Reserve Your Album: PRD' (draft, 7 Nov) would let a host reserve now and pay later. 'From R299, paid once' stays true under it; watch if it ships."
+   }
   }
  ]
 }
