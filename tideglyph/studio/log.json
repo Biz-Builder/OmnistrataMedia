@@ -1,688 +1,983 @@
 {
-  "brand": "Tideglyph",
-  "brandId": 7442919,
-  "entries": [
+ "brand": "Tideglyph",
+ "brandId": 7442919,
+ "entries": [
+  {
+   "date": "2026-10-16",
+   "week": "2026-10-10 to 2026-10-16",
+   "networks": [
+    "facebook",
+    "instagram"
+   ],
+   "status": "Week 1. Account connected 2026-10-15; launch batch published 2026-10-16. Near-zero is expected and normal for a day-one account.",
+   "numbers": {
+    "facebook": {
+     "followers": 0,
+     "followersAcquired": 0,
+     "publishedPostsWithData": 2,
+     "reach": 0,
+     "interactions": 0,
+     "shares": 0,
+     "linkClicks": 0
+    },
+    "instagram": {
+     "followers": 0,
+     "followersGained": 0,
+     "reach": 0,
+     "interactions": 0,
+     "saves": 0,
+     "shares": 0
+    },
+    "tiktok": "not connected",
+    "email": "MailerLite not wired up yet; email metrics skipped"
+   },
+   "ranking": "Could not rank posts by (saves+shares)/reach: reach and engagement are at zero or not yet reported by Meta for the just-published launch batch. No numbers invented.",
+   "clicksToFreeChart": "No signal yet. Facebook post link clicks = 0; Instagram organic link clicks are not exposed by Metricool and the CTA is link-in-bio, so per-post chart clicks are not measurable this week.",
+   "bestHook": "Two people born on the same day can share a star sign and have almost nothing else in common on the chart. Editorial pick (no performance data): challenges a specific belief the reader holds and opens a concrete curiosity gap.",
+   "weakestHook": "A quiet promise. Editorial pick: abstract opener with no curiosity or concrete stakes; the privacy message is strong but the first line does not stop a scroll.",
+   "oneChange": "On Facebook, replace the generic link-in-bio CTA with the actual free-chart URL plus a UTM tag in the post text. Reason: Facebook supports clickable in-post links and Facebook post link clicks are the one per-post click-to-chart signal Metricool exposes; with the link only in bio, next week's review still cannot tell which hook drives chart draws. Instagram stays link-in-bio (it cannot carry post links)."
+  },
+  {
+   "date": "2026-10-19",
+   "type": "weekly-batch-scheduled",
+   "window": "2026-10-19 to 2026-10-25",
+   "networks": [
+    "facebook",
+    "instagram"
+   ],
+   "autoPublish": true,
+   "slots": "07:00 today's sky, 18:00 pillar (Africa/Johannesburg)",
+   "cta": "Free chart URL tideglyph.com/chart in every caption (clean, no UTM).",
+   "posts": [
     {
-      "date": "2026-10-16",
-      "week": "2026-10-10 to 2026-10-16",
-      "networks": [
-        "facebook",
-        "instagram"
-      ],
-      "status": "Week 1. Account connected 2026-10-15; launch batch published 2026-10-16. Near-zero is expected and normal for a day-one account.",
-      "numbers": {
-        "facebook": {
-          "followers": 0,
-          "followersAcquired": 0,
-          "publishedPostsWithData": 2,
-          "reach": 0,
-          "interactions": 0,
-          "shares": 0,
-          "linkClicks": 0
-        },
-        "instagram": {
-          "followers": 0,
-          "followersGained": 0,
-          "reach": 0,
-          "interactions": 0,
-          "saves": 0,
-          "shares": 0
-        },
-        "tiktok": "not connected",
-        "email": "MailerLite not wired up yet; email metrics skipped"
-      },
-      "ranking": "Could not rank posts by (saves+shares)/reach: reach and engagement are at zero or not yet reported by Meta for the just-published launch batch. No numbers invented.",
-      "clicksToFreeChart": "No signal yet. Facebook post link clicks = 0; Instagram organic link clicks are not exposed by Metricool and the CTA is link-in-bio, so per-post chart clicks are not measurable this week.",
-      "bestHook": "Two people born on the same day can share a star sign and have almost nothing else in common on the chart. Editorial pick (no performance data): challenges a specific belief the reader holds and opens a concrete curiosity gap.",
-      "weakestHook": "A quiet promise. Editorial pick: abstract opener with no curiosity or concrete stakes; the privacy message is strong but the first line does not stop a scroll.",
-      "oneChange": "On Facebook, replace the generic link-in-bio CTA with the actual free-chart URL plus a UTM tag in the post text. Reason: Facebook supports clickable in-post links and Facebook post link clicks are the one per-post click-to-chart signal Metricool exposes; with the link only in bio, next week's review still cannot tell which hook drives chart draws. Instagram stays link-in-bio (it cannot carry post links)."
+     "date": "2026-10-19",
+     "slot": "07:00",
+     "kind": "todays-sky",
+     "transit": "Mars trine Saturn",
+     "metricoolId": 399602832
     },
     {
-      "date": "2026-10-19",
-      "type": "weekly-batch-scheduled",
-      "window": "2026-10-19 to 2026-10-25",
-      "networks": [
-        "facebook",
-        "instagram"
-      ],
-      "autoPublish": true,
-      "slots": "07:00 today's sky, 18:00 pillar (Africa/Johannesburg)",
-      "cta": "Free chart URL tideglyph.com/chart in every caption (clean, no UTM).",
-      "posts": [
-        {
-          "date": "2026-10-19",
-          "slot": "07:00",
-          "kind": "todays-sky",
-          "transit": "Mars trine Saturn",
-          "metricoolId": 399602832
-        },
-        {
-          "date": "2026-10-19",
-          "slot": "18:00",
-          "pillar": "whole-chart differentiator (same sign, different sky)",
-          "metricoolId": 399603070
-        },
-        {
-          "date": "2026-10-20",
-          "slot": "07:00",
-          "kind": "todays-sky",
-          "transit": "Moon opposition Mars",
-          "metricoolId": 399603091
-        },
-        {
-          "date": "2026-10-20",
-          "slot": "18:00",
-          "pillar": "explainer: rising sign",
-          "metricoolId": 399603109
-        },
-        {
-          "date": "2026-10-21",
-          "slot": "07:00",
-          "kind": "todays-sky",
-          "transit": "Moon enters Pisces",
-          "metricoolId": 399603125
-        },
-        {
-          "date": "2026-10-21",
-          "slot": "18:00",
-          "pillar": "privacy: no ads, no tracking",
-          "metricoolId": 399603141
-        },
-        {
-          "date": "2026-10-22",
-          "slot": "07:00",
-          "kind": "todays-sky",
-          "transit": "Moon in Pisces",
-          "metricoolId": 399603197
-        },
-        {
-          "date": "2026-10-22",
-          "slot": "18:00",
-          "pillar": "sign spotlight: Libra (season closing)",
-          "metricoolId": 399603229
-        },
-        {
-          "date": "2026-10-23",
-          "slot": "07:00",
-          "kind": "todays-sky",
-          "transit": "Sun conjunction Venus",
-          "metricoolId": 399603251
-        },
-        {
-          "date": "2026-10-23",
-          "slot": "18:00",
-          "pillar": "the record that remembers (journal)",
-          "metricoolId": 399603274
-        },
-        {
-          "date": "2026-10-24",
-          "slot": "07:00",
-          "kind": "todays-sky",
-          "transit": "Sun conjunction Venus (Aries Moon angle)",
-          "metricoolId": 399603298
-        },
-        {
-          "date": "2026-10-24",
-          "slot": "18:00",
-          "pillar": "explainer: Saturn return",
-          "metricoolId": 399603349
-        },
-        {
-          "date": "2026-10-25",
-          "slot": "07:00",
-          "kind": "todays-sky",
-          "transit": "Sun conjunction Venus (Venus retrograde angle)",
-          "metricoolId": 399603360
-        },
-        {
-          "date": "2026-10-25",
-          "slot": "18:00",
-          "pillar": "sign spotlight: Scorpio (season begins)",
-          "metricoolId": 399603393
-        }
-      ],
-      "note": "Veto model: all 14 publish automatically on Facebook and Instagram unless Daniel edits or pulls them in Metricool. Pillar rotation covered all five pillars; explainer and sign spotlight each ran twice with distinct topics. Sun conjunction Venus repeated 23-25 so each day used a different angle. Facebook and Instagram posted together as one post per slot; the 2026-10-16 oneChange (FB-only clickable UTM link) was NOT applied because it needs the networks split into separate posts, which would deviate from the one-post-both-networks model. Flagged to Daniel for a decision."
+     "date": "2026-10-19",
+     "slot": "18:00",
+     "pillar": "whole-chart differentiator (same sign, different sky)",
+     "metricoolId": 399603070
     },
     {
-      "date": "2026-10-23",
-      "week": "2026-10-17 to 2026-10-23",
-      "networks": [
-        "facebook",
-        "instagram"
-      ],
-      "status": "Week 2 (account 8 days old). Scheduled batch publishing 2/day on FB+IG. Reach still in low single digits per post; engagement effectively zero. Near-zero remains normal at this stage. No numbers invented. Review-only run: nothing posted, scheduled, or changed.",
-      "numbers": {
-        "instagram": {
-          "postsWithData": 12,
-          "reach": 23,
-          "views": 39,
-          "saves": 0,
-          "shares": 0,
-          "comments": 0,
-          "likes": 0,
-          "followsFromPosts": 0
-        },
-        "facebook": {
-          "postsWithData": 12,
-          "reach": 11,
-          "reactions": 0,
-          "shares": 0,
-          "comments": 0,
-          "linkClicks": 0
-        },
-        "combinedReach": 34,
-        "tiktok": "not connected",
-        "email": "MailerLite not wired up yet; email metrics skipped"
-      },
-      "ranking": "(saves+shares)/reach = 0 for every post this week: no saves or shares were recorded on either network, so the target metric cannot rank the posts yet. Reach itself is the limiter at 1-5 per post. Furthest-traveled post by raw reach was the Instagram 'two people born weeks apart' pillar (reach 5, 8 views).",
-      "clicksToFreeChart": "Still no measurable signal. Facebook post link clicks = 0 even though today's-sky captions now carry the raw tideglyph.com/chart URL; photo-post captions do not yield a clean link-click metric and reach is too low for clicks regardless. Instagram stays link-in-bio with no per-post click data.",
-      "bestHook": "'Two people born weeks apart can share a star sign and still have almost nothing else in common on the chart.' Editorial pick backed by the thin reach signal: the sharpest statement of the whole-chart differentiator and the furthest-traveled post of the week.",
-      "weakestHook": "'As the Sun finishes its trip through Libra.' Reached 0 on Instagram and 1 on Facebook, the week's lowest. It leans on the generic sun-sign framing the brand positions against, so the opener works against the differentiator.",
-      "oneChange": "Make Monday's daily 'today's sky' post a short Reel (vertical video) instead of a static image. Reason: reach is the binding constraint. Static feed photos on an 8-day-old account are shown almost only to existing followers (near zero), while Reels are the one organic surface Instagram distributes to non-followers. Until posts reach people, no hook or CTA test can produce signal.",
-      "note": "Prior oneChange (FB-only clickable UTM link) is still pending Daniel's decision on splitting FB/IG into separate posts. It was partially realised in that today's-sky captions now include the raw chart URL, but photo-post link clicks still read 0. Not repeated as this week's change because distribution, not measurement, is now the bottleneck."
+     "date": "2026-10-20",
+     "slot": "07:00",
+     "kind": "todays-sky",
+     "transit": "Moon opposition Mars",
+     "metricoolId": 399603091
     },
     {
-      "date": "2026-10-28",
-      "type": "weekly-batch-scheduled",
-      "window": "2026-10-29 to 2026-11-04",
-      "networks": [
-        "facebook",
-        "instagram"
-      ],
-      "autoPublish": true,
-      "slots": "07:00 today's sky Reel, 18:00 pillar static card (Africa/Johannesburg)",
-      "model": "Each slot is two separate posts: an Instagram post and a Facebook post. 07:00 is a Reel on both (videoCoverMilliseconds 7500). 18:00 is a static POST on both. Instagram captions end \"link in bio\"; Facebook captions carry the tagged tideglyph.com/chart link with utm_content YYYY-MM-DD_sky or _pillar (the birth-time pillar links /moon-sign-calculator).",
-      "cta": "IG: link in bio. FB: tagged chart URL per post (moon-sign-calculator for the 2026-11-01 pillar).",
-      "pillarRotation": "All seven pillars once each, no repeats: one in twelve (29), what the free chart shows (30), plain explainer big three (31), don't know your birth time (1 Nov), the journal (2), privacy (3), sign spotlight Scorpio (4). Explainer avoided last week's rising and Saturn return topics.",
-      "posts": [
-        {
-          "date": "2026-10-29",
-          "slot": "07:00",
-          "network": "instagram",
-          "kind": "todays-sky",
-          "transit": "Moon enters Cancer",
-          "metricoolId": 409088204
-        },
-        {
-          "date": "2026-10-29",
-          "slot": "07:00",
-          "network": "facebook",
-          "kind": "todays-sky",
-          "transit": "Moon enters Cancer",
-          "metricoolId": 409088466
-        },
-        {
-          "date": "2026-10-29",
-          "slot": "18:00",
-          "network": "instagram",
-          "pillar": "one in twelve",
-          "metricoolId": 409088492
-        },
-        {
-          "date": "2026-10-29",
-          "slot": "18:00",
-          "network": "facebook",
-          "pillar": "one in twelve",
-          "metricoolId": 409088547
-        },
-        {
-          "date": "2026-10-30",
-          "slot": "07:00",
-          "network": "instagram",
-          "kind": "todays-sky",
-          "transit": "Mercury square Mars",
-          "metricoolId": 409089376
-        },
-        {
-          "date": "2026-10-30",
-          "slot": "07:00",
-          "network": "facebook",
-          "kind": "todays-sky",
-          "transit": "Mercury square Mars",
-          "metricoolId": 409089412
-        },
-        {
-          "date": "2026-10-30",
-          "slot": "18:00",
-          "network": "instagram",
-          "pillar": "what the free chart shows",
-          "metricoolId": 409089432
-        },
-        {
-          "date": "2026-10-30",
-          "slot": "18:00",
-          "network": "facebook",
-          "pillar": "what the free chart shows",
-          "metricoolId": 409089453
-        },
-        {
-          "date": "2026-10-31",
-          "slot": "07:00",
-          "network": "instagram",
-          "kind": "todays-sky",
-          "transit": "Mercury square Mars, Moon in Cancer",
-          "metricoolId": 409089479
-        },
-        {
-          "date": "2026-10-31",
-          "slot": "07:00",
-          "network": "facebook",
-          "kind": "todays-sky",
-          "transit": "Mercury square Mars, Moon in Cancer",
-          "metricoolId": 409089513
-        },
-        {
-          "date": "2026-10-31",
-          "slot": "18:00",
-          "network": "instagram",
-          "pillar": "a plain explainer (big three)",
-          "metricoolId": 409089536
-        },
-        {
-          "date": "2026-10-31",
-          "slot": "18:00",
-          "network": "facebook",
-          "pillar": "a plain explainer (big three)",
-          "metricoolId": 409089552
-        },
-        {
-          "date": "2026-11-01",
-          "slot": "07:00",
-          "network": "instagram",
-          "kind": "todays-sky",
-          "transit": "Venus sextile Jupiter",
-          "metricoolId": 409090126
-        },
-        {
-          "date": "2026-11-01",
-          "slot": "07:00",
-          "network": "facebook",
-          "kind": "todays-sky",
-          "transit": "Venus sextile Jupiter",
-          "metricoolId": 409090303
-        },
-        {
-          "date": "2026-11-01",
-          "slot": "18:00",
-          "network": "instagram",
-          "pillar": "don't know your birth time",
-          "metricoolId": 409090421
-        },
-        {
-          "date": "2026-11-01",
-          "slot": "18:00",
-          "network": "facebook",
-          "pillar": "don't know your birth time",
-          "metricoolId": 409090663
-        },
-        {
-          "date": "2026-11-02",
-          "slot": "07:00",
-          "network": "instagram",
-          "kind": "todays-sky",
-          "transit": "Venus sextile Jupiter, Moon in Leo",
-          "metricoolId": 409090964
-        },
-        {
-          "date": "2026-11-02",
-          "slot": "07:00",
-          "network": "facebook",
-          "kind": "todays-sky",
-          "transit": "Venus sextile Jupiter, Moon in Leo",
-          "metricoolId": 409091058
-        },
-        {
-          "date": "2026-11-02",
-          "slot": "18:00",
-          "network": "instagram",
-          "pillar": "the journal",
-          "metricoolId": 409091226
-        },
-        {
-          "date": "2026-11-02",
-          "slot": "18:00",
-          "network": "facebook",
-          "pillar": "the journal",
-          "metricoolId": 409091309
-        },
-        {
-          "date": "2026-11-03",
-          "slot": "07:00",
-          "network": "instagram",
-          "kind": "todays-sky",
-          "transit": "Venus sextile Jupiter, Sun near Mercury",
-          "metricoolId": 409091965
-        },
-        {
-          "date": "2026-11-03",
-          "slot": "07:00",
-          "network": "facebook",
-          "kind": "todays-sky",
-          "transit": "Venus sextile Jupiter, Sun near Mercury",
-          "metricoolId": 409091985
-        },
-        {
-          "date": "2026-11-03",
-          "slot": "18:00",
-          "network": "instagram",
-          "pillar": "privacy",
-          "metricoolId": 409092027
-        },
-        {
-          "date": "2026-11-03",
-          "slot": "18:00",
-          "network": "facebook",
-          "pillar": "privacy",
-          "metricoolId": 409092090
-        },
-        {
-          "date": "2026-11-04",
-          "slot": "07:00",
-          "network": "instagram",
-          "kind": "todays-sky",
-          "transit": "Venus sextile Jupiter, Sun sextile Moon",
-          "metricoolId": 409092262
-        },
-        {
-          "date": "2026-11-04",
-          "slot": "07:00",
-          "network": "facebook",
-          "kind": "todays-sky",
-          "transit": "Venus sextile Jupiter, Sun sextile Moon",
-          "metricoolId": 409092313
-        },
-        {
-          "date": "2026-11-04",
-          "slot": "18:00",
-          "network": "instagram",
-          "pillar": "sign spotlight (Scorpio)",
-          "metricoolId": 409092355
-        },
-        {
-          "date": "2026-11-04",
-          "slot": "18:00",
-          "network": "facebook",
-          "pillar": "sign spotlight (Scorpio)",
-          "metricoolId": 409092383
-        }
-      ],
-      "note": "Veto model: all 28 posts publish automatically on Facebook and Instagram unless Daniel edits or pulls them in Metricool. This week applied the oneChange from the week-2 review: 07:00 today's sky is now a Reel on both networks (reach was the binding constraint), and Facebook and Instagram run as separate posts so the Facebook link carries a first-party UTM (the earlier pending oneChange). Media hosted in Biz-Builder/OmnistrataMedia, raw PNG and MP4 URLs confirmed loading before scheduling. Mercury square Mars repeats 30-31 Oct and Venus sextile Jupiter 1-4 Nov; each day used a distinct angle and journal question. isAiGenerated left false (typographic cards and Reels)."
+     "date": "2026-10-20",
+     "slot": "18:00",
+     "pillar": "explainer: rising sign",
+     "metricoolId": 399603109
     },
     {
-      "date": "2026-10-28",
-      "type": "weekly-batch-revision",
-      "window": "2026-10-29 to 2026-11-04",
-      "change": "Added photo backgrounds to all media at Daniel request (was typographic). Celestial photos on the 7 today-sky reels, people photos on the 7 pillars, composited with a dark scrim and light text via new studio renderers make_card_photo.py and make_reel_photo.py.",
-      "photos": "Generated with Canva AI, pulled full-size into tideglyph/photos via the holder design + Fetch media workflow. Reels: sky-moon-water (29), sky-dusk (30-31), sky-dawn (1-2 Nov), sky-starfield (3-4 Nov). Pillars: people-crowd (one in twelve), people-phone (free chart), people-portrait (big three + Scorpio), people-window (no birth time), people-journal (journal), people-home (privacy).",
-      "metricool": "All 28 scheduled posts updated in place (brand 7442919) to the photo media with a cache-busting ?v=2 so Metricool re-hosted the new files. Captions, times, networks, cover frame (7500ms) unchanged. Post ids were reassigned by the update; uuids unchanged. isAiGenerated left false (typographic/scrim composites over AI photos; organic Meta only requires the flag for photorealistic AI video or audio).",
-      "renderer_fix": "render.mjs and render_reel.mjs now also detect the chrome-linux64 chromium layout."
+     "date": "2026-10-21",
+     "slot": "07:00",
+     "kind": "todays-sky",
+     "transit": "Moon enters Pisces",
+     "metricoolId": 399603125
     },
     {
-      "date": "2026-10-30",
-      "type": "review",
-      "week": "2026-10-24 to 2026-10-30",
-      "networks": [
-        "facebook",
-        "instagram"
-      ],
-      "status": "Week 3 (account 15 days old). Review-only run: nothing posted, scheduled or changed. Reach still single digits per post and engagement effectively zero, which stays normal at this stage. The account's first Reel went out 2026-10-29 and out-reached every static post. A 3-day posting gap sat in the middle of the week (Oct 26-28, no posts on either network); posting resumed Oct 29. The Oct 30 posts (midday carousel and evening slot) are too new to have data. No numbers invented.",
-      "numbers": {
-        "instagram": {
-          "postsWithData": 6,
-          "feedReach": 12,
-          "reelReach": 9,
-          "reach": 21,
-          "views": 37,
-          "saves": 0,
-          "shares": 0,
-          "comments": 0,
-          "likes": 0,
-          "followsFromPosts": 0,
-          "followers": 5,
-          "followersGainedThisWeek": "about +2 (3 on Oct 24 to 5 by Oct 28)"
-        },
-        "facebook": {
-          "postsWithData": 6,
-          "reach": 15,
-          "reactions": 1,
-          "shares": 0,
-          "comments": 0,
-          "linkClicks": 0,
-          "followersAcquired": 0
-        },
-        "combinedReach": 36,
-        "tiktok": "not connected",
-        "email": "MailerLite not wired up for Tideglyph yet (2 subscribers total on the account, no campaigns); email metrics skipped per method until the list, nurture and sending domain are live."
-      },
-      "ranking": "(saves+shares)/reach = 0 for every post again: no saves or shares on either network, so the target metric still cannot rank posts. Ranked on raw reach as the distribution proxy (method B1: while reach is the binding constraint, read distribution, not hooks or CTAs). Furthest-traveled: the Instagram Moon-in-Cancer Reel, reach 9 / 11 views, the first Reel and the only item to break past single-digit static reach (static feed posts ran 1-5).",
-      "clicksToFreeChart": "No measurable signal. Facebook post link clicks = 0 across all posts (reach too low for clicks regardless); the Oct 29 FB Reel carried the UTM chart link in-caption and recorded 0 link clicks on reach 0. Instagram stays link-in-bio, no per-post click data.",
-      "bestHook": "Oct 29 Moon-in-Cancer Reel: 'What makes a place feel like home to you?' Furthest-traveled item of the week. In plain terms it names a feeling everyone recognises and invites a one-word answer, and it rode the Reel format that actually reaches non-followers. Runner-up on structure: the pillar 'Ever read your horoscope and felt it was written for a stranger?', which opens on the reader's own experience (problem first) before any astrology. Both are editorial reads: reach is still too thin to crown a hook.",
-      "weakestHook": "The today's-sky posts that open on planetary mechanics before any human angle, e.g. Oct 25 'With Venus moving backward through the sky, today's meeting with the Sun has a reflective, looking-back quality.' A cold reader has no reason to care by line one; the relatable question is buried under the jargon. Lowest views-per-reach of the week. Caveat: single-digit reach makes this a read, not a verdict.",
-      "oneChange": "Format, for Monday 2026-11-02: make the 18:00 pillar slot a Reel/video too, so both Monday slots are video rather than one Reel plus one static image. The week's single Reel reached 9 vs 1-5 for every static feed post, and on a roughly 5-follower account Reels are the one format Instagram shows to non-followers. Reach is the binding constraint in launch (method B1), so move the static pillars toward video before testing hooks or CTAs.",
-      "crossBrandLesson": "First hard number behind the already-recorded launch-weeks rule (B1): on a near-empty account a single Reel reached 9 people vs 1-5 for static feed posts. Genuinely cross-brand but n=1 so far; proposed as the first B2 'Content that works' data point once a second week confirms it. No method change needed this week.",
-      "runType": "review-only; no public changes"
+     "date": "2026-10-21",
+     "slot": "18:00",
+     "pillar": "privacy: no ads, no tracking",
+     "metricoolId": 399603141
     },
     {
-      "date": "2026-11-02",
-      "type": "weekly-batch-scheduled",
-      "window": "2026-11-05 to 2026-11-08",
-      "brandId": 7442919,
-      "brand": "Tideglyph",
-      "timezone": "Africa/Johannesburg",
-      "slots": "07:00 today's sky Reel, 18:00 pillar static card (Africa/Johannesburg)",
-      "model": "Monday batch firing 05:33 SAST. Next-7-days window is Nov 2 to Nov 8; Nov 2-4 were already built and scheduled by the prior batch (verified in Metricool, untouched), so this run covered the remaining Nov 5-8. Each slot is two separate posts (Instagram + Facebook), autoPublish true. 07:00 Reel on both (videoCoverMilliseconds 7500), media the MP4. 18:00 static POST on both, media the pillar PNG. IG captions end 'link in bio'; FB captions carry the tagged tideglyph.com/chart link (the birth-time pillar links /moon-sign-calculator), utm_content YYYY-MM-DD_sky or _pillar.",
-      "cta": "IG: link in bio. FB: tagged chart URL per post (moon-sign-calculator for the 2026-11-07 pillar).",
-      "pillarRotation": "Nov 5 one in twelve, Nov 6 what the free chart shows, Nov 7 don't know your birth time, Nov 8 plain explainer (rising sign). No repeats; follows Nov 2-4 (journal/privacy/sign spotlight) with no overlap. Explainer topic rising sign chosen because last week's explainer was big three (Oct 31).",
-      "renderer": "Typographic make_card.py / make_reel.py per RUNBOOK (24 Oct), not the photo renderers; see report note on the Oct 28 photo-led lesson.",
-      "posts": [
-        {
-          "date": "2026-11-05",
-          "slot": "07:00",
-          "network": "instagram",
-          "kind": "today's sky Reel",
-          "media": "reels/2026-11-05.mp4",
-          "metricoolId": 413517378
-        },
-        {
-          "date": "2026-11-05",
-          "slot": "07:00",
-          "network": "facebook",
-          "kind": "today's sky Reel",
-          "media": "reels/2026-11-05.mp4",
-          "metricoolId": 413517382
-        },
-        {
-          "date": "2026-11-05",
-          "slot": "18:00",
-          "network": "instagram",
-          "pillar": "one in twelve",
-          "media": "pillars/2026-11-05.png",
-          "metricoolId": 413517389
-        },
-        {
-          "date": "2026-11-05",
-          "slot": "18:00",
-          "network": "facebook",
-          "pillar": "one in twelve",
-          "media": "pillars/2026-11-05.png",
-          "metricoolId": 413517398
-        },
-        {
-          "date": "2026-11-06",
-          "slot": "07:00",
-          "network": "instagram",
-          "kind": "today's sky Reel",
-          "media": "reels/2026-11-06.mp4",
-          "metricoolId": 413517690
-        },
-        {
-          "date": "2026-11-06",
-          "slot": "07:00",
-          "network": "facebook",
-          "kind": "today's sky Reel",
-          "media": "reels/2026-11-06.mp4",
-          "metricoolId": 413517695
-        },
-        {
-          "date": "2026-11-06",
-          "slot": "18:00",
-          "network": "instagram",
-          "pillar": "what the free chart shows",
-          "media": "pillars/2026-11-06.png",
-          "metricoolId": 413517707
-        },
-        {
-          "date": "2026-11-06",
-          "slot": "18:00",
-          "network": "facebook",
-          "pillar": "what the free chart shows",
-          "media": "pillars/2026-11-06.png",
-          "metricoolId": 413517712
-        },
-        {
-          "date": "2026-11-07",
-          "slot": "07:00",
-          "network": "instagram",
-          "kind": "today's sky Reel",
-          "media": "reels/2026-11-07.mp4",
-          "metricoolId": 413517725
-        },
-        {
-          "date": "2026-11-07",
-          "slot": "07:00",
-          "network": "facebook",
-          "kind": "today's sky Reel",
-          "media": "reels/2026-11-07.mp4",
-          "metricoolId": 413517736
-        },
-        {
-          "date": "2026-11-07",
-          "slot": "18:00",
-          "network": "instagram",
-          "pillar": "don't know your birth time",
-          "media": "pillars/2026-11-07.png",
-          "metricoolId": 413517747
-        },
-        {
-          "date": "2026-11-07",
-          "slot": "18:00",
-          "network": "facebook",
-          "pillar": "don't know your birth time",
-          "media": "pillars/2026-11-07.png",
-          "metricoolId": 413517756
-        },
-        {
-          "date": "2026-11-08",
-          "slot": "07:00",
-          "network": "instagram",
-          "kind": "today's sky Reel",
-          "media": "reels/2026-11-08.mp4",
-          "metricoolId": 413517950
-        },
-        {
-          "date": "2026-11-08",
-          "slot": "07:00",
-          "network": "facebook",
-          "kind": "today's sky Reel",
-          "media": "reels/2026-11-08.mp4",
-          "metricoolId": 413517959
-        },
-        {
-          "date": "2026-11-08",
-          "slot": "18:00",
-          "network": "instagram",
-          "pillar": "a plain explainer (rising sign)",
-          "media": "pillars/2026-11-08.png",
-          "metricoolId": 413517974
-        },
-        {
-          "date": "2026-11-08",
-          "slot": "18:00",
-          "network": "facebook",
-          "pillar": "a plain explainer (rising sign)",
-          "media": "pillars/2026-11-08.png",
-          "metricoolId": 413517983
-        }
-      ],
-      "note": "Veto model: all 16 publish automatically on Facebook and Instagram unless Daniel edits or pulls them in Metricool. Nothing held as a draft this run; no line judged unsure enough to draft. Media pushed to OmnistrataMedia main; one raw PNG and one raw MP4 confirmed 200."
+     "date": "2026-10-22",
+     "slot": "07:00",
+     "kind": "todays-sky",
+     "transit": "Moon in Pisces",
+     "metricoolId": 399603197
     },
     {
-      "date": "2026-11-06",
-      "type": "review",
-      "week": "2026-10-31 to 2026-11-06",
-      "networks": [
-        "facebook",
-        "instagram"
-      ],
-      "status": "Week 4. Account connected 2026-10-15. Distribution still near zero, normal for a 3-week-old account with no ad spend. Oct 30 launch posts were covered in last week's review and are excluded here.",
-      "numbers": {
-        "instagram": {
-          "followers": 5,
-          "followersGainedNet": "ended week at 5; Metricool reported no daily gain/loss in window",
-          "feedPostsWithData": 6,
-          "feedReach": 17,
-          "feedViews": 21,
-          "feedInteractions": 2,
-          "saves": 0,
-          "shares": 0,
-          "reelsPublished": 6,
-          "reelsReach": 160,
-          "reelsViews": 186,
-          "reelsInteractions": 0,
-          "note": "Account-level reach metric (IGEV06) returned large, inconsistent daily values (e.g. 1412, 987) that do not reconcile with post-level reach; treated as unreliable and not used. Feed and reel reach above are the per-format figures."
-        },
-        "facebook": {
-          "followers": 1,
-          "followersAcquired": 1,
-          "feedPostsWithData": 6,
-          "feedReach": 3,
-          "interactions": 0,
-          "shares": 0,
-          "linkClicks": 0,
-          "reelsPublished": 6,
-          "reelsVideoViews": 0
-        },
-        "tiktok": "not connected",
-        "email": "MailerLite not wired up yet; email metrics skipped"
-      },
-      "ranking": "Could not rank by (saves+shares)/reach: saves and shares are zero on every post this week, so the ratio is zero across the board. Fell back to reach. Clear pattern: Reels far outreach static feed images. On Instagram, the 6 today's-sky Reels reached ~160 people combined (best: Nov 5 Reel, reach 72, views 85) versus ~17 total for the 6 static pillar feed posts. Facebook reach stayed at 0-1 per post on both formats.",
-      "clicksToFreeChart": "No signal yet. Facebook in-post link clicks = 0 all week (the full chart URL + UTM is now in FB post text, per last week's change, so the pipe is in place; reach is the bottleneck, not the CTA). Instagram remains link-in-bio and exposes no per-post click metric.",
-      "bestHook": "Instagram, Oct 31 pillar: 'Heard people mention their big three and nodded along without being quite sure what it meant?' Top feed reach (5) and views (7) and one of only two likes all week. Why it works: it names a phrase people have actually heard in conversation (the big three) and admits the small discomfort of not knowing it, which is a precise, personal curiosity gap rather than a generic question.",
-      "weakestHook": "Instagram, Nov 5 pillar: 'Ever read your horoscope and feel it could belong to anyone?' Bottom of the week on reach (1) and views (1). Why it is weak: an abstract yes/no rhetorical opener built on a familiar cliche; it does not name anything concrete or promise a specific payoff, so it gives a cold scroller no reason to stop. (The Nov 3 privacy post is also a soft opener, but that is a trust message by design, not a hook.)",
-      "oneChange": "Format change for Monday's batch: convert the pillar/educational concepts into short Reels (or add at least one Reel-pillar), instead of running them only as static feed images. Reason: on a 3-week-old account with ~5 followers, Reels are the only format reaching non-followers. This week Instagram Reels reached ~160 people versus ~17 for static pillar images, roughly a 9x gap. The pillar writing is strong; it just needs the format that the algorithm actually distributes to a cold audience. Keep the today's-sky Reels as they are.",
-      "note": "Review only. Nothing posted, scheduled, changed or pulled this run. Numbers pulled from Metricool brand 7442919, facebook + instagram, 2026-10-31 to 2026-11-06 (Africa/Johannesburg). TikTok not connected. No numbers invented; zeros are real."
+     "date": "2026-10-22",
+     "slot": "18:00",
+     "pillar": "sign spotlight: Libra (season closing)",
+     "metricoolId": 399603229
+    },
+    {
+     "date": "2026-10-23",
+     "slot": "07:00",
+     "kind": "todays-sky",
+     "transit": "Sun conjunction Venus",
+     "metricoolId": 399603251
+    },
+    {
+     "date": "2026-10-23",
+     "slot": "18:00",
+     "pillar": "the record that remembers (journal)",
+     "metricoolId": 399603274
+    },
+    {
+     "date": "2026-10-24",
+     "slot": "07:00",
+     "kind": "todays-sky",
+     "transit": "Sun conjunction Venus (Aries Moon angle)",
+     "metricoolId": 399603298
+    },
+    {
+     "date": "2026-10-24",
+     "slot": "18:00",
+     "pillar": "explainer: Saturn return",
+     "metricoolId": 399603349
+    },
+    {
+     "date": "2026-10-25",
+     "slot": "07:00",
+     "kind": "todays-sky",
+     "transit": "Sun conjunction Venus (Venus retrograde angle)",
+     "metricoolId": 399603360
+    },
+    {
+     "date": "2026-10-25",
+     "slot": "18:00",
+     "pillar": "sign spotlight: Scorpio (season begins)",
+     "metricoolId": 399603393
     }
-  ],
-  "events": [
+   ],
+   "note": "Veto model: all 14 publish automatically on Facebook and Instagram unless Daniel edits or pulls them in Metricool. Pillar rotation covered all five pillars; explainer and sign spotlight each ran twice with distinct topics. Sun conjunction Venus repeated 23-25 so each day used a different angle. Facebook and Instagram posted together as one post per slot; the 2026-10-16 oneChange (FB-only clickable UTM link) was NOT applied because it needs the networks split into separate posts, which would deviate from the one-post-both-networks model. Flagged to Daniel for a decision."
+  },
+  {
+   "date": "2026-10-23",
+   "week": "2026-10-17 to 2026-10-23",
+   "networks": [
+    "facebook",
+    "instagram"
+   ],
+   "status": "Week 2 (account 8 days old). Scheduled batch publishing 2/day on FB+IG. Reach still in low single digits per post; engagement effectively zero. Near-zero remains normal at this stage. No numbers invented. Review-only run: nothing posted, scheduled, or changed.",
+   "numbers": {
+    "instagram": {
+     "postsWithData": 12,
+     "reach": 23,
+     "views": 39,
+     "saves": 0,
+     "shares": 0,
+     "comments": 0,
+     "likes": 0,
+     "followsFromPosts": 0
+    },
+    "facebook": {
+     "postsWithData": 12,
+     "reach": 11,
+     "reactions": 0,
+     "shares": 0,
+     "comments": 0,
+     "linkClicks": 0
+    },
+    "combinedReach": 34,
+    "tiktok": "not connected",
+    "email": "MailerLite not wired up yet; email metrics skipped"
+   },
+   "ranking": "(saves+shares)/reach = 0 for every post this week: no saves or shares were recorded on either network, so the target metric cannot rank the posts yet. Reach itself is the limiter at 1-5 per post. Furthest-traveled post by raw reach was the Instagram 'two people born weeks apart' pillar (reach 5, 8 views).",
+   "clicksToFreeChart": "Still no measurable signal. Facebook post link clicks = 0 even though today's-sky captions now carry the raw tideglyph.com/chart URL; photo-post captions do not yield a clean link-click metric and reach is too low for clicks regardless. Instagram stays link-in-bio with no per-post click data.",
+   "bestHook": "'Two people born weeks apart can share a star sign and still have almost nothing else in common on the chart.' Editorial pick backed by the thin reach signal: the sharpest statement of the whole-chart differentiator and the furthest-traveled post of the week.",
+   "weakestHook": "'As the Sun finishes its trip through Libra.' Reached 0 on Instagram and 1 on Facebook, the week's lowest. It leans on the generic sun-sign framing the brand positions against, so the opener works against the differentiator.",
+   "oneChange": "Make Monday's daily 'today's sky' post a short Reel (vertical video) instead of a static image. Reason: reach is the binding constraint. Static feed photos on an 8-day-old account are shown almost only to existing followers (near zero), while Reels are the one organic surface Instagram distributes to non-followers. Until posts reach people, no hook or CTA test can produce signal.",
+   "note": "Prior oneChange (FB-only clickable UTM link) is still pending Daniel's decision on splitting FB/IG into separate posts. It was partially realised in that today's-sky captions now include the raw chart URL, but photo-post link clicks still read 0. Not repeated as this week's change because distribution, not measurement, is now the bottleneck."
+  },
+  {
+   "date": "2026-10-28",
+   "type": "weekly-batch-scheduled",
+   "window": "2026-10-29 to 2026-11-04",
+   "networks": [
+    "facebook",
+    "instagram"
+   ],
+   "autoPublish": true,
+   "slots": "07:00 today's sky Reel, 18:00 pillar static card (Africa/Johannesburg)",
+   "model": "Each slot is two separate posts: an Instagram post and a Facebook post. 07:00 is a Reel on both (videoCoverMilliseconds 7500). 18:00 is a static POST on both. Instagram captions end \"link in bio\"; Facebook captions carry the tagged tideglyph.com/chart link with utm_content YYYY-MM-DD_sky or _pillar (the birth-time pillar links /moon-sign-calculator).",
+   "cta": "IG: link in bio. FB: tagged chart URL per post (moon-sign-calculator for the 2026-11-01 pillar).",
+   "pillarRotation": "All seven pillars once each, no repeats: one in twelve (29), what the free chart shows (30), plain explainer big three (31), don't know your birth time (1 Nov), the journal (2), privacy (3), sign spotlight Scorpio (4). Explainer avoided last week's rising and Saturn return topics.",
+   "posts": [
     {
-      "type": "tiktok-launch",
-      "date": "2026-11-07",
-      "note": "TikTok @tideglyph connected to brand 7442919. Four launch posts, autoPublish true. Reels re-rendered with Tideglyph's own music bed (make_music.py); carousel uses TikTok autoAddMusic.",
-      "posts": [
-        {
-          "time": "12:50",
-          "kind": "start-here carousel (7 photos)",
-          "metricoolId": 419835082
-        },
-        {
-          "time": "13:20",
-          "kind": "today's sky Reel 2026-11-07",
-          "metricoolId": 419836102,
-          "media": "reels/2026-11-07-m.mp4"
-        },
-        {
-          "time": "14:00",
-          "kind": "evergreen Reel one in twelve",
-          "media": "reels-evergreen/one-in-twelve-m.mp4",
-          "metricoolId": 419836110
-        },
-        {
-          "time": "14:40",
-          "kind": "evergreen Reel big three",
-          "media": "reels-evergreen/big-three-m.mp4",
-          "metricoolId": 419836122
-        }
-      ]
+     "date": "2026-10-29",
+     "slot": "07:00",
+     "network": "instagram",
+     "kind": "todays-sky",
+     "transit": "Moon enters Cancer",
+     "metricoolId": 409088204
+    },
+    {
+     "date": "2026-10-29",
+     "slot": "07:00",
+     "network": "facebook",
+     "kind": "todays-sky",
+     "transit": "Moon enters Cancer",
+     "metricoolId": 409088466
+    },
+    {
+     "date": "2026-10-29",
+     "slot": "18:00",
+     "network": "instagram",
+     "pillar": "one in twelve",
+     "metricoolId": 409088492
+    },
+    {
+     "date": "2026-10-29",
+     "slot": "18:00",
+     "network": "facebook",
+     "pillar": "one in twelve",
+     "metricoolId": 409088547
+    },
+    {
+     "date": "2026-10-30",
+     "slot": "07:00",
+     "network": "instagram",
+     "kind": "todays-sky",
+     "transit": "Mercury square Mars",
+     "metricoolId": 409089376
+    },
+    {
+     "date": "2026-10-30",
+     "slot": "07:00",
+     "network": "facebook",
+     "kind": "todays-sky",
+     "transit": "Mercury square Mars",
+     "metricoolId": 409089412
+    },
+    {
+     "date": "2026-10-30",
+     "slot": "18:00",
+     "network": "instagram",
+     "pillar": "what the free chart shows",
+     "metricoolId": 409089432
+    },
+    {
+     "date": "2026-10-30",
+     "slot": "18:00",
+     "network": "facebook",
+     "pillar": "what the free chart shows",
+     "metricoolId": 409089453
+    },
+    {
+     "date": "2026-10-31",
+     "slot": "07:00",
+     "network": "instagram",
+     "kind": "todays-sky",
+     "transit": "Mercury square Mars, Moon in Cancer",
+     "metricoolId": 409089479
+    },
+    {
+     "date": "2026-10-31",
+     "slot": "07:00",
+     "network": "facebook",
+     "kind": "todays-sky",
+     "transit": "Mercury square Mars, Moon in Cancer",
+     "metricoolId": 409089513
+    },
+    {
+     "date": "2026-10-31",
+     "slot": "18:00",
+     "network": "instagram",
+     "pillar": "a plain explainer (big three)",
+     "metricoolId": 409089536
+    },
+    {
+     "date": "2026-10-31",
+     "slot": "18:00",
+     "network": "facebook",
+     "pillar": "a plain explainer (big three)",
+     "metricoolId": 409089552
+    },
+    {
+     "date": "2026-11-01",
+     "slot": "07:00",
+     "network": "instagram",
+     "kind": "todays-sky",
+     "transit": "Venus sextile Jupiter",
+     "metricoolId": 409090126
+    },
+    {
+     "date": "2026-11-01",
+     "slot": "07:00",
+     "network": "facebook",
+     "kind": "todays-sky",
+     "transit": "Venus sextile Jupiter",
+     "metricoolId": 409090303
+    },
+    {
+     "date": "2026-11-01",
+     "slot": "18:00",
+     "network": "instagram",
+     "pillar": "don't know your birth time",
+     "metricoolId": 409090421
+    },
+    {
+     "date": "2026-11-01",
+     "slot": "18:00",
+     "network": "facebook",
+     "pillar": "don't know your birth time",
+     "metricoolId": 409090663
+    },
+    {
+     "date": "2026-11-02",
+     "slot": "07:00",
+     "network": "instagram",
+     "kind": "todays-sky",
+     "transit": "Venus sextile Jupiter, Moon in Leo",
+     "metricoolId": 409090964
+    },
+    {
+     "date": "2026-11-02",
+     "slot": "07:00",
+     "network": "facebook",
+     "kind": "todays-sky",
+     "transit": "Venus sextile Jupiter, Moon in Leo",
+     "metricoolId": 409091058
+    },
+    {
+     "date": "2026-11-02",
+     "slot": "18:00",
+     "network": "instagram",
+     "pillar": "the journal",
+     "metricoolId": 409091226
+    },
+    {
+     "date": "2026-11-02",
+     "slot": "18:00",
+     "network": "facebook",
+     "pillar": "the journal",
+     "metricoolId": 409091309
+    },
+    {
+     "date": "2026-11-03",
+     "slot": "07:00",
+     "network": "instagram",
+     "kind": "todays-sky",
+     "transit": "Venus sextile Jupiter, Sun near Mercury",
+     "metricoolId": 409091965
+    },
+    {
+     "date": "2026-11-03",
+     "slot": "07:00",
+     "network": "facebook",
+     "kind": "todays-sky",
+     "transit": "Venus sextile Jupiter, Sun near Mercury",
+     "metricoolId": 409091985
+    },
+    {
+     "date": "2026-11-03",
+     "slot": "18:00",
+     "network": "instagram",
+     "pillar": "privacy",
+     "metricoolId": 409092027
+    },
+    {
+     "date": "2026-11-03",
+     "slot": "18:00",
+     "network": "facebook",
+     "pillar": "privacy",
+     "metricoolId": 409092090
+    },
+    {
+     "date": "2026-11-04",
+     "slot": "07:00",
+     "network": "instagram",
+     "kind": "todays-sky",
+     "transit": "Venus sextile Jupiter, Sun sextile Moon",
+     "metricoolId": 409092262
+    },
+    {
+     "date": "2026-11-04",
+     "slot": "07:00",
+     "network": "facebook",
+     "kind": "todays-sky",
+     "transit": "Venus sextile Jupiter, Sun sextile Moon",
+     "metricoolId": 409092313
+    },
+    {
+     "date": "2026-11-04",
+     "slot": "18:00",
+     "network": "instagram",
+     "pillar": "sign spotlight (Scorpio)",
+     "metricoolId": 409092355
+    },
+    {
+     "date": "2026-11-04",
+     "slot": "18:00",
+     "network": "facebook",
+     "pillar": "sign spotlight (Scorpio)",
+     "metricoolId": 409092383
     }
-  ]
+   ],
+   "note": "Veto model: all 28 posts publish automatically on Facebook and Instagram unless Daniel edits or pulls them in Metricool. This week applied the oneChange from the week-2 review: 07:00 today's sky is now a Reel on both networks (reach was the binding constraint), and Facebook and Instagram run as separate posts so the Facebook link carries a first-party UTM (the earlier pending oneChange). Media hosted in Biz-Builder/OmnistrataMedia, raw PNG and MP4 URLs confirmed loading before scheduling. Mercury square Mars repeats 30-31 Oct and Venus sextile Jupiter 1-4 Nov; each day used a distinct angle and journal question. isAiGenerated left false (typographic cards and Reels)."
+  },
+  {
+   "date": "2026-10-28",
+   "type": "weekly-batch-revision",
+   "window": "2026-10-29 to 2026-11-04",
+   "change": "Added photo backgrounds to all media at Daniel request (was typographic). Celestial photos on the 7 today-sky reels, people photos on the 7 pillars, composited with a dark scrim and light text via new studio renderers make_card_photo.py and make_reel_photo.py.",
+   "photos": "Generated with Canva AI, pulled full-size into tideglyph/photos via the holder design + Fetch media workflow. Reels: sky-moon-water (29), sky-dusk (30-31), sky-dawn (1-2 Nov), sky-starfield (3-4 Nov). Pillars: people-crowd (one in twelve), people-phone (free chart), people-portrait (big three + Scorpio), people-window (no birth time), people-journal (journal), people-home (privacy).",
+   "metricool": "All 28 scheduled posts updated in place (brand 7442919) to the photo media with a cache-busting ?v=2 so Metricool re-hosted the new files. Captions, times, networks, cover frame (7500ms) unchanged. Post ids were reassigned by the update; uuids unchanged. isAiGenerated left false (typographic/scrim composites over AI photos; organic Meta only requires the flag for photorealistic AI video or audio).",
+   "renderer_fix": "render.mjs and render_reel.mjs now also detect the chrome-linux64 chromium layout."
+  },
+  {
+   "date": "2026-10-30",
+   "type": "review",
+   "week": "2026-10-24 to 2026-10-30",
+   "networks": [
+    "facebook",
+    "instagram"
+   ],
+   "status": "Week 3 (account 15 days old). Review-only run: nothing posted, scheduled or changed. Reach still single digits per post and engagement effectively zero, which stays normal at this stage. The account's first Reel went out 2026-10-29 and out-reached every static post. A 3-day posting gap sat in the middle of the week (Oct 26-28, no posts on either network); posting resumed Oct 29. The Oct 30 posts (midday carousel and evening slot) are too new to have data. No numbers invented.",
+   "numbers": {
+    "instagram": {
+     "postsWithData": 6,
+     "feedReach": 12,
+     "reelReach": 9,
+     "reach": 21,
+     "views": 37,
+     "saves": 0,
+     "shares": 0,
+     "comments": 0,
+     "likes": 0,
+     "followsFromPosts": 0,
+     "followers": 5,
+     "followersGainedThisWeek": "about +2 (3 on Oct 24 to 5 by Oct 28)"
+    },
+    "facebook": {
+     "postsWithData": 6,
+     "reach": 15,
+     "reactions": 1,
+     "shares": 0,
+     "comments": 0,
+     "linkClicks": 0,
+     "followersAcquired": 0
+    },
+    "combinedReach": 36,
+    "tiktok": "not connected",
+    "email": "MailerLite not wired up for Tideglyph yet (2 subscribers total on the account, no campaigns); email metrics skipped per method until the list, nurture and sending domain are live."
+   },
+   "ranking": "(saves+shares)/reach = 0 for every post again: no saves or shares on either network, so the target metric still cannot rank posts. Ranked on raw reach as the distribution proxy (method B1: while reach is the binding constraint, read distribution, not hooks or CTAs). Furthest-traveled: the Instagram Moon-in-Cancer Reel, reach 9 / 11 views, the first Reel and the only item to break past single-digit static reach (static feed posts ran 1-5).",
+   "clicksToFreeChart": "No measurable signal. Facebook post link clicks = 0 across all posts (reach too low for clicks regardless); the Oct 29 FB Reel carried the UTM chart link in-caption and recorded 0 link clicks on reach 0. Instagram stays link-in-bio, no per-post click data.",
+   "bestHook": "Oct 29 Moon-in-Cancer Reel: 'What makes a place feel like home to you?' Furthest-traveled item of the week. In plain terms it names a feeling everyone recognises and invites a one-word answer, and it rode the Reel format that actually reaches non-followers. Runner-up on structure: the pillar 'Ever read your horoscope and felt it was written for a stranger?', which opens on the reader's own experience (problem first) before any astrology. Both are editorial reads: reach is still too thin to crown a hook.",
+   "weakestHook": "The today's-sky posts that open on planetary mechanics before any human angle, e.g. Oct 25 'With Venus moving backward through the sky, today's meeting with the Sun has a reflective, looking-back quality.' A cold reader has no reason to care by line one; the relatable question is buried under the jargon. Lowest views-per-reach of the week. Caveat: single-digit reach makes this a read, not a verdict.",
+   "oneChange": "Format, for Monday 2026-11-02: make the 18:00 pillar slot a Reel/video too, so both Monday slots are video rather than one Reel plus one static image. The week's single Reel reached 9 vs 1-5 for every static feed post, and on a roughly 5-follower account Reels are the one format Instagram shows to non-followers. Reach is the binding constraint in launch (method B1), so move the static pillars toward video before testing hooks or CTAs.",
+   "crossBrandLesson": "First hard number behind the already-recorded launch-weeks rule (B1): on a near-empty account a single Reel reached 9 people vs 1-5 for static feed posts. Genuinely cross-brand but n=1 so far; proposed as the first B2 'Content that works' data point once a second week confirms it. No method change needed this week.",
+   "runType": "review-only; no public changes"
+  },
+  {
+   "date": "2026-11-02",
+   "type": "weekly-batch-scheduled",
+   "window": "2026-11-05 to 2026-11-08",
+   "brandId": 7442919,
+   "brand": "Tideglyph",
+   "timezone": "Africa/Johannesburg",
+   "slots": "07:00 today's sky Reel, 18:00 pillar static card (Africa/Johannesburg)",
+   "model": "Monday batch firing 05:33 SAST. Next-7-days window is Nov 2 to Nov 8; Nov 2-4 were already built and scheduled by the prior batch (verified in Metricool, untouched), so this run covered the remaining Nov 5-8. Each slot is two separate posts (Instagram + Facebook), autoPublish true. 07:00 Reel on both (videoCoverMilliseconds 7500), media the MP4. 18:00 static POST on both, media the pillar PNG. IG captions end 'link in bio'; FB captions carry the tagged tideglyph.com/chart link (the birth-time pillar links /moon-sign-calculator), utm_content YYYY-MM-DD_sky or _pillar.",
+   "cta": "IG: link in bio. FB: tagged chart URL per post (moon-sign-calculator for the 2026-11-07 pillar).",
+   "pillarRotation": "Nov 5 one in twelve, Nov 6 what the free chart shows, Nov 7 don't know your birth time, Nov 8 plain explainer (rising sign). No repeats; follows Nov 2-4 (journal/privacy/sign spotlight) with no overlap. Explainer topic rising sign chosen because last week's explainer was big three (Oct 31).",
+   "renderer": "Typographic make_card.py / make_reel.py per RUNBOOK (24 Oct), not the photo renderers; see report note on the Oct 28 photo-led lesson.",
+   "posts": [
+    {
+     "date": "2026-11-05",
+     "slot": "07:00",
+     "network": "instagram",
+     "kind": "today's sky Reel",
+     "media": "reels/2026-11-05.mp4",
+     "metricoolId": 413517378
+    },
+    {
+     "date": "2026-11-05",
+     "slot": "07:00",
+     "network": "facebook",
+     "kind": "today's sky Reel",
+     "media": "reels/2026-11-05.mp4",
+     "metricoolId": 413517382
+    },
+    {
+     "date": "2026-11-05",
+     "slot": "18:00",
+     "network": "instagram",
+     "pillar": "one in twelve",
+     "media": "pillars/2026-11-05.png",
+     "metricoolId": 413517389
+    },
+    {
+     "date": "2026-11-05",
+     "slot": "18:00",
+     "network": "facebook",
+     "pillar": "one in twelve",
+     "media": "pillars/2026-11-05.png",
+     "metricoolId": 413517398
+    },
+    {
+     "date": "2026-11-06",
+     "slot": "07:00",
+     "network": "instagram",
+     "kind": "today's sky Reel",
+     "media": "reels/2026-11-06.mp4",
+     "metricoolId": 413517690
+    },
+    {
+     "date": "2026-11-06",
+     "slot": "07:00",
+     "network": "facebook",
+     "kind": "today's sky Reel",
+     "media": "reels/2026-11-06.mp4",
+     "metricoolId": 413517695
+    },
+    {
+     "date": "2026-11-06",
+     "slot": "18:00",
+     "network": "instagram",
+     "pillar": "what the free chart shows",
+     "media": "pillars/2026-11-06.png",
+     "metricoolId": 413517707
+    },
+    {
+     "date": "2026-11-06",
+     "slot": "18:00",
+     "network": "facebook",
+     "pillar": "what the free chart shows",
+     "media": "pillars/2026-11-06.png",
+     "metricoolId": 413517712
+    },
+    {
+     "date": "2026-11-07",
+     "slot": "07:00",
+     "network": "instagram",
+     "kind": "today's sky Reel",
+     "media": "reels/2026-11-07.mp4",
+     "metricoolId": 413517725
+    },
+    {
+     "date": "2026-11-07",
+     "slot": "07:00",
+     "network": "facebook",
+     "kind": "today's sky Reel",
+     "media": "reels/2026-11-07.mp4",
+     "metricoolId": 413517736
+    },
+    {
+     "date": "2026-11-07",
+     "slot": "18:00",
+     "network": "instagram",
+     "pillar": "don't know your birth time",
+     "media": "pillars/2026-11-07.png",
+     "metricoolId": 413517747
+    },
+    {
+     "date": "2026-11-07",
+     "slot": "18:00",
+     "network": "facebook",
+     "pillar": "don't know your birth time",
+     "media": "pillars/2026-11-07.png",
+     "metricoolId": 413517756
+    },
+    {
+     "date": "2026-11-08",
+     "slot": "07:00",
+     "network": "instagram",
+     "kind": "today's sky Reel",
+     "media": "reels/2026-11-08.mp4",
+     "metricoolId": 413517950
+    },
+    {
+     "date": "2026-11-08",
+     "slot": "07:00",
+     "network": "facebook",
+     "kind": "today's sky Reel",
+     "media": "reels/2026-11-08.mp4",
+     "metricoolId": 413517959
+    },
+    {
+     "date": "2026-11-08",
+     "slot": "18:00",
+     "network": "instagram",
+     "pillar": "a plain explainer (rising sign)",
+     "media": "pillars/2026-11-08.png",
+     "metricoolId": 413517974
+    },
+    {
+     "date": "2026-11-08",
+     "slot": "18:00",
+     "network": "facebook",
+     "pillar": "a plain explainer (rising sign)",
+     "media": "pillars/2026-11-08.png",
+     "metricoolId": 413517983
+    }
+   ],
+   "note": "Veto model: all 16 publish automatically on Facebook and Instagram unless Daniel edits or pulls them in Metricool. Nothing held as a draft this run; no line judged unsure enough to draft. Media pushed to OmnistrataMedia main; one raw PNG and one raw MP4 confirmed 200."
+  },
+  {
+   "date": "2026-11-06",
+   "type": "review",
+   "week": "2026-10-31 to 2026-11-06",
+   "networks": [
+    "facebook",
+    "instagram"
+   ],
+   "status": "Week 4. Account connected 2026-10-15. Distribution still near zero, normal for a 3-week-old account with no ad spend. Oct 30 launch posts were covered in last week's review and are excluded here.",
+   "numbers": {
+    "instagram": {
+     "followers": 5,
+     "followersGainedNet": "ended week at 5; Metricool reported no daily gain/loss in window",
+     "feedPostsWithData": 6,
+     "feedReach": 17,
+     "feedViews": 21,
+     "feedInteractions": 2,
+     "saves": 0,
+     "shares": 0,
+     "reelsPublished": 6,
+     "reelsReach": 160,
+     "reelsViews": 186,
+     "reelsInteractions": 0,
+     "note": "Account-level reach metric (IGEV06) returned large, inconsistent daily values (e.g. 1412, 987) that do not reconcile with post-level reach; treated as unreliable and not used. Feed and reel reach above are the per-format figures."
+    },
+    "facebook": {
+     "followers": 1,
+     "followersAcquired": 1,
+     "feedPostsWithData": 6,
+     "feedReach": 3,
+     "interactions": 0,
+     "shares": 0,
+     "linkClicks": 0,
+     "reelsPublished": 6,
+     "reelsVideoViews": 0
+    },
+    "tiktok": "not connected",
+    "email": "MailerLite not wired up yet; email metrics skipped"
+   },
+   "ranking": "Could not rank by (saves+shares)/reach: saves and shares are zero on every post this week, so the ratio is zero across the board. Fell back to reach. Clear pattern: Reels far outreach static feed images. On Instagram, the 6 today's-sky Reels reached ~160 people combined (best: Nov 5 Reel, reach 72, views 85) versus ~17 total for the 6 static pillar feed posts. Facebook reach stayed at 0-1 per post on both formats.",
+   "clicksToFreeChart": "No signal yet. Facebook in-post link clicks = 0 all week (the full chart URL + UTM is now in FB post text, per last week's change, so the pipe is in place; reach is the bottleneck, not the CTA). Instagram remains link-in-bio and exposes no per-post click metric.",
+   "bestHook": "Instagram, Oct 31 pillar: 'Heard people mention their big three and nodded along without being quite sure what it meant?' Top feed reach (5) and views (7) and one of only two likes all week. Why it works: it names a phrase people have actually heard in conversation (the big three) and admits the small discomfort of not knowing it, which is a precise, personal curiosity gap rather than a generic question.",
+   "weakestHook": "Instagram, Nov 5 pillar: 'Ever read your horoscope and feel it could belong to anyone?' Bottom of the week on reach (1) and views (1). Why it is weak: an abstract yes/no rhetorical opener built on a familiar cliche; it does not name anything concrete or promise a specific payoff, so it gives a cold scroller no reason to stop. (The Nov 3 privacy post is also a soft opener, but that is a trust message by design, not a hook.)",
+   "oneChange": "Format change for Monday's batch: convert the pillar/educational concepts into short Reels (or add at least one Reel-pillar), instead of running them only as static feed images. Reason: on a 3-week-old account with ~5 followers, Reels are the only format reaching non-followers. This week Instagram Reels reached ~160 people versus ~17 for static pillar images, roughly a 9x gap. The pillar writing is strong; it just needs the format that the algorithm actually distributes to a cold audience. Keep the today's-sky Reels as they are.",
+   "note": "Review only. Nothing posted, scheduled, changed or pulled this run. Numbers pulled from Metricool brand 7442919, facebook + instagram, 2026-10-31 to 2026-11-06 (Africa/Johannesburg). TikTok not connected. No numbers invented; zeros are real."
+  },
+  {
+   "date": "2026-11-09",
+   "type": "weekly-batch-scheduled",
+   "window": "2026-11-09 to 2026-11-15",
+   "brandId": 7442919,
+   "brand": "Tideglyph",
+   "timezone": "Africa/Johannesburg",
+   "slots": "07:00 today's sky Reel (IG REEL + FB REEL + TikTok), 18:00 pillar static card (IG POST + FB POST)",
+   "model": "Monday batch firing 05:33 SAST. Next-7-days window Nov 9 to Nov 15; prior batch stopped at Nov 8, so this run covered the full week. Each slot is separate Metricool posts, autoPublish true. 07:00 is three posts (Instagram REEL, Facebook REEL, TikTok) on the MP4, videoCoverMilliseconds 7500; TikTok privacyOption PUBLIC_TO_EVERYONE, title=headline, autoAddMusic false, isAigc false. 18:00 is two POSTs (Instagram, Facebook) on the pillar PNG, no TikTok. IG captions end 'link in bio'; FB captions carry the tagged tideglyph.com/chart link (the Nov 12 birth-time pillar links /moon-sign-calculator), utm_content YYYY-MM-DD_sky or _pillar. Nov 9 built and scheduled first to clear the 07:00 slot, then Nov 10-15.",
+   "cta": "IG: link in bio. FB: tagged chart URL per post (moon-sign-calculator for the 2026-11-12 pillar). TikTok: plain 'Free chart: tideglyph.com/chart' (bio link not live yet).",
+   "pillarRotation": "Nov 9 one in twelve, Nov 10 what the free chart shows, Nov 11 the journal, Nov 12 don't know your birth time, Nov 13 plain explainer (Moon sign), Nov 14 sign spotlight (Scorpio), Nov 15 privacy. All seven, one per day, no repeats. Explainer topic Moon sign chosen because the last two explainers were rising sign (Nov 8) and big three (Oct 31).",
+   "renderer": "Typographic make_card.py / make_reel.py per RUNBOOK (24 Oct); Reels carry the owned ambient bed (make_music.py). isAiGenerated/isAigc left false (typographic designs).",
+   "posts": [
+    {
+     "date": "2026-11-09",
+     "slot": "07:00",
+     "network": "instagram",
+     "kind": "today's sky Reel",
+     "transit": "Venus sextile Mars, Moon in Scorpio",
+     "metricoolId": 421331932
+    },
+    {
+     "date": "2026-11-09",
+     "slot": "07:00",
+     "network": "facebook",
+     "kind": "today's sky Reel",
+     "transit": "Venus sextile Mars, Moon in Scorpio",
+     "metricoolId": 421332035
+    },
+    {
+     "date": "2026-11-09",
+     "slot": "07:00",
+     "network": "tiktok",
+     "kind": "today's sky Reel",
+     "transit": "Venus sextile Mars, Moon in Scorpio",
+     "metricoolId": 421332046
+    },
+    {
+     "date": "2026-11-09",
+     "slot": "18:00",
+     "network": "instagram",
+     "kind": "pillar",
+     "pillar": "one in twelve",
+     "metricoolId": 421332175
+    },
+    {
+     "date": "2026-11-09",
+     "slot": "18:00",
+     "network": "facebook",
+     "kind": "pillar",
+     "pillar": "one in twelve",
+     "metricoolId": 421332180
+    },
+    {
+     "date": "2026-11-10",
+     "slot": "07:00",
+     "network": "instagram",
+     "kind": "today's sky Reel",
+     "transit": "Venus sextile Mars (exact), Moon in Scorpio",
+     "metricoolId": 421334045
+    },
+    {
+     "date": "2026-11-10",
+     "slot": "07:00",
+     "network": "facebook",
+     "kind": "today's sky Reel",
+     "transit": "Venus sextile Mars (exact), Moon in Scorpio",
+     "metricoolId": 421334049
+    },
+    {
+     "date": "2026-11-10",
+     "slot": "07:00",
+     "network": "tiktok",
+     "kind": "today's sky Reel",
+     "transit": "Venus sextile Mars (exact), Moon in Scorpio",
+     "metricoolId": 421334057
+    },
+    {
+     "date": "2026-11-10",
+     "slot": "18:00",
+     "network": "instagram",
+     "kind": "pillar",
+     "pillar": "what the free chart shows",
+     "metricoolId": 421334070
+    },
+    {
+     "date": "2026-11-10",
+     "slot": "18:00",
+     "network": "facebook",
+     "kind": "pillar",
+     "pillar": "what the free chart shows",
+     "metricoolId": 421334079
+    },
+    {
+     "date": "2026-11-11",
+     "slot": "07:00",
+     "network": "instagram",
+     "kind": "today's sky Reel",
+     "transit": "Venus sextile Mars, Moon in Sagittarius (trine Saturn)",
+     "metricoolId": 421334260
+    },
+    {
+     "date": "2026-11-11",
+     "slot": "07:00",
+     "network": "facebook",
+     "kind": "today's sky Reel",
+     "transit": "Venus sextile Mars, Moon in Sagittarius (trine Saturn)",
+     "metricoolId": 421334265
+    },
+    {
+     "date": "2026-11-11",
+     "slot": "07:00",
+     "network": "tiktok",
+     "kind": "today's sky Reel",
+     "transit": "Venus sextile Mars, Moon in Sagittarius (trine Saturn)",
+     "metricoolId": 421334270
+    },
+    {
+     "date": "2026-11-11",
+     "slot": "18:00",
+     "network": "instagram",
+     "kind": "pillar",
+     "pillar": "the journal",
+     "metricoolId": 421334278
+    },
+    {
+     "date": "2026-11-11",
+     "slot": "18:00",
+     "network": "facebook",
+     "kind": "pillar",
+     "pillar": "the journal",
+     "metricoolId": 421334285
+    },
+    {
+     "date": "2026-11-12",
+     "slot": "07:00",
+     "network": "instagram",
+     "kind": "today's sky Reel",
+     "transit": "Venus sextile Mars, Moon in Sagittarius (sextile Venus)",
+     "metricoolId": 421334467
+    },
+    {
+     "date": "2026-11-12",
+     "slot": "07:00",
+     "network": "facebook",
+     "kind": "today's sky Reel",
+     "transit": "Venus sextile Mars, Moon in Sagittarius (sextile Venus)",
+     "metricoolId": 421334476
+    },
+    {
+     "date": "2026-11-12",
+     "slot": "07:00",
+     "network": "tiktok",
+     "kind": "today's sky Reel",
+     "transit": "Venus sextile Mars, Moon in Sagittarius (sextile Venus)",
+     "metricoolId": 421334487
+    },
+    {
+     "date": "2026-11-12",
+     "slot": "18:00",
+     "network": "instagram",
+     "kind": "pillar",
+     "pillar": "don't know your birth time",
+     "metricoolId": 421334491
+    },
+    {
+     "date": "2026-11-12",
+     "slot": "18:00",
+     "network": "facebook",
+     "kind": "pillar",
+     "pillar": "don't know your birth time",
+     "metricoolId": 421334495
+    },
+    {
+     "date": "2026-11-13",
+     "slot": "07:00",
+     "network": "instagram",
+     "kind": "today's sky Reel",
+     "transit": "Mars conjunction Jupiter, Moon in Capricorn",
+     "metricoolId": 421334611
+    },
+    {
+     "date": "2026-11-13",
+     "slot": "07:00",
+     "network": "facebook",
+     "kind": "today's sky Reel",
+     "transit": "Mars conjunction Jupiter, Moon in Capricorn",
+     "metricoolId": 421334615
+    },
+    {
+     "date": "2026-11-13",
+     "slot": "07:00",
+     "network": "tiktok",
+     "kind": "today's sky Reel",
+     "transit": "Mars conjunction Jupiter, Moon in Capricorn",
+     "metricoolId": 421334622
+    },
+    {
+     "date": "2026-11-13",
+     "slot": "18:00",
+     "network": "instagram",
+     "kind": "pillar",
+     "pillar": "plain explainer (Moon sign)",
+     "metricoolId": 421334628
+    },
+    {
+     "date": "2026-11-13",
+     "slot": "18:00",
+     "network": "facebook",
+     "kind": "pillar",
+     "pillar": "plain explainer (Moon sign)",
+     "metricoolId": 421334636
+    },
+    {
+     "date": "2026-11-14",
+     "slot": "07:00",
+     "network": "instagram",
+     "kind": "today's sky Reel",
+     "transit": "Mars conjunction Jupiter, Moon in Capricorn",
+     "metricoolId": 421334771
+    },
+    {
+     "date": "2026-11-14",
+     "slot": "07:00",
+     "network": "facebook",
+     "kind": "today's sky Reel",
+     "transit": "Mars conjunction Jupiter, Moon in Capricorn",
+     "metricoolId": 421334776
+    },
+    {
+     "date": "2026-11-14",
+     "slot": "07:00",
+     "network": "tiktok",
+     "kind": "today's sky Reel",
+     "transit": "Mars conjunction Jupiter, Moon in Capricorn",
+     "metricoolId": 421334784
+    },
+    {
+     "date": "2026-11-14",
+     "slot": "18:00",
+     "network": "instagram",
+     "kind": "pillar",
+     "pillar": "sign spotlight (Scorpio)",
+     "metricoolId": 421334790
+    },
+    {
+     "date": "2026-11-14",
+     "slot": "18:00",
+     "network": "facebook",
+     "kind": "pillar",
+     "pillar": "sign spotlight (Scorpio)",
+     "metricoolId": 421334796
+    },
+    {
+     "date": "2026-11-15",
+     "slot": "07:00",
+     "network": "instagram",
+     "kind": "today's sky Reel",
+     "transit": "Mars conjunction Jupiter, Moon in Capricorn",
+     "metricoolId": 421334945
+    },
+    {
+     "date": "2026-11-15",
+     "slot": "07:00",
+     "network": "facebook",
+     "kind": "today's sky Reel",
+     "transit": "Mars conjunction Jupiter, Moon in Capricorn",
+     "metricoolId": 421334950
+    },
+    {
+     "date": "2026-11-15",
+     "slot": "07:00",
+     "network": "tiktok",
+     "kind": "today's sky Reel",
+     "transit": "Mars conjunction Jupiter, Moon in Capricorn",
+     "metricoolId": 421334959
+    },
+    {
+     "date": "2026-11-15",
+     "slot": "18:00",
+     "network": "instagram",
+     "kind": "pillar",
+     "pillar": "privacy",
+     "metricoolId": 421334967
+    },
+    {
+     "date": "2026-11-15",
+     "slot": "18:00",
+     "network": "facebook",
+     "kind": "pillar",
+     "pillar": "privacy",
+     "metricoolId": 421334978
+    }
+   ]
+  }
+ ],
+ "events": [
+  {
+   "type": "tiktok-launch",
+   "date": "2026-11-07",
+   "note": "TikTok @tideglyph connected to brand 7442919. Four launch posts, autoPublish true. Reels re-rendered with Tideglyph's own music bed (make_music.py); carousel uses TikTok autoAddMusic.",
+   "posts": [
+    {
+     "time": "12:50",
+     "kind": "start-here carousel (7 photos)",
+     "metricoolId": 419835082
+    },
+    {
+     "time": "13:20",
+     "kind": "today's sky Reel 2026-11-07",
+     "metricoolId": 419836102,
+     "media": "reels/2026-11-07-m.mp4"
+    },
+    {
+     "time": "14:00",
+     "kind": "evergreen Reel one in twelve",
+     "media": "reels-evergreen/one-in-twelve-m.mp4",
+     "metricoolId": 419836110
+    },
+    {
+     "time": "14:40",
+     "kind": "evergreen Reel big three",
+     "media": "reels-evergreen/big-three-m.mp4",
+     "metricoolId": 419836122
+    }
+   ]
+  }
+ ]
 }
