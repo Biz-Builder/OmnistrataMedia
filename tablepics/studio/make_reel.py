@@ -6,6 +6,7 @@ spec.json: {"photo": "<path to a 4:5 photo>", "kick": "Weddings",
             "hook": "120 guests.<br>*120 cameras.*",
             "end": "Every guest's photos.<br>*One album.*",
             "price": "From R299, paid once"}
+            Optional "pos": CSS background-position for the opener photo (default "center 30%").
 *phrase* turns gold. <br> forces a line break.
 
 Scenes: 1 the problem over a photo (0 to 3.2s), 2 scan the QR card (3.2 to 7.6s),
@@ -96,7 +97,7 @@ html,body{{margin:0;width:1080px;height:1920px;overflow:hidden;background:{NIGHT
 </style></head><body><div class="v">
 
 <div class="sc q1">
-  <div class="bg" style="background-image:url(data:image/jpeg;base64,{photo_b64})"></div>
+  <div class="bg" style="background-image:url(data:image/jpeg;base64,{photo_b64});background-position:{spec.get('pos', 'center 30%')}"></div>
   <div class="safe">
     <div class="a" style="--d:0s">{wm}</div>
     <div class="sp"></div>
