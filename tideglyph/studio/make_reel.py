@@ -17,7 +17,7 @@ def html(spec):
     hs = 96 if n <= 38 else 86 if n <= 54 else 76 if n <= 72 else 68
     tag = f'<div class="tag a" style="--d:.5s">{esc(spec.get("tag",""))}</div>' if spec.get("tag") else ""
     journal = f'<div class="journal a" style="--d:2.4s">{esc(spec.get("journal",""))}</div>' if spec.get("journal") else ""
-    cta = esc(spec.get("cta", "Your free chart: tideglyph.com/chart"))
+    cta = esc(spec.get("cta", "Find your big three: tideglyph.com/chart"))
     return f"""<!doctype html><html><head><meta charset=utf-8><style>
 {faces()}
 *{{margin:0;padding:0;box-sizing:border-box}}

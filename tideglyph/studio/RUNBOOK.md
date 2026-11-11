@@ -33,7 +33,7 @@ For each of the next 7 days:
 1. If `tideglyph/todays-sky/YYYY-MM-DD.json` exists in the repo (written daily by Alex's job from the product's own endpoint), use its `transit_label`/`headline_transit.label`, `reading` and `journal_question` as the today's sky words. Otherwise run `python3 todays_sky.py YYYY-MM-DD` and write the words yourself from its transit_label, under the voice rules.
 2. Write that day's 18:00 pillar post. This week's rotation, one per day, no repeats (see "Pillars" below).
 3. Build the media:
-   - Today's sky: write spec.json `{eyebrow, tag, headline, journal, cta}` (eyebrow "Today's sky · 26 October", tag = the transit in plain words, cta "Your free chart: tideglyph.com/chart"). Run `python3 make_card.py spec.json ../todays-sky/YYYY-MM-DD.png` AND `python3 make_reel.py spec.json ../reels/YYYY-MM-DD.mp4` (about 40 seconds each Reel).
+   - Today's sky: write spec.json `{eyebrow, tag, headline, journal, cta}` (eyebrow "Today's sky · 26 October", tag = the transit in plain words, cta "Find your big three: tideglyph.com/chart"). Run `python3 make_card.py spec.json ../todays-sky/YYYY-MM-DD.png` AND `python3 make_reel.py spec.json ../reels/YYYY-MM-DD.mp4` (about 40 seconds each Reel).
    - Pillar: spec.json with headline + a short sub as journal and the cta, then `python3 make_card.py spec.json ../pillars/YYYY-MM-DD.png`.
 4. Commit and push (fetch and rebase first, the repo is shared with other brands). Confirm one raw PNG URL and one raw MP4 URL load.
 
@@ -41,7 +41,7 @@ For each of the next 7 days:
 Rotate through these, one per day. Each supports the ads.
 1. **One in twelve.** The whole-chart differentiator in the words of the winning ad: a Sun sign is shared with one in twelve people; the whole chart is close to one of a kind. Vary the angle each week. Best performer so far: "Two people born weeks apart can share a star sign and still have almost nothing else in common on the chart."
 2. **What the free chart shows.** Show the product: the seven signs (Sun, Moon, Mercury, Venus, Mars, Jupiter, Saturn), each with its one line. Use a clearly labelled example, never a real person's data.
-3. **Don't know your birth time?** Point to the Moon sign calculator (every Moon sign of your birth date) and the big three calculator (result on the page, no email). Facebook link for this one goes to /moon-sign-calculator, tagged.
+3. **Don't know your birth time?** The chart works with the birth date alone: Sun, Moon and five planets, and the rising sign can be added later. Facebook link goes to /chart, tagged, like every other post (since 11 Nov 2026 every post points to /chart).
 4. **Privacy.** Tideglyph does not sell personal information, and the journal is private. Facts only from the privacy notice. Never say "no tracking" or "no analytics": the site now runs cookieless Umami analytics.
 5. **The journal.** The daily reading plus a private journal that remembers.
 6. **A plain explainer.** Rising, Moon, big three or Saturn return. Do not repeat the last week's topic.
@@ -56,10 +56,10 @@ Each slot is separate Metricool posts in brand 7442919, autoPublish true, same t
 | 18:00 pillar | `instagramData: {type: "POST"}`, media = the pillar PNG | `facebookData: {type: "POST"}`, same PNG | none |
 
 Captions:
-- Instagram caption ends with: "Your free chart: link in bio."
+- Instagram caption ends with: "Find your big three, free: link in bio." (one promise from 11 Nov 2026: ads, site and posts all say "Find your big three, free")
 - Facebook caption ends with the tagged link (no shortener):
-  `https://tideglyph.com/chart?utm_source=facebook&utm_medium=organic_social&utm_campaign=tideglyph_organic&utm_content=YYYY-MM-DD_sky` (07:00) or `..._pillar` (18:00). The "Don't know your birth time?" pillar links `/moon-sign-calculator` with the same tags.
-- TikTok caption: the headline line, the journal question, then "Free chart: tideglyph.com/chart" as plain text (TikTok captions carry no clickable link). Add three or four plain hashtags at the end: #astrology #birthchart #bigthree plus the day's sign or planet. Once the TikTok bio link is live, end with "Free chart: link in bio." instead.
+  `https://tideglyph.com/chart?utm_source=facebook&utm_medium=organic_social&utm_campaign=tideglyph_organic&utm_content=YYYY-MM-DD_sky` (07:00) or `..._pillar` (18:00). Every post links /chart; no post links the other calculators.
+- TikTok caption: the headline line, the journal question, then "Find your big three: tideglyph.com/chart" as plain text (TikTok captions carry no clickable link). Add three or four plain hashtags at the end: #astrology #birthchart #bigthree plus the day's sign or planet. Once the TikTok bio link is live, end with "Find your big three, free: link in bio." instead.
 - Leave `isAiGenerated` (Instagram) and `isAigc` (TikTok) false: the cards and Reels are typographic designs, not AI imagery.
 
 After scheduling, send Daniel the Metricool planner link and a one-line summary per day so he can edit or pull anything before it fires. Flag any line that could read as a prediction so his eye goes straight to it.
