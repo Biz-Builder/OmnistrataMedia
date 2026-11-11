@@ -29,15 +29,19 @@ The single source of truth for TablePics organic content. The Monday batch and t
 - Best ad angles so far (by landing page views): Guest book (weddings), January (year-end), On their phones (birthdays).
 - The weak point is landing page to order (0 orders from 393 paid visits to 24 Oct). Alex is building the order form onto each event page (Confluence: TablePics build requests).
 
+## Changed 12 Nov 2026 (Daniel's decision)
+
+- Organic reach stayed at 0 to 7 people a post with no saves or shares, so carousels stopped. Reels only, Tue and Fri 18:30. The best Reels become ad creatives.
+- The eight queued carousels (12 to 29 Nov) and the 13 Nov wedding Reel were turned into Metricool drafts, not deleted. Leave them as drafts unless Daniel asks.
+- Paid: one campaign "TP | Year-end | Traffic | Nov 2026" (id 120250990153830507), R1,000 spend cap, ends 25 Nov 23:59. Ad set A sends to /year-end-functions (R36/day), ad set B to /demo (R35/day), same three ads in each (January, No app, Phones Reel), utm_campaign=tablepics_yearend_nov26, utm_content=<ad>-<event|demo>. Weddings get the next budget from 1 Dec.
+- New features to promote: "Reserve free, pay later" (/reserve) and the sample album (/demo). Headline approved for /reserve: "Date not set yet? Reserve your album free."
+
 ## The weekly plan
 
 | Slot | What | Networks |
 | --- | --- | --- |
-| Tue 12:30 | Carousel or single photo post | Instagram + Facebook, separate posts |
 | Tue 18:30 | Product Reel | Instagram REEL + Facebook REEL, separate posts |
-| Thu 18:30 | Carousel | Instagram + Facebook, separate posts |
 | Fri 18:30 | Product Reel | Instagram REEL + Facebook REEL, separate posts |
-| Sun 18:30 | Carousel or single photo post | Instagram + Facebook, separate posts |
 
 - Weighted to year-end functions until the end of November, then weddings for the engagement season from 1 December.
 - Keep about two weeks queued. Two slots a day at most, never a burst.
@@ -79,7 +83,7 @@ Setup: `pip install playwright qrcode --break-system-packages` if missing; Chrom
 
 1. Read this runbook and `log.json` (what is queued, what the last Friday review recommended).
 2. In Metricool brand 7462744, list what is scheduled for the next 14 days.
-3. Fill any empty slot in the weekly plan for the next 14 days: Reels on Tue and Fri 18:30, carousels or singles in the other slots. Use the best ad angles and the Friday review's one change. Build media, push, confirm URLs, schedule as above.
+3. Fill any empty slot in the weekly plan for the next 14 days: Reels on Tue and Fri 18:30 only (no carousels since 12 Nov). Use the best ad angles and the Friday review's one change. Build media, push, confirm URLs, schedule as above.
 4. Work the open items when quota allows, within what Daniel has approved.
 5. Append a `batch` entry to `log.json` (date, each post with time, network, kind, Metricool id), commit and push.
 6. Send Daniel the veto summary: flags first, one line per post, the Metricool planner link.
