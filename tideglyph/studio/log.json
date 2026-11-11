@@ -1010,6 +1010,21 @@
      "idea": "moon-sign"
     }
    ]
+  },
+  {
+   "type": "visual-refresh",
+   "date": "2026-11-11",
+   "note": "Daniel asked for decent visuals and one narrative. New make_photo.py: photo on top, words over it, big three promise underneath. Runbook now requires it for every post (photo backgrounds had been asked for on 28 Oct but the batch reverted because the runbook still named the typographic renderers).",
+   "ads": {
+    "campaign": "120250988937760507",
+    "creatives": {
+     "A oneintwelve": "1628185081506291",
+     "B oneofthree": "950479044811912",
+     "C knowyours": "1442278544125939"
+    },
+    "media": "ads-2026-11-photo/"
+   },
+   "metricool_updated": "12 to 15 Nov 07:00 sky Reels (reels-photo/) and 18:00 pillars (pillars-photo/) on Instagram and Facebook, 16 posts, captions moved to 'Find your big three, free'; 12 Nov Facebook pillar link moved from /moon-sign-calculator to /chart"
   }
  ]
 }
