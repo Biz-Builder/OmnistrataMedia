@@ -978,6 +978,38 @@
      "metricoolId": 419836122
     }
    ]
+  },
+  {
+   "type": "tiktok-format-test",
+   "date": "2026-11-11",
+   "runs": "2026-11-12 to 2026-11-25",
+   "note": "Two TikTok posts a day at 07:00 and 19:00, same idea as carousel and Reel, order swapped daily. Old 07:00 TikTok sky posts 12 to 15 Nov set to draft.",
+   "posts": [
+    {
+     "date": "2026-11-12",
+     "07:00": "carousel 424932686",
+     "19:00": "reel 424932695",
+     "idea": "one-of-three"
+    },
+    {
+     "date": "2026-11-13",
+     "07:00": "reel 424932713",
+     "19:00": "carousel 424932730",
+     "idea": "horoscope-feels-off"
+    },
+    {
+     "date": "2026-11-14",
+     "07:00": "carousel 424932741",
+     "19:00": "reel 424932759",
+     "idea": "no-birth-time"
+    },
+    {
+     "date": "2026-11-15",
+     "07:00": "reel 424932781",
+     "19:00": "carousel 424932795",
+     "idea": "moon-sign"
+    }
+   ]
   }
  ]
 }

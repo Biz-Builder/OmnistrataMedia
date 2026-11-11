@@ -7,7 +7,7 @@ The self-contained engine for Tideglyph's organic posts. A fresh cloud session u
 - Media host: this repo, Biz-Builder/OmnistrataMedia (public). Raw URL pattern: https://raw.githubusercontent.com/Biz-Builder/OmnistrataMedia/main/<path>
   - Today's sky cards: tideglyph/todays-sky/YYYY-MM-DD.png. Today's sky Reels: tideglyph/reels/YYYY-MM-DD.mp4. Pillar cards: tideglyph/pillars/YYYY-MM-DD.png.
 - Timezone: Africa/Johannesburg (UTC+02:00). Daily slots: 07:00 (today's sky, as a Reel) and 18:00 (a pillar, static card, US-facing).
-- Networks: Facebook and Instagram, as SEPARATE posts (from 26 Oct 2026). TikTok @tideglyph (Business account, connected to brand 7442919 on 7 Nov 2026) gets the 07:00 Reel only, as its own third post.
+- Networks: Facebook and Instagram, as SEPARATE posts (from 26 Oct 2026). TikTok @tideglyph (Business account, connected to brand 7442919 on 7 Nov 2026) gets the 07:00 Reel only, as its own third post. EXCEPTION 12 to 25 Nov 2026: the TikTok format test below replaces this.
 
 ## Why the format is what it is (decided 24 Oct 2026)
 - Organic reach was 34 people across 24 posts in week 2. Static posts on a new account reach almost only followers. Reels are the format Instagram shows to non-followers, so the daily today's sky post is a Reel.
@@ -79,3 +79,14 @@ If the Metricool connector is NOT available in this session: still generate, bui
 - Creative: 9:16 videos from `make_big3_video.py` (hook, then Sun, Moon and rising reveal, then "Find your big three, free"), 10 s, with the Tideglyph music bed, inside the TikTok safe zone (170 px clear on the right). Files: `tideglyph/tiktok-ads-2026-11/`.
 - Landing page: `https://tideglyph.com/chart?utm_source=tiktok&utm_medium=paid_social&utm_campaign=tideglyph_bigthree_nov26&utm_content=<angle>` (oneintwelve, oneofthree, knowyours). No TikTok pixel, same as Meta.
 - Set up in TikTok Ads Manager (self-serve is available in South Africa) by Daniel, or through the TikTok for Business connector once it is connected. Objective Traffic, optimise for clicks, South Africa, ages 18 to 44, TikTok placement only, three ads in one ad group. Same stop rule as Meta: an ad that spends R100 without 5 `form-start` events in Umami (filter utm_source=tiktok) is switched off.
+
+## TikTok format test, carousel vs Reel (12 to 25 Nov 2026)
+- Question: on TikTok, does a photo carousel or a video Reel of the SAME idea get more reach and action? BBD's TikTok grows on carousels; Tideglyph has only posted Reels. Comparing the two brands is not a fair test, so this runs inside Tideglyph.
+- Two TikTok posts a day, 12 hours apart, at 07:00 and 19:00. Both carry the same idea, the same words and the same caption; only the format differs. The order swaps each day (even days: carousel 07:00, Reel 19:00; odd days: Reel 07:00, carousel 19:00, counting 12 Nov as day 1 = carousel first) so time of day does not decide the result.
+- No today's sky Reel on TikTok during the test (the old 07:00 TikTok sky posts for 12 to 15 Nov were set to draft). Instagram and Facebook carry on unchanged.
+- Build: write a spec (id, then 5 slides: hook, three body slides, cta) and run `python3 make_slides.py spec.json ../tiktok-test-2026-11`. It writes `<id>-01.jpg` to `<id>-05.jpg` (carousel) and `<id>.mp4` (the same slides, 2.6 s each with a fade, own music bed).
+- Ideas are evergreen big three teaching, one per day: the Sun is one of three, why horoscopes feel off, no birth time, Moon sign, rising sign, the big three as a set, and similar. Hooks are short and concrete; slide 5 is the button "Find your big three, free" with tideglyph.com/chart.
+- Carousel post: the 5 JPEGs, tiktokData autoAddMusic true, photoCoverIndex 0. Reel post: the MP4, videoCoverMilliseconds 500, autoAddMusic false, isAigc false. Both PUBLIC_TO_EVERYONE, title = the hook, autoPublish true.
+- Caption: one or two lines of the idea, a comment prompt where it fits, then "Find your big three: tideglyph.com/chart" and four hashtags.
+- Scheduled so far: 12 to 15 Nov (log.json event "tiktok-format-test"). The Monday batch builds the rest through 25 Nov.
+- Read-out (Friday reviews of 20 and 27 Nov): per format, average views, (shares + saves) per view, profile visits and follows. If carousels beat Reels by 50% or more on views or on shares plus saves per view, carousels become TikTok's main format; if not, keep Reels. Under 8 posts per format is a lean, not a verdict.
