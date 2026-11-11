@@ -82,7 +82,7 @@ If the Metricool connector is NOT available in this session: still generate, bui
 
 ## TikTok format test, carousel vs Reel (12 to 25 Nov 2026)
 - Question: on TikTok, does a photo carousel or a video Reel of the SAME idea get more reach and action? BBD's TikTok grows on carousels; Tideglyph has only posted Reels. Comparing the two brands is not a fair test, so this runs inside Tideglyph.
-- Two TikTok posts a day, 12 hours apart, at 07:00 and 19:00. Both carry the same idea, the same words and the same caption; only the format differs. The order swaps each day (even days: carousel 07:00, Reel 19:00; odd days: Reel 07:00, carousel 19:00, counting 12 Nov as day 1 = carousel first) so time of day does not decide the result.
+- Two TikTok posts a day, 12 hours apart, at 07:00 and 19:00. Both carry the same idea, the same words and the same caption; only the format differs. The order swaps each day (12 Nov is day 1. Odd days: carousel 07:00, Reel 19:00. Even days: Reel 07:00, carousel 19:00) so time of day does not decide the result.
 - No today's sky Reel on TikTok during the test (the old 07:00 TikTok sky posts for 12 to 15 Nov were set to draft). Instagram and Facebook carry on unchanged.
 - Build: write a spec (id, then 5 slides: hook, three body slides, cta) and run `python3 make_slides.py spec.json ../tiktok-test-2026-11`. It writes `<id>-01.jpg` to `<id>-05.jpg` (carousel) and `<id>.mp4` (the same slides, 2.6 s each with a fade, own music bed).
 - Ideas are evergreen big three teaching, one per day: the Sun is one of three, why horoscopes feel off, no birth time, Moon sign, rising sign, the big three as a set, and similar. Hooks are short and concrete; slide 5 is the button "Find your big three, free" with tideglyph.com/chart.
