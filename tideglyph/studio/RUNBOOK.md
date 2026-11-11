@@ -33,8 +33,11 @@ For each of the next 7 days:
 1. If `tideglyph/todays-sky/YYYY-MM-DD.json` exists in the repo (written daily by Alex's job from the product's own endpoint), use its `transit_label`/`headline_transit.label`, `reading` and `journal_question` as the today's sky words. Otherwise run `python3 todays_sky.py YYYY-MM-DD` and write the words yourself from its transit_label, under the voice rules.
 2. Write that day's 18:00 pillar post. This week's rotation, one per day, no repeats (see "Pillars" below).
 3. Build the media:
-   - Today's sky: write spec.json `{eyebrow, tag, headline, journal, cta}` (eyebrow "Today's sky · 26 October", tag = the transit in plain words, cta "Find your big three: tideglyph.com/chart"). Run `python3 make_card.py spec.json ../todays-sky/YYYY-MM-DD.png` AND `python3 make_reel.py spec.json ../reels/YYYY-MM-DD.mp4` (about 40 seconds each Reel).
-   - Pillar: spec.json with headline + a short sub as journal and the cta, then `python3 make_card.py spec.json ../pillars/YYYY-MM-DD.png`.
+   - VISUALS (decided by Daniel 11 Nov 2026, do not revert to the plain typographic cards): every Instagram and Facebook post uses `make_photo.py`, a real photo from `tideglyph/photos` with the words over it and the one promise ("Find your big three, free" button and tideglyph.com/chart) underneath. Rotate photos so no photo repeats on consecutive days: sky-* photos for today's sky, people-* photos for pillars.
+   - Today's sky: spec.json `{"layout":"sky", "photo":"sky-dusk.jpg", "eyebrow":"Today's sky \u00b7 26 October", "tag":<the transit in plain words>, "hook":<headline>, "sub":<journal question>}`. Run `python3 make_photo.py spec.json ../reels-photo/YYYY-MM-DD.mp4 --reel` (9 s, own music bed, about 2 minutes). Keep the spec as `../reels-photo/YYYY-MM-DD.json`.
+   - Pillar: spec.json `{"layout":"pillar", "size":"feed", "photo":"people-window.jpg", "focus":"50% 35%", "eyebrow":<topic>, "hook":<headline>, "sub":<two plain sentences>}`, then `python3 make_photo.py spec.json ../pillars-photo/YYYY-MM-DD.png`. Every pillar leads back to the big three; the card shows Sun, Moon, Rising and five planets under the sub.
+   - Ads use the same renderer with `"layout":"ad"` (example big three card), feed and story sizes, in `../ads-2026-11-photo/`.
+   - Look at every render before scheduling: text clear of the face in people photos (adjust `focus`), nothing cut off, the button visible.
 4. Commit and push (fetch and rebase first, the repo is shared with other brands). Confirm one raw PNG URL and one raw MP4 URL load.
 
 ## Pillars (18:00)
@@ -60,7 +63,7 @@ Captions:
 - Facebook caption ends with the tagged link (no shortener):
   `https://tideglyph.com/chart?utm_source=facebook&utm_medium=organic_social&utm_campaign=tideglyph_organic&utm_content=YYYY-MM-DD_sky` (07:00) or `..._pillar` (18:00). Every post links /chart; no post links the other calculators.
 - TikTok caption: the headline line, the journal question, then "Find your big three: tideglyph.com/chart" as plain text (TikTok captions carry no clickable link). Add three or four plain hashtags at the end: #astrology #birthchart #bigthree plus the day's sign or planet. Once the TikTok bio link is live, end with "Find your big three, free: link in bio." instead.
-- Leave `isAiGenerated` (Instagram) and `isAigc` (TikTok) false: the cards and Reels are typographic designs, not AI imagery.
+- `isAiGenerated` (Instagram) and `isAigc` (TikTok) stay false: the photos are AI stills composited into designed cards and Reels, and Meta organic only requires the flag for photorealistic AI video or audio. Raise it with Daniel before switching on.
 
 After scheduling, send Daniel the Metricool planner link and a one-line summary per day so he can edit or pull anything before it fires. Flag any line that could read as a prediction so his eye goes straight to it.
 
