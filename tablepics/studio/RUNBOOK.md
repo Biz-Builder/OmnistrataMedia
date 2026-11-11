@@ -4,6 +4,8 @@ The single source of truth for TablePics organic content. The Monday batch and t
 
 ## Fixed facts
 
+- One source of truth for where marketing stands: Confluence, TablePics space, "Marketing notes: where we are" (page 18186247). Update it after every change, batch or review. The old Launch state, Paid ads, Channels and build requests pages were archived on 12 Nov.
+
 - Product: TablePics, an OmniStrata brand. QR cards on each table, guests scan with the phone camera and add photos and videos to one private album. No app, no guest account, full quality.
 - Tiers: Essentials R299 and Full R499, paid once for one event, no fee for each guest. Full adds the live slideshow, a moderator, voice notes and photo checks. Check every claim against tablepics.co.za (read the live page in the browser or with a direct fetch, never trust a summary) before it goes out.
 - Audiences, never blended in one post: year-end function organisers, engaged couples, milestone birthdays. Any other event only as a light extra.
@@ -27,7 +29,7 @@ The single source of truth for TablePics organic content. The Monday batch and t
 - Organic reach on the new account is tiny (Instagram 4 to 16 people per post, Facebook 1 to 38, in the first 8 days). Tideglyph saw the same: static posts reach almost only followers. Reels are the format shown to non-followers.
 - The ads bring nearly all site visitors (about R1.79 per landing page view). Organic supports the ads: repeat the best ad angles, show the product working, and make the profile make sense to someone who checks it after an ad.
 - Best ad angles so far (by landing page views): Guest book (weddings), January (year-end), On their phones (birthdays).
-- The weak point is landing page to order (0 orders from 393 paid visits to 24 Oct). Alex is building the order form onto each event page (Confluence: TablePics build requests).
+- The weak point is landing page to order (0 orders from 393 paid visits to 24 Oct). The order form shipped on each event page on 27 Oct; build requests now go as comments on the PRD or feature pages in the TablePics Confluence space.
 
 ## Changed 12 Nov 2026 (Daniel's decision)
 
@@ -85,7 +87,7 @@ Setup: `pip install playwright qrcode --break-system-packages` if missing; Chrom
 2. In Metricool brand 7462744, list what is scheduled for the next 14 days.
 3. Fill any empty slot in the weekly plan for the next 14 days: Reels on Tue and Fri 18:30 only (no carousels since 12 Nov). Use the best ad angles and the Friday review's one change. Build media, push, confirm URLs, schedule as above.
 4. Work the open items when quota allows, within what Daniel has approved.
-5. Append a `batch` entry to `log.json` (date, each post with time, network, kind, Metricool id), commit and push.
+5. Append a `batch` entry to `log.json` (date, each post with time, network, kind, Metricool id), commit and push. Update the Organic now table on the Confluence page "Marketing notes: where we are" (TablePics space, page 18186247), the one source of truth.
 6. Send Daniel the veto summary: flags first, one line per post, the Metricool planner link.
 
 ## Friday review (every Friday, 16:30)
@@ -94,5 +96,5 @@ Setup: `pip install playwright qrcode --break-system-packages` if missing; Chrom
 2. Umami (TablePics website): visitors by channel, by utm_content (ads and organic), and the funnel `choose-tier`, `order-start`, `order-submit`, `payment-cancelled`, paid.
 3. Meta ads: spend, landing page views and cost per landing page view per TablePics ad for the week. Report only; propose changes, never make them.
 4. Rank the week's organic posts by saves plus shares per reach, name the best and weakest hook and why, and recommend exactly one change for Monday.
-5. Send Daniel a summary under 200 words. Append a `review` entry to `log.json`, commit and push. Do not post, schedule or change anything public in this run.
+5. Send Daniel a summary under 200 words. Append a `review` entry to `log.json`, commit and push. Add a row to the Results log on the Confluence page "Marketing notes: where we are" (page 18186247) and refresh its "Where we are" lines. Do not post, schedule or change anything public in this run.
 6. End by listing any lesson that applies to every brand and offer to add it to the brand-marketing skill.
