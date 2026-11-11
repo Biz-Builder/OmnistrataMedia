@@ -1,0 +1,14 @@
+{
+ "tip-01-cards": {"photo": "../photos/how-it-works.jpg", "n": 1, "of": 12, "head": "Where the *cards go.*", "pos": "center 60%"},
+ "tip-02-mc": {"photo": "../photos/yearend-moments.jpg", "n": 2, "of": 12, "head": "One line from *the MC.*", "pos": "center 35%"},
+ "tip-03-test": {"photo": "../photos/still-time.jpg", "n": 3, "of": 12, "head": "Test it *before the night.*", "pos": "center 30%"},
+ "tip-04-cohost": {"photo": "../photos/cohosts.jpg", "n": 4, "of": 12, "head": "Share the work. *Add a co-host.*", "pos": "center 30%"},
+ "tip-05-speeches": {"photo": "../photos/rehearsal.jpg", "n": 5, "of": 12, "head": "Film *the speeches.*", "pos": "center 40%"},
+ "tip-06-signal": {"photo": "../photos/no-login.jpg", "n": 6, "of": 12, "head": "Weak signal? *No lost photos.*", "pos": "center 40%"},
+ "tip-07-screen": {"photo": "../photos/tiers.jpg", "n": 7, "of": 12, "head": "Photos on *the big screen.*", "pos": "center 30%", "full": true},
+ "tip-08-guestbook": {"photo": "../photos/messages.jpg", "n": 8, "of": 12, "head": "A guest book *that keeps.*", "pos": "center 35%"},
+ "tip-09-cover": {"photo": "../photos/any-event.jpg", "n": 9, "of": 12, "head": "A cover photo *and a few words.*", "pos": "center 35%"},
+ "tip-10-who": {"photo": "../photos/privacy.jpg", "n": 10, "of": 12, "head": "Who sees *the photos.*", "pos": "center 35%"},
+ "tip-11-zip": {"photo": "../photos/download.jpg", "n": 11, "of": 12, "head": "After the night: *one ZIP.*", "pos": "center 30%"},
+ "tip-12-date": {"photo": "../photos/date-moved.jpg", "n": 12, "of": 12, "head": "Plans change? *So can the date.*", "pos": "center 35%"}
+}
