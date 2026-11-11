@@ -446,6 +446,106 @@
    "date": "2026-11-11",
    "type": "handover",
    "note": "Budget limit from Daniel for the TablePics thread: Meta spend for TablePics is capped at R1,000 for the two weeks 12 to 25 Nov 2026 (R1,000 per brand, R2,000 total with Tideglyph). One campaign for TablePics, with different ads inside it for testing. Nothing has been changed: all TP campaigns are still paused as Daniel left them on 2 Nov. Setting up and launching the TablePics campaign within this limit is for the TablePics thread, with Daniel's approval. Note: Year-end organisers campaign already shows R1,057 spent, so a spend cap meant to allow R1,000 more must be set to about R2,057."
+  },
+  {
+   "date": "2026-11-12",
+   "type": "campaign",
+   "note": "Daniel approved build and launch (12 Nov 00:48). R1,000 cap for 12 to 25 Nov.",
+   "campaign": {
+    "id": "120250990153830507",
+    "name": "TP | Year-end | Traffic | Nov 2026",
+    "objective": "OUTCOME_TRAFFIC",
+    "spend_cap": "R1,000",
+    "stop": "2026-11-25 23:59"
+   },
+   "ad_sets": [
+    {
+     "id": "120250990155910507",
+     "name": "A Event page",
+     "daily": "R36",
+     "link": "/year-end-functions"
+    },
+    {
+     "id": "120250990155970507",
+     "name": "B Sample album",
+     "daily": "R35",
+     "link": "/demo"
+    }
+   ],
+   "targeting": "ZA, age_min 25, suggested 25 to 55, Advantage+ audience on, Facebook and Instagram only",
+   "ads": {
+    "A": [
+     "120250990163550507 January",
+     "120250990163670507 No app",
+     "120250990167040507 Phones Reel (video 1392875769338892)"
+    ],
+    "B": [
+     "120250990163740507 January",
+     "120250990163770507 No app",
+     "120250990167220507 Phones Reel"
+    ]
+   },
+   "utm": "utm_source=meta&utm_medium=paid_social&utm_campaign=tablepics_yearend_nov26&utm_content=<january|noapp|phones>-<event|demo>",
+   "copy_fix": "January copy no longer says uploads stay open 30 days after; every ad ends 'Date not set yet? Reserve your album free.'",
+   "old_campaigns": "The three October TP campaigns stay paused."
+  },
+  {
+   "date": "2026-11-12",
+   "type": "change",
+   "note": "Daniel chose 'Reels only, Tue and Fri'. Eight carousels set to Metricool drafts (not deleted): 12 Nov 425052286, 15 Nov 425052302, 17 Nov 425052317, 19 Nov 425052323, 22 Nov 425052598, 24 Nov 425052614, 26 Nov 425052631, 29 Nov 425052637. 13 Nov wedding guest book Reel replaced in place by the reserve Reel. Kept: 17 and 20 Nov year-end Reels.",
+   "posts": [
+    {
+     "date": "2026-11-13 18:30",
+     "network": "instagram",
+     "kind": "reel",
+     "angle": "reserve free, pay later",
+     "media": "tablepics/reels/2026-11-13-yearend-reserve.mp4",
+     "metricool_id": 425054805
+    },
+    {
+     "date": "2026-11-13 18:30",
+     "network": "facebook",
+     "kind": "reel",
+     "link": "/reserve",
+     "metricool_id": 425054817
+    },
+    {
+     "date": "2026-11-24 18:30",
+     "network": "instagram",
+     "kind": "reel",
+     "angle": "sample album",
+     "media": "tablepics/reels/2026-11-24-yearend-sample.mp4",
+     "metricool_id": 425054838
+    },
+    {
+     "date": "2026-11-24 18:30",
+     "network": "facebook",
+     "kind": "reel",
+     "link": "/demo",
+     "metricool_id": 425054851
+    },
+    {
+     "date": "2026-11-27 18:30",
+     "network": "instagram",
+     "kind": "reel",
+     "angle": "function next week, still time",
+     "media": "tablepics/reels/2026-11-27-yearend-nextweek.mp4",
+     "metricool_id": 425056208
+    },
+    {
+     "date": "2026-11-27 18:30",
+     "network": "facebook",
+     "kind": "reel",
+     "link": "/year-end-functions",
+     "metricool_id": 425056238
+    }
+   ],
+   "open_items": [
+    "Reminder emails carry placeholder tips until marketing writes them",
+    "Sticky order button on phones not yet requested",
+    "Daniel's test reservation and test order",
+    "Alex: This month reminders, utm on reservation, reserve headline, event photo first screen, dead clicks, Neon alert"
+   ]
   }
  ]
 }
