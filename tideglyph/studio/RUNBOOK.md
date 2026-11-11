@@ -72,3 +72,10 @@ If the Metricool connector is NOT available in this session: still generate, bui
 - TikTok's bio link needs TikTok's business verification, which Daniel is completing (7 Nov 2026). It should be `https://tideglyph.com/chart?utm_source=tiktok&utm_medium=organic_social&utm_campaign=tideglyph_organic&utm_content=bio`.
 - Instagram's bio link is set by Daniel by hand. It should be `https://tideglyph.com/chart?utm_source=instagram&utm_medium=organic_social&utm_campaign=tideglyph_organic&utm_content=bio`.
 - Pinning is manual in the apps. Daniel pins three explainer posts (one in twelve, what the free chart shows, privacy) once they exist.
+
+
+## TikTok ads (added 11 Nov 2026)
+- Organic TikTok cannot send clicks until the bio link is live (business verification pending). Captions and comments are not clickable. Paid TikTok ads carry their own clickable button, so they work before the bio link.
+- Creative: 9:16 videos from `make_big3_video.py` (hook, then Sun, Moon and rising reveal, then "Find your big three, free"), 10 s, with the Tideglyph music bed, inside the TikTok safe zone (170 px clear on the right). Files: `tideglyph/tiktok-ads-2026-11/`.
+- Landing page: `https://tideglyph.com/chart?utm_source=tiktok&utm_medium=paid_social&utm_campaign=tideglyph_bigthree_nov26&utm_content=<angle>` (oneintwelve, oneofthree, knowyours). No TikTok pixel, same as Meta.
+- Set up in TikTok Ads Manager (self-serve is available in South Africa) by Daniel, or through the TikTok for Business connector once it is connected. Objective Traffic, optimise for clicks, South Africa, ages 18 to 44, TikTok placement only, three ads in one ad group. Same stop rule as Meta: an ad that spends R100 without 5 `form-start` events in Umami (filter utm_source=tiktok) is switched off.
