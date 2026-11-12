@@ -72,8 +72,8 @@ If the Metricool connector is NOT available in this session: still generate, bui
 ## Guardrails
 - Never schedule to any brand but 7442919. Never touch BBD.
 - Keep posting paced: two slots a day on Instagram and Facebook, one on TikTok, never a burst.
-- TikTok's bio link needs TikTok's business verification, which Daniel is completing (7 Nov 2026). It should be `https://tideglyph.com/chart?utm_source=tiktok&utm_medium=organic_social&utm_campaign=tideglyph_organic&utm_content=bio`.
-- Instagram's bio link is set by Daniel by hand. It should be `https://tideglyph.com/chart?utm_source=instagram&utm_medium=organic_social&utm_campaign=tideglyph_organic&utm_content=bio`.
+- TikTok's bio link needs TikTok's business verification, which Daniel is completing (7 Nov 2026). It should be the clean `https://tideglyph.com/chart`, with no tracking tags (Daniel, 12 Nov 2026: tagged links look dodgy on a profile).
+- Instagram's bio link is set by Daniel by hand and stays clean: no tracking tags in any bio link (decided 12 Nov 2026). It is tideglyph.com; tideglyph.com/chart is the optional shorter path. Instagram visits still show in Umami by referrer.
 - Pinning is manual in the apps. Daniel pins three explainer posts (one in twelve, what the free chart shows, privacy) once they exist.
 
 
