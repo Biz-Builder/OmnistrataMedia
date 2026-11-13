@@ -1,551 +1,572 @@
 {
- "brand": "TablePics",
- "brandId": 7462744,
- "entries": [
-  {
-   "date": "2026-10-16",
-   "type": "launch",
-   "note": "20 carousels scheduled 16 Oct to 29 Nov, Tue 12:30, Thu 18:30, Sun 18:30, Instagram and Facebook together."
-  },
-  {
-   "date": "2026-10-20",
-   "type": "change",
-   "note": "Photo covers on 15 queued posts; 05-rehearsal reworded for both upload-window rules. Covers pending quota: 12-cohosts, 18-still-time, 19-date-moved."
-  },
-  {
-   "date": "2026-10-21",
-   "type": "batch",
-   "note": "Grid burst: 120 guests repost (22 Oct 12:30), How it works repost (24 Oct 12:30), singles January (26 Oct 12:30) and Your 50th (28 Oct 12:30). Old 120 guests post archived by Daniel."
-  },
-  {
-   "date": "2026-10-24",
-   "type": "review",
-   "numbers": {
-    "organic_ig_reach_per_post": "4 to 16",
-    "organic_fb_reach_per_post": "1 to 38",
-    "ads_spend_19_24_oct": "R705",
-    "ads_landing_page_views": 393,
-    "cost_per_lpv": "R1.79",
-    "umami_visitors_22_24_oct": 173,
-    "bounce_rate": "88%",
-    "choose_tier": 10,
-    "order_start": 0,
-    "paid": 0
-   },
-   "best_ad_angles": [
-    "Guest book",
-    "January",
-    "On their phones"
-   ],
-   "change": "Organic now supports the ads: two product Reels a week, Facebook as separate posts with tagged links. Order form onto each event page requested from Alex. Weekly Monday batch and Friday review set up."
-  },
-  {
-   "date": "2026-10-24",
-   "type": "batch",
-   "posts": [
+  "brand": "TablePics",
+  "brandId": 7462744,
+  "entries": [
     {
-     "date": "2026-10-27 18:30",
-     "network": "instagram",
-     "kind": "reel",
-     "angle": "weddings",
-     "metricool_id": 404897332
+      "date": "2026-10-16",
+      "type": "launch",
+      "note": "20 carousels scheduled 16 Oct to 29 Nov, Tue 12:30, Thu 18:30, Sun 18:30, Instagram and Facebook together."
     },
     {
-     "date": "2026-10-27 18:30",
-     "network": "facebook",
-     "kind": "reel",
-     "angle": "weddings",
-     "metricool_id": 404897341
+      "date": "2026-10-20",
+      "type": "change",
+      "note": "Photo covers on 15 queued posts; 05-rehearsal reworded for both upload-window rules. Covers pending quota: 12-cohosts, 18-still-time, 19-date-moved."
     },
     {
-     "date": "2026-10-30 18:30",
-     "network": "instagram",
-     "kind": "reel",
-     "angle": "year-end",
-     "metricool_id": 404897350
+      "date": "2026-10-21",
+      "type": "batch",
+      "note": "Grid burst: 120 guests repost (22 Oct 12:30), How it works repost (24 Oct 12:30), singles January (26 Oct 12:30) and Your 50th (28 Oct 12:30). Old 120 guests post archived by Daniel."
     },
     {
-     "date": "2026-10-30 18:30",
-     "network": "facebook",
-     "kind": "reel",
-     "angle": "year-end",
-     "metricool_id": 404897359
+      "date": "2026-10-24",
+      "type": "review",
+      "numbers": {
+        "organic_ig_reach_per_post": "4 to 16",
+        "organic_fb_reach_per_post": "1 to 38",
+        "ads_spend_19_24_oct": "R705",
+        "ads_landing_page_views": 393,
+        "cost_per_lpv": "R1.79",
+        "umami_visitors_22_24_oct": 173,
+        "bounce_rate": "88%",
+        "choose_tier": 10,
+        "order_start": 0,
+        "paid": 0
+      },
+      "best_ad_angles": [
+        "Guest book",
+        "January",
+        "On their phones"
+      ],
+      "change": "Organic now supports the ads: two product Reels a week, Facebook as separate posts with tagged links. Order form onto each event page requested from Alex. Weekly Monday batch and Friday review set up."
+    },
+    {
+      "date": "2026-10-24",
+      "type": "batch",
+      "posts": [
+        {
+          "date": "2026-10-27 18:30",
+          "network": "instagram",
+          "kind": "reel",
+          "angle": "weddings",
+          "metricool_id": 404897332
+        },
+        {
+          "date": "2026-10-27 18:30",
+          "network": "facebook",
+          "kind": "reel",
+          "angle": "weddings",
+          "metricool_id": 404897341
+        },
+        {
+          "date": "2026-10-30 18:30",
+          "network": "instagram",
+          "kind": "reel",
+          "angle": "year-end",
+          "metricool_id": 404897350
+        },
+        {
+          "date": "2026-10-30 18:30",
+          "network": "facebook",
+          "kind": "reel",
+          "angle": "year-end",
+          "metricool_id": 404897359
+        }
+      ]
+    },
+    {
+      "date": "2026-10-28",
+      "type": "batch",
+      "posts": [
+        {
+          "date": "2026-11-03 18:30",
+          "network": "instagram",
+          "kind": "reel",
+          "angle": "year-end phones",
+          "status": "scheduled",
+          "media": "tablepics/reels/2026-11-03-yearend-phones.mp4",
+          "metricool_id": 409258803
+        },
+        {
+          "date": "2026-11-03 18:30",
+          "network": "facebook",
+          "kind": "reel",
+          "angle": "year-end phones",
+          "status": "scheduled",
+          "media": "tablepics/reels/2026-11-03-yearend-phones.mp4",
+          "metricool_id": 409259120
+        },
+        {
+          "date": "2026-11-06 18:30",
+          "network": "instagram",
+          "kind": "reel",
+          "angle": "birthday phones",
+          "status": "scheduled",
+          "media": "tablepics/reels/2026-11-06-birthday-phones.mp4",
+          "metricool_id": 409259135
+        },
+        {
+          "date": "2026-11-06 18:30",
+          "network": "facebook",
+          "kind": "reel",
+          "angle": "birthday phones",
+          "status": "scheduled",
+          "media": "tablepics/reels/2026-11-06-birthday-phones.mp4",
+          "metricool_id": 409259164
+        },
+        {
+          "date": "2026-11-10 18:30",
+          "network": "instagram",
+          "kind": "reel",
+          "angle": "year-end no app",
+          "status": "scheduled",
+          "media": "tablepics/reels/2026-11-10-yearend-noapp.mp4",
+          "metricool_id": 409259179
+        },
+        {
+          "date": "2026-11-10 18:30",
+          "network": "facebook",
+          "kind": "reel",
+          "angle": "year-end no app",
+          "status": "scheduled",
+          "media": "tablepics/reels/2026-11-10-yearend-noapp.mp4",
+          "metricool_id": 409259201
+        }
+      ],
+      "note": "Run on Wed 28 Oct. Filled the three empty Reel slots to 11 Nov (3, 6, 10 Nov). All six went in as Metricool drafts, not scheduled: the live site tablepics.co.za could not be read from this run (proxy and fetch permission blocked), so claims were not matched to it. Canva quota ran out after one image (birthday-60th.jpg); open-item covers for 12-cohosts, 18-still-time, 19-date-moved and the 18/19 upload-window rewording still pending. No Friday review since 24 Oct."
+    },
+    {
+      "date": "2026-10-28",
+      "type": "change",
+      "note": "Daniel (live): Canva Pro trial on, get the content scheduled to support the ads. The six 3/6/10 Nov Reel drafts switched to scheduled (ids updated in the 28 Oct batch). New photos: cohosts, still-time, date-moved, wedding-guestbook. Covers rendered and pushed for 12-cohosts, 18-still-time, 19-date-moved, plus reworded slides 18/03-v2 and 19/02-v2. Swapping them into the queued posts (397758351, 397758861, 397758928) was blocked by the permission check; waiting on Daniel's explicit yes this session."
+    },
+    {
+      "date": "2026-10-28",
+      "type": "batch",
+      "posts": [
+        {
+          "date": "2026-11-13 18:30",
+          "network": "instagram",
+          "kind": "reel",
+          "angle": "weddings guest book",
+          "media": "tablepics/reels/2026-11-13-weddings-guestbook.mp4",
+          "metricool_id": 409262450
+        },
+        {
+          "date": "2026-11-13 18:30",
+          "network": "facebook",
+          "kind": "reel",
+          "angle": "weddings guest book",
+          "media": "tablepics/reels/2026-11-13-weddings-guestbook.mp4",
+          "metricool_id": 409262468
+        }
+      ]
+    },
+    {
+      "date": "2026-10-28",
+      "type": "change",
+      "note": "Daniel said yes in chat: photo covers swapped into 12-cohosts (10 Nov, now 409263658), 18-still-time (24 Nov, now 409263682, slide 3 and caption reworded to 'can open up to 7 days before') and 19-date-moved (26 Nov, now 409263709, slide 2 and caption reworded to 'any time before the uploads open'). Text-cover open item closed."
+    },
+    {
+      "date": "2026-11-02",
+      "type": "batch",
+      "posts": [],
+      "queued_checked": [
+        {
+          "date": "2026-11-03 12:30",
+          "network": "instagram+facebook",
+          "kind": "carousel",
+          "angle": "year-end slideshow",
+          "metricool_id": 400998338
+        },
+        {
+          "date": "2026-11-03 18:30",
+          "network": "instagram",
+          "kind": "reel",
+          "angle": "year-end phones",
+          "metricool_id": 409258803
+        },
+        {
+          "date": "2026-11-03 18:30",
+          "network": "facebook",
+          "kind": "reel",
+          "angle": "year-end phones",
+          "metricool_id": 409259120
+        },
+        {
+          "date": "2026-11-05 18:30",
+          "network": "instagram+facebook",
+          "kind": "carousel",
+          "angle": "weddings guest book",
+          "metricool_id": 400998415
+        },
+        {
+          "date": "2026-11-06 18:30",
+          "network": "instagram",
+          "kind": "reel",
+          "angle": "birthday phones",
+          "metricool_id": 409259135
+        },
+        {
+          "date": "2026-11-06 18:30",
+          "network": "facebook",
+          "kind": "reel",
+          "angle": "birthday phones",
+          "metricool_id": 409259164
+        },
+        {
+          "date": "2026-11-08 18:30",
+          "network": "instagram+facebook",
+          "kind": "carousel",
+          "angle": "weddings weak signal",
+          "metricool_id": 400998488
+        },
+        {
+          "date": "2026-11-10 12:30",
+          "network": "instagram+facebook",
+          "kind": "carousel",
+          "angle": "year-end co-hosts",
+          "metricool_id": 409263658
+        },
+        {
+          "date": "2026-11-10 18:30",
+          "network": "instagram",
+          "kind": "reel",
+          "angle": "year-end no app",
+          "metricool_id": 409259179
+        },
+        {
+          "date": "2026-11-10 18:30",
+          "network": "facebook",
+          "kind": "reel",
+          "angle": "year-end no app",
+          "metricool_id": 409259201
+        },
+        {
+          "date": "2026-11-12 18:30",
+          "network": "instagram+facebook",
+          "kind": "carousel",
+          "angle": "privacy",
+          "metricool_id": 400998560
+        },
+        {
+          "date": "2026-11-13 18:30",
+          "network": "instagram",
+          "kind": "reel",
+          "angle": "weddings guest book",
+          "metricool_id": 409262450
+        },
+        {
+          "date": "2026-11-13 18:30",
+          "network": "facebook",
+          "kind": "reel",
+          "angle": "weddings guest book",
+          "metricool_id": 409262468
+        },
+        {
+          "date": "2026-11-15 18:30",
+          "network": "instagram+facebook",
+          "kind": "carousel",
+          "angle": "weddings photo checks",
+          "metricool_id": 400998646
+        }
+      ],
+      "note": "Monday batch. All 10 weekly-plan slots from 3 to 16 Nov were already filled, so no new posts, no renders, no media pushed, no scheduled post changed. First empty slot is Tue 17 Nov 18:30 (Reel), then Fri 20 Nov and Tue 24 Nov, for the 9 Nov batch. Only 4 of the 10 slots in the window are year-end, so the next Reels should lean year-end per the plan.",
+      "open_items": {
+        "refund_check_19_nov": "Post 400999539. Confluence (Refund Line PRD and Spec, shipped 27 Oct) confirms 'full refund within 7 days of payment, while no guest has added media'. The 'or cancel more than 7 days before the event' half appears only on the marketing build request; the PRD says the terms hold a separate cancelled-event rule whose wording could not be read. Not changed; asked Daniel.",
+        "live_site": "tablepics.co.za still blocked: proxy 403, WebFetch permission timed out. Tier facts matched to Confluence Album Purchase page only.",
+        "cover_photo_swaps": "Five covers on reused ad photos still need Daniel's yes.",
+        "friday_review": "No review since 24 Oct. The TablePics Friday review task is disabled (suspension reason device_absent), so there was no recommendation for this batch."
+      }
+    },
+    {
+      "date": "2026-11-07",
+      "type": "review",
+      "period": "2026-11-02 to 2026-11-07 (run fired Sat 7 Nov, scheduled for Fri 6 Nov)",
+      "numbers": {
+        "organic_posts": "4 (2 carousels, 2 Reels), each on IG and FB",
+        "ig_reach": {
+          "03 Nov year-end slideshow carousel": 4,
+          "03 Nov year-end phones Reel": 7,
+          "05 Nov wedding guest book carousel": 3,
+          "06 Nov birthday phones Reel": 1
+        },
+        "fb_reach": {
+          "03 Nov carousel": 2,
+          "03 Nov Reel": 0,
+          "05 Nov carousel": 1,
+          "06 Nov Reel": 0
+        },
+        "saves_shares_all_posts": 0,
+        "likes": "0 on IG, 1 on FB (03 Nov Reel)",
+        "fb_link_clicks": 0,
+        "metricool_ig_reach_note": "Not zero but 1 to 7 per post; asked Daniel to confirm from the Instagram app",
+        "ads_status": "All TP campaigns (and the TG campaign) set Inactive by Daniel on 2 Nov 10:20 in the Ads Manager iOS app; spend 0 from 3 Nov",
+        "ads_spend_2_nov": "R49.70 across TP ads",
+        "ads_landing_page_views": 24,
+        "cost_per_lpv": {
+          "Year-end January": "R1.96",
+          "Weddings 120 cameras": "R1.91",
+          "Birthdays On their phones": "R3.21",
+          "Year-end Everyone's phone": "R1.33 (1 LPV)"
+        },
+        "ctr": {
+          "Year-end January": "2.33%",
+          "Weddings 120 cameras": "2.86%",
+          "Birthdays On their phones": "2.22%",
+          "Year-end Everyone's phone": "1.89%"
+        },
+        "umami_visitors": 41,
+        "umami_visitors_prev_period": 526,
+        "channels": {
+          "paidAds (utm_source meta)": 26,
+          "direct": 13,
+          "organicSearch": 2
+        },
+        "organic_fb_visits (tablepics_organic)": 2,
+        "utm_content": {
+          "yearend-3-january": 15,
+          "wedding-1-cameras": 8,
+          "birthday-1-never-see": 2,
+          "yearend-1-everyones-phone": 1,
+          "2026-11-03_reel": 1,
+          "2026-11-06_reel": 1
+        },
+        "bounce_rate": "92.9%",
+        "choose_tier": 1,
+        "order_start": 2,
+        "order_submit": 0,
+        "payment_cancelled": 0,
+        "paid": 0,
+        "order_start_note": "Both order-starts fired within 40 seconds of the organic FB Reel publishing (desktop, Windows, IE and US), the same sessions as the 2 organic visits. Almost certainly Meta's link preview crawler, not people. Real order-starts: 0."
+      },
+      "ranking_saves_plus_shares_per_reach": "All four posts at 0. No ranking possible; ordered by reach instead.",
+      "best_hook": "03 Nov year-end Reel: 'Year-end photos end up on everyone's phone, and most of them never reach the people who organised the night.' Most reach (7 IG, 10 views) and the only like. In season, names a problem the organiser feels this month.",
+      "weakest_hook": "06 Nov birthday Reel: 'The best photos from a 50th or a 60th...' Reach 1 IG, 0 FB. Off-season and narrow (only people with a 50th or 60th coming up), and the hook takes a long sentence to land.",
+      "change": "Monday batch: every new Reel is year-end and opens on the same 'photos on everyone's phone' problem line, varied in setting only, until the year-end window closes.",
+      "flags": [
+        "Ten queued carousels (8 Nov to 29 Nov) say 'tablepics.com (link in bio)'. The site is tablepics.co.za and the FB versions carry no tracked link. Not changed; for Daniel to decide.",
+        "Ads off since 2 Nov, so this week's site numbers are not comparable with last week."
+      ]
+    },
+    {
+      "date": "2026-11-09",
+      "type": "batch",
+      "posts": [
+        {
+          "date": "2026-11-17 18:30",
+          "network": "instagram",
+          "kind": "reel",
+          "angle": "year-end team photos on everyone's phone",
+          "hook": "Team photos? On everyone's phone.",
+          "media": "tablepics/reels/2026-11-17-yearend-team.mp4",
+          "metricool_id": 421384328
+        },
+        {
+          "date": "2026-11-17 18:30",
+          "network": "facebook",
+          "kind": "reel",
+          "angle": "year-end team photos on everyone's phone",
+          "hook": "Team photos? On everyone's phone.",
+          "media": "tablepics/reels/2026-11-17-yearend-team.mp4",
+          "metricool_id": 421384337
+        },
+        {
+          "date": "2026-11-20 18:30",
+          "network": "instagram",
+          "kind": "reel",
+          "angle": "year-end dinner photos on everyone's phone",
+          "hook": "Dinner photos? On everyone's phone.",
+          "media": "tablepics/reels/2026-11-20-yearend-dinner.mp4",
+          "metricool_id": 421384348
+        },
+        {
+          "date": "2026-11-20 18:30",
+          "network": "facebook",
+          "kind": "reel",
+          "angle": "year-end dinner photos on everyone's phone",
+          "hook": "Dinner photos? On everyone's phone.",
+          "media": "tablepics/reels/2026-11-20-yearend-dinner.mp4",
+          "metricool_id": 421384354
+        }
+      ],
+      "queued_checked": [
+        {
+          "date": "2026-11-10 12:30",
+          "metricool_id": 409263658
+        },
+        {
+          "date": "2026-11-10 18:30",
+          "metricool_id": [
+            409259179,
+            409259201
+          ]
+        },
+        {
+          "date": "2026-11-12 18:30",
+          "metricool_id": 400998560
+        },
+        {
+          "date": "2026-11-13 18:30",
+          "metricool_id": [
+            409262450,
+            409262468
+          ]
+        },
+        {
+          "date": "2026-11-15 18:30",
+          "metricool_id": 400998646
+        },
+        {
+          "date": "2026-11-17 12:30",
+          "metricool_id": 400999068
+        },
+        {
+          "date": "2026-11-19 18:30",
+          "metricool_id": 400999539
+        },
+        {
+          "date": "2026-11-22 18:30",
+          "metricool_id": 400999752
+        },
+        {
+          "date": "2026-11-24 12:30",
+          "metricool_id": 409263682
+        }
+      ],
+      "note": "Monday batch. Window 9 to 22 Nov: the only empty slots were the Tue 17 and Fri 20 Nov 18:30 Reels; both filled with year-end Reels opening on the 'on everyone's phone' problem line per the 7 Nov review's one change, varied in setting (team at an evening function, cohosts.jpg; formal dinner, messages.jpg with opener pos 22% 25%). Reused existing photos, no Canva images. make_reel.py gained an optional 'pos' for the opener photo. QR in scene 2 decodes to https://tablepics.com on both. Raw URLs confirmed 200. Nothing already scheduled was changed. Next empty slot: Tue 24 Nov 18:30 Reel, then Thu 26 Nov, Fri 27 Nov.",
+      "open_items": {
+        "refund_check_19_nov": "Post 400999539 publishes 19 Nov with refund wording still unverified against the live site (cloud run cannot read tablepics.co.za). No new refund info in Confluence since 2 Nov. Needs Daniel's yes to change or confirm.",
+        "live_site": "tablepics.co.za still not readable: WebFetch permission timed out again. New Reel claims kept to the fixed facts in the task brief and runbook (QR card per table, phone camera, no app, one private album, full quality, From R299 paid once, no fee for each guest).",
+        "tablepics_com": "The Reel end card shows tablepics.com and the QR encodes https://tablepics.com, as the runbook requires; ten queued carousels also say tablepics.com. Site is tablepics.co.za. Still for Daniel to decide.",
+        "cover_photo_swaps": "Five covers on reused ad photos still need Daniel's yes.",
+        "reserve_your_album": "Confluence 'Reserve Your Album: PRD' (draft, 7 Nov) would let a host reserve now and pay later. 'From R299, paid once' stays true under it; watch if it ships."
+      }
+    },
+    {
+      "date": "2026-11-11",
+      "type": "handover",
+      "note": "Budget limit from Daniel for the TablePics thread: Meta spend for TablePics is capped at R1,000 for the two weeks 12 to 25 Nov 2026 (R1,000 per brand, R2,000 total with Tideglyph). One campaign for TablePics, with different ads inside it for testing. Nothing has been changed: all TP campaigns are still paused as Daniel left them on 2 Nov. Setting up and launching the TablePics campaign within this limit is for the TablePics thread, with Daniel's approval. Note: Year-end organisers campaign already shows R1,057 spent, so a spend cap meant to allow R1,000 more must be set to about R2,057."
+    },
+    {
+      "date": "2026-11-12",
+      "type": "campaign",
+      "note": "Daniel approved build and launch (12 Nov 00:48). R1,000 cap for 12 to 25 Nov.",
+      "campaign": {
+        "id": "120250990153830507",
+        "name": "TP | Year-end | Traffic | Nov 2026",
+        "objective": "OUTCOME_TRAFFIC",
+        "spend_cap": "R1,000",
+        "stop": "2026-11-25 23:59"
+      },
+      "ad_sets": [
+        {
+          "id": "120250990155910507",
+          "name": "A Event page",
+          "daily": "R36",
+          "link": "/year-end-functions"
+        },
+        {
+          "id": "120250990155970507",
+          "name": "B Sample album",
+          "daily": "R35",
+          "link": "/demo"
+        }
+      ],
+      "targeting": "ZA, age_min 25, suggested 25 to 55, Advantage+ audience on, Facebook and Instagram only",
+      "ads": {
+        "A": [
+          "120250990163550507 January",
+          "120250990163670507 No app",
+          "120250990167040507 Phones Reel (video 1392875769338892)"
+        ],
+        "B": [
+          "120250990163740507 January",
+          "120250990163770507 No app",
+          "120250990167220507 Phones Reel"
+        ]
+      },
+      "utm": "utm_source=meta&utm_medium=paid_social&utm_campaign=tablepics_yearend_nov26&utm_content=<january|noapp|phones>-<event|demo>",
+      "copy_fix": "January copy no longer says uploads stay open 30 days after; every ad ends 'Date not set yet? Reserve your album free.'",
+      "old_campaigns": "The three October TP campaigns stay paused."
+    },
+    {
+      "date": "2026-11-12",
+      "type": "change",
+      "note": "Daniel chose 'Reels only, Tue and Fri'. Eight carousels set to Metricool drafts (not deleted): 12 Nov 425052286, 15 Nov 425052302, 17 Nov 425052317, 19 Nov 425052323, 22 Nov 425052598, 24 Nov 425052614, 26 Nov 425052631, 29 Nov 425052637. 13 Nov wedding guest book Reel replaced in place by the reserve Reel. Kept: 17 and 20 Nov year-end Reels.",
+      "posts": [
+        {
+          "date": "2026-11-13 18:30",
+          "network": "instagram",
+          "kind": "reel",
+          "angle": "reserve free, pay later",
+          "media": "tablepics/reels/2026-11-13-yearend-reserve.mp4",
+          "metricool_id": 425054805
+        },
+        {
+          "date": "2026-11-13 18:30",
+          "network": "facebook",
+          "kind": "reel",
+          "link": "/reserve",
+          "metricool_id": 425054817
+        },
+        {
+          "date": "2026-11-24 18:30",
+          "network": "instagram",
+          "kind": "reel",
+          "angle": "sample album",
+          "media": "tablepics/reels/2026-11-24-yearend-sample.mp4",
+          "metricool_id": 425054838
+        },
+        {
+          "date": "2026-11-24 18:30",
+          "network": "facebook",
+          "kind": "reel",
+          "link": "/demo",
+          "metricool_id": 425054851
+        },
+        {
+          "date": "2026-11-27 18:30",
+          "network": "instagram",
+          "kind": "reel",
+          "angle": "function next week, still time",
+          "media": "tablepics/reels/2026-11-27-yearend-nextweek.mp4",
+          "metricool_id": 425056208
+        },
+        {
+          "date": "2026-11-27 18:30",
+          "network": "facebook",
+          "kind": "reel",
+          "link": "/year-end-functions",
+          "metricool_id": 425056238
+        }
+      ],
+      "open_items": [
+        "Reminder emails carry placeholder tips until marketing writes them",
+        "Sticky order button on phones not yet requested",
+        "Daniel's test reservation and test order",
+        "Alex: This month reminders, utm on reservation, reserve headline, event photo first screen, dead clicks, Neon alert"
+      ]
+    },
+    {
+      "date": "2026-11-13",
+      "type": "review",
+      "period": "2026-11-09 to 2026-11-13 (scheduled run, fired Fri 13 Nov 14:51 UTC)",
+      "status": "no data: every data source was unreachable from this run",
+      "numbers": null,
+      "unreachable": {
+        "Metricool (brand 7462744)": "connector failed to connect (502)",
+        "Meta Ads (act 1642736234081287)": "connector failed to connect (502)",
+        "Umami (website 0e8aa57c-48c8-4647-9468-e095d07bdc64)": "Daniel's computer not linked (remote-devices 502) and Chrome extension not connected",
+        "Confluence page 18186247": "Atlassian connector failed to connect (502); Results log not updated"
+      },
+      "ranking_saves_plus_shares_per_reach": "Not possible: no post numbers.",
+      "best_hook": "Not assessed (no data).",
+      "weakest_hook": "Not assessed (no data).",
+      "change": "None from data. Keep last week's change (year-end Reels on the 'photos on everyone's phone' problem line) for Monday's batch. Rerun this review once the connectors are back.",
+      "notes": [
+        "Campaign 'TP | Year-end | Traffic | Nov 2026' launched 12 Nov, so this week has at most about 1.5 days of ad data even once reachable.",
+        "No numbers were invented; nothing public, scheduled or paid was changed."
+      ]
     }
-   ]
-  },
-  {
-   "date": "2026-10-28",
-   "type": "batch",
-   "posts": [
-    {
-     "date": "2026-11-03 18:30",
-     "network": "instagram",
-     "kind": "reel",
-     "angle": "year-end phones",
-     "status": "scheduled",
-     "media": "tablepics/reels/2026-11-03-yearend-phones.mp4",
-     "metricool_id": 409258803
-    },
-    {
-     "date": "2026-11-03 18:30",
-     "network": "facebook",
-     "kind": "reel",
-     "angle": "year-end phones",
-     "status": "scheduled",
-     "media": "tablepics/reels/2026-11-03-yearend-phones.mp4",
-     "metricool_id": 409259120
-    },
-    {
-     "date": "2026-11-06 18:30",
-     "network": "instagram",
-     "kind": "reel",
-     "angle": "birthday phones",
-     "status": "scheduled",
-     "media": "tablepics/reels/2026-11-06-birthday-phones.mp4",
-     "metricool_id": 409259135
-    },
-    {
-     "date": "2026-11-06 18:30",
-     "network": "facebook",
-     "kind": "reel",
-     "angle": "birthday phones",
-     "status": "scheduled",
-     "media": "tablepics/reels/2026-11-06-birthday-phones.mp4",
-     "metricool_id": 409259164
-    },
-    {
-     "date": "2026-11-10 18:30",
-     "network": "instagram",
-     "kind": "reel",
-     "angle": "year-end no app",
-     "status": "scheduled",
-     "media": "tablepics/reels/2026-11-10-yearend-noapp.mp4",
-     "metricool_id": 409259179
-    },
-    {
-     "date": "2026-11-10 18:30",
-     "network": "facebook",
-     "kind": "reel",
-     "angle": "year-end no app",
-     "status": "scheduled",
-     "media": "tablepics/reels/2026-11-10-yearend-noapp.mp4",
-     "metricool_id": 409259201
-    }
-   ],
-   "note": "Run on Wed 28 Oct. Filled the three empty Reel slots to 11 Nov (3, 6, 10 Nov). All six went in as Metricool drafts, not scheduled: the live site tablepics.co.za could not be read from this run (proxy and fetch permission blocked), so claims were not matched to it. Canva quota ran out after one image (birthday-60th.jpg); open-item covers for 12-cohosts, 18-still-time, 19-date-moved and the 18/19 upload-window rewording still pending. No Friday review since 24 Oct."
-  },
-  {
-   "date": "2026-10-28",
-   "type": "change",
-   "note": "Daniel (live): Canva Pro trial on, get the content scheduled to support the ads. The six 3/6/10 Nov Reel drafts switched to scheduled (ids updated in the 28 Oct batch). New photos: cohosts, still-time, date-moved, wedding-guestbook. Covers rendered and pushed for 12-cohosts, 18-still-time, 19-date-moved, plus reworded slides 18/03-v2 and 19/02-v2. Swapping them into the queued posts (397758351, 397758861, 397758928) was blocked by the permission check; waiting on Daniel's explicit yes this session."
-  },
-  {
-   "date": "2026-10-28",
-   "type": "batch",
-   "posts": [
-    {
-     "date": "2026-11-13 18:30",
-     "network": "instagram",
-     "kind": "reel",
-     "angle": "weddings guest book",
-     "media": "tablepics/reels/2026-11-13-weddings-guestbook.mp4",
-     "metricool_id": 409262450
-    },
-    {
-     "date": "2026-11-13 18:30",
-     "network": "facebook",
-     "kind": "reel",
-     "angle": "weddings guest book",
-     "media": "tablepics/reels/2026-11-13-weddings-guestbook.mp4",
-     "metricool_id": 409262468
-    }
-   ]
-  },
-  {
-   "date": "2026-10-28",
-   "type": "change",
-   "note": "Daniel said yes in chat: photo covers swapped into 12-cohosts (10 Nov, now 409263658), 18-still-time (24 Nov, now 409263682, slide 3 and caption reworded to 'can open up to 7 days before') and 19-date-moved (26 Nov, now 409263709, slide 2 and caption reworded to 'any time before the uploads open'). Text-cover open item closed."
-  },
-  {
-   "date": "2026-11-02",
-   "type": "batch",
-   "posts": [],
-   "queued_checked": [
-    {
-     "date": "2026-11-03 12:30",
-     "network": "instagram+facebook",
-     "kind": "carousel",
-     "angle": "year-end slideshow",
-     "metricool_id": 400998338
-    },
-    {
-     "date": "2026-11-03 18:30",
-     "network": "instagram",
-     "kind": "reel",
-     "angle": "year-end phones",
-     "metricool_id": 409258803
-    },
-    {
-     "date": "2026-11-03 18:30",
-     "network": "facebook",
-     "kind": "reel",
-     "angle": "year-end phones",
-     "metricool_id": 409259120
-    },
-    {
-     "date": "2026-11-05 18:30",
-     "network": "instagram+facebook",
-     "kind": "carousel",
-     "angle": "weddings guest book",
-     "metricool_id": 400998415
-    },
-    {
-     "date": "2026-11-06 18:30",
-     "network": "instagram",
-     "kind": "reel",
-     "angle": "birthday phones",
-     "metricool_id": 409259135
-    },
-    {
-     "date": "2026-11-06 18:30",
-     "network": "facebook",
-     "kind": "reel",
-     "angle": "birthday phones",
-     "metricool_id": 409259164
-    },
-    {
-     "date": "2026-11-08 18:30",
-     "network": "instagram+facebook",
-     "kind": "carousel",
-     "angle": "weddings weak signal",
-     "metricool_id": 400998488
-    },
-    {
-     "date": "2026-11-10 12:30",
-     "network": "instagram+facebook",
-     "kind": "carousel",
-     "angle": "year-end co-hosts",
-     "metricool_id": 409263658
-    },
-    {
-     "date": "2026-11-10 18:30",
-     "network": "instagram",
-     "kind": "reel",
-     "angle": "year-end no app",
-     "metricool_id": 409259179
-    },
-    {
-     "date": "2026-11-10 18:30",
-     "network": "facebook",
-     "kind": "reel",
-     "angle": "year-end no app",
-     "metricool_id": 409259201
-    },
-    {
-     "date": "2026-11-12 18:30",
-     "network": "instagram+facebook",
-     "kind": "carousel",
-     "angle": "privacy",
-     "metricool_id": 400998560
-    },
-    {
-     "date": "2026-11-13 18:30",
-     "network": "instagram",
-     "kind": "reel",
-     "angle": "weddings guest book",
-     "metricool_id": 409262450
-    },
-    {
-     "date": "2026-11-13 18:30",
-     "network": "facebook",
-     "kind": "reel",
-     "angle": "weddings guest book",
-     "metricool_id": 409262468
-    },
-    {
-     "date": "2026-11-15 18:30",
-     "network": "instagram+facebook",
-     "kind": "carousel",
-     "angle": "weddings photo checks",
-     "metricool_id": 400998646
-    }
-   ],
-   "note": "Monday batch. All 10 weekly-plan slots from 3 to 16 Nov were already filled, so no new posts, no renders, no media pushed, no scheduled post changed. First empty slot is Tue 17 Nov 18:30 (Reel), then Fri 20 Nov and Tue 24 Nov, for the 9 Nov batch. Only 4 of the 10 slots in the window are year-end, so the next Reels should lean year-end per the plan.",
-   "open_items": {
-    "refund_check_19_nov": "Post 400999539. Confluence (Refund Line PRD and Spec, shipped 27 Oct) confirms 'full refund within 7 days of payment, while no guest has added media'. The 'or cancel more than 7 days before the event' half appears only on the marketing build request; the PRD says the terms hold a separate cancelled-event rule whose wording could not be read. Not changed; asked Daniel.",
-    "live_site": "tablepics.co.za still blocked: proxy 403, WebFetch permission timed out. Tier facts matched to Confluence Album Purchase page only.",
-    "cover_photo_swaps": "Five covers on reused ad photos still need Daniel's yes.",
-    "friday_review": "No review since 24 Oct. The TablePics Friday review task is disabled (suspension reason device_absent), so there was no recommendation for this batch."
-   }
-  },
-  {
-   "date": "2026-11-07",
-   "type": "review",
-   "period": "2026-11-02 to 2026-11-07 (run fired Sat 7 Nov, scheduled for Fri 6 Nov)",
-   "numbers": {
-    "organic_posts": "4 (2 carousels, 2 Reels), each on IG and FB",
-    "ig_reach": {
-     "03 Nov year-end slideshow carousel": 4,
-     "03 Nov year-end phones Reel": 7,
-     "05 Nov wedding guest book carousel": 3,
-     "06 Nov birthday phones Reel": 1
-    },
-    "fb_reach": {
-     "03 Nov carousel": 2,
-     "03 Nov Reel": 0,
-     "05 Nov carousel": 1,
-     "06 Nov Reel": 0
-    },
-    "saves_shares_all_posts": 0,
-    "likes": "0 on IG, 1 on FB (03 Nov Reel)",
-    "fb_link_clicks": 0,
-    "metricool_ig_reach_note": "Not zero but 1 to 7 per post; asked Daniel to confirm from the Instagram app",
-    "ads_status": "All TP campaigns (and the TG campaign) set Inactive by Daniel on 2 Nov 10:20 in the Ads Manager iOS app; spend 0 from 3 Nov",
-    "ads_spend_2_nov": "R49.70 across TP ads",
-    "ads_landing_page_views": 24,
-    "cost_per_lpv": {
-     "Year-end January": "R1.96",
-     "Weddings 120 cameras": "R1.91",
-     "Birthdays On their phones": "R3.21",
-     "Year-end Everyone's phone": "R1.33 (1 LPV)"
-    },
-    "ctr": {
-     "Year-end January": "2.33%",
-     "Weddings 120 cameras": "2.86%",
-     "Birthdays On their phones": "2.22%",
-     "Year-end Everyone's phone": "1.89%"
-    },
-    "umami_visitors": 41,
-    "umami_visitors_prev_period": 526,
-    "channels": {
-     "paidAds (utm_source meta)": 26,
-     "direct": 13,
-     "organicSearch": 2
-    },
-    "organic_fb_visits (tablepics_organic)": 2,
-    "utm_content": {
-     "yearend-3-january": 15,
-     "wedding-1-cameras": 8,
-     "birthday-1-never-see": 2,
-     "yearend-1-everyones-phone": 1,
-     "2026-11-03_reel": 1,
-     "2026-11-06_reel": 1
-    },
-    "bounce_rate": "92.9%",
-    "choose_tier": 1,
-    "order_start": 2,
-    "order_submit": 0,
-    "payment_cancelled": 0,
-    "paid": 0,
-    "order_start_note": "Both order-starts fired within 40 seconds of the organic FB Reel publishing (desktop, Windows, IE and US), the same sessions as the 2 organic visits. Almost certainly Meta's link preview crawler, not people. Real order-starts: 0."
-   },
-   "ranking_saves_plus_shares_per_reach": "All four posts at 0. No ranking possible; ordered by reach instead.",
-   "best_hook": "03 Nov year-end Reel: 'Year-end photos end up on everyone's phone, and most of them never reach the people who organised the night.' Most reach (7 IG, 10 views) and the only like. In season, names a problem the organiser feels this month.",
-   "weakest_hook": "06 Nov birthday Reel: 'The best photos from a 50th or a 60th...' Reach 1 IG, 0 FB. Off-season and narrow (only people with a 50th or 60th coming up), and the hook takes a long sentence to land.",
-   "change": "Monday batch: every new Reel is year-end and opens on the same 'photos on everyone's phone' problem line, varied in setting only, until the year-end window closes.",
-   "flags": [
-    "Ten queued carousels (8 Nov to 29 Nov) say 'tablepics.com (link in bio)'. The site is tablepics.co.za and the FB versions carry no tracked link. Not changed; for Daniel to decide.",
-    "Ads off since 2 Nov, so this week's site numbers are not comparable with last week."
-   ]
-  },
-  {
-   "date": "2026-11-09",
-   "type": "batch",
-   "posts": [
-    {
-     "date": "2026-11-17 18:30",
-     "network": "instagram",
-     "kind": "reel",
-     "angle": "year-end team photos on everyone's phone",
-     "hook": "Team photos? On everyone's phone.",
-     "media": "tablepics/reels/2026-11-17-yearend-team.mp4",
-     "metricool_id": 421384328
-    },
-    {
-     "date": "2026-11-17 18:30",
-     "network": "facebook",
-     "kind": "reel",
-     "angle": "year-end team photos on everyone's phone",
-     "hook": "Team photos? On everyone's phone.",
-     "media": "tablepics/reels/2026-11-17-yearend-team.mp4",
-     "metricool_id": 421384337
-    },
-    {
-     "date": "2026-11-20 18:30",
-     "network": "instagram",
-     "kind": "reel",
-     "angle": "year-end dinner photos on everyone's phone",
-     "hook": "Dinner photos? On everyone's phone.",
-     "media": "tablepics/reels/2026-11-20-yearend-dinner.mp4",
-     "metricool_id": 421384348
-    },
-    {
-     "date": "2026-11-20 18:30",
-     "network": "facebook",
-     "kind": "reel",
-     "angle": "year-end dinner photos on everyone's phone",
-     "hook": "Dinner photos? On everyone's phone.",
-     "media": "tablepics/reels/2026-11-20-yearend-dinner.mp4",
-     "metricool_id": 421384354
-    }
-   ],
-   "queued_checked": [
-    {
-     "date": "2026-11-10 12:30",
-     "metricool_id": 409263658
-    },
-    {
-     "date": "2026-11-10 18:30",
-     "metricool_id": [
-      409259179,
-      409259201
-     ]
-    },
-    {
-     "date": "2026-11-12 18:30",
-     "metricool_id": 400998560
-    },
-    {
-     "date": "2026-11-13 18:30",
-     "metricool_id": [
-      409262450,
-      409262468
-     ]
-    },
-    {
-     "date": "2026-11-15 18:30",
-     "metricool_id": 400998646
-    },
-    {
-     "date": "2026-11-17 12:30",
-     "metricool_id": 400999068
-    },
-    {
-     "date": "2026-11-19 18:30",
-     "metricool_id": 400999539
-    },
-    {
-     "date": "2026-11-22 18:30",
-     "metricool_id": 400999752
-    },
-    {
-     "date": "2026-11-24 12:30",
-     "metricool_id": 409263682
-    }
-   ],
-   "note": "Monday batch. Window 9 to 22 Nov: the only empty slots were the Tue 17 and Fri 20 Nov 18:30 Reels; both filled with year-end Reels opening on the 'on everyone's phone' problem line per the 7 Nov review's one change, varied in setting (team at an evening function, cohosts.jpg; formal dinner, messages.jpg with opener pos 22% 25%). Reused existing photos, no Canva images. make_reel.py gained an optional 'pos' for the opener photo. QR in scene 2 decodes to https://tablepics.com on both. Raw URLs confirmed 200. Nothing already scheduled was changed. Next empty slot: Tue 24 Nov 18:30 Reel, then Thu 26 Nov, Fri 27 Nov.",
-   "open_items": {
-    "refund_check_19_nov": "Post 400999539 publishes 19 Nov with refund wording still unverified against the live site (cloud run cannot read tablepics.co.za). No new refund info in Confluence since 2 Nov. Needs Daniel's yes to change or confirm.",
-    "live_site": "tablepics.co.za still not readable: WebFetch permission timed out again. New Reel claims kept to the fixed facts in the task brief and runbook (QR card per table, phone camera, no app, one private album, full quality, From R299 paid once, no fee for each guest).",
-    "tablepics_com": "The Reel end card shows tablepics.com and the QR encodes https://tablepics.com, as the runbook requires; ten queued carousels also say tablepics.com. Site is tablepics.co.za. Still for Daniel to decide.",
-    "cover_photo_swaps": "Five covers on reused ad photos still need Daniel's yes.",
-    "reserve_your_album": "Confluence 'Reserve Your Album: PRD' (draft, 7 Nov) would let a host reserve now and pay later. 'From R299, paid once' stays true under it; watch if it ships."
-   }
-  },
-  {
-   "date": "2026-11-11",
-   "type": "handover",
-   "note": "Budget limit from Daniel for the TablePics thread: Meta spend for TablePics is capped at R1,000 for the two weeks 12 to 25 Nov 2026 (R1,000 per brand, R2,000 total with Tideglyph). One campaign for TablePics, with different ads inside it for testing. Nothing has been changed: all TP campaigns are still paused as Daniel left them on 2 Nov. Setting up and launching the TablePics campaign within this limit is for the TablePics thread, with Daniel's approval. Note: Year-end organisers campaign already shows R1,057 spent, so a spend cap meant to allow R1,000 more must be set to about R2,057."
-  },
-  {
-   "date": "2026-11-12",
-   "type": "campaign",
-   "note": "Daniel approved build and launch (12 Nov 00:48). R1,000 cap for 12 to 25 Nov.",
-   "campaign": {
-    "id": "120250990153830507",
-    "name": "TP | Year-end | Traffic | Nov 2026",
-    "objective": "OUTCOME_TRAFFIC",
-    "spend_cap": "R1,000",
-    "stop": "2026-11-25 23:59"
-   },
-   "ad_sets": [
-    {
-     "id": "120250990155910507",
-     "name": "A Event page",
-     "daily": "R36",
-     "link": "/year-end-functions"
-    },
-    {
-     "id": "120250990155970507",
-     "name": "B Sample album",
-     "daily": "R35",
-     "link": "/demo"
-    }
-   ],
-   "targeting": "ZA, age_min 25, suggested 25 to 55, Advantage+ audience on, Facebook and Instagram only",
-   "ads": {
-    "A": [
-     "120250990163550507 January",
-     "120250990163670507 No app",
-     "120250990167040507 Phones Reel (video 1392875769338892)"
-    ],
-    "B": [
-     "120250990163740507 January",
-     "120250990163770507 No app",
-     "120250990167220507 Phones Reel"
-    ]
-   },
-   "utm": "utm_source=meta&utm_medium=paid_social&utm_campaign=tablepics_yearend_nov26&utm_content=<january|noapp|phones>-<event|demo>",
-   "copy_fix": "January copy no longer says uploads stay open 30 days after; every ad ends 'Date not set yet? Reserve your album free.'",
-   "old_campaigns": "The three October TP campaigns stay paused."
-  },
-  {
-   "date": "2026-11-12",
-   "type": "change",
-   "note": "Daniel chose 'Reels only, Tue and Fri'. Eight carousels set to Metricool drafts (not deleted): 12 Nov 425052286, 15 Nov 425052302, 17 Nov 425052317, 19 Nov 425052323, 22 Nov 425052598, 24 Nov 425052614, 26 Nov 425052631, 29 Nov 425052637. 13 Nov wedding guest book Reel replaced in place by the reserve Reel. Kept: 17 and 20 Nov year-end Reels.",
-   "posts": [
-    {
-     "date": "2026-11-13 18:30",
-     "network": "instagram",
-     "kind": "reel",
-     "angle": "reserve free, pay later",
-     "media": "tablepics/reels/2026-11-13-yearend-reserve.mp4",
-     "metricool_id": 425054805
-    },
-    {
-     "date": "2026-11-13 18:30",
-     "network": "facebook",
-     "kind": "reel",
-     "link": "/reserve",
-     "metricool_id": 425054817
-    },
-    {
-     "date": "2026-11-24 18:30",
-     "network": "instagram",
-     "kind": "reel",
-     "angle": "sample album",
-     "media": "tablepics/reels/2026-11-24-yearend-sample.mp4",
-     "metricool_id": 425054838
-    },
-    {
-     "date": "2026-11-24 18:30",
-     "network": "facebook",
-     "kind": "reel",
-     "link": "/demo",
-     "metricool_id": 425054851
-    },
-    {
-     "date": "2026-11-27 18:30",
-     "network": "instagram",
-     "kind": "reel",
-     "angle": "function next week, still time",
-     "media": "tablepics/reels/2026-11-27-yearend-nextweek.mp4",
-     "metricool_id": 425056208
-    },
-    {
-     "date": "2026-11-27 18:30",
-     "network": "facebook",
-     "kind": "reel",
-     "link": "/year-end-functions",
-     "metricool_id": 425056238
-    }
-   ],
-   "open_items": [
-    "Reminder emails carry placeholder tips until marketing writes them",
-    "Sticky order button on phones not yet requested",
-    "Daniel's test reservation and test order",
-    "Alex: This month reminders, utm on reservation, reserve headline, event photo first screen, dead clicks, Neon alert"
-   ]
-  }
- ]
+  ]
 }
