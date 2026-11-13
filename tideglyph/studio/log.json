@@ -946,6 +946,32 @@
      "metricoolId": 421334978
     }
    ]
+  },
+  {
+   "date": "2026-11-13",
+   "type": "review",
+   "week": "2026-11-07 to 2026-11-13",
+   "networks": [
+    "facebook",
+    "instagram",
+    "tiktok"
+   ],
+   "status": "Week 5. Review-only run: nothing posted, scheduled or changed. No performance numbers this run. The Metricool and Meta Ads connectors both failed to connect this session (502), so social metrics and Meta ad spend could not be pulled. Umami is not reachable from a scheduled cloud run (it lives on Daniel's computer, which was not bridged). No numbers invented.",
+   "numbers": {
+    "facebook": "unavailable - Metricool connector failed to connect this run (502)",
+    "instagram": "unavailable - Metricool connector failed to connect this run (502)",
+    "tiktok": "unavailable - Metricool connector failed to connect this run (502)",
+    "metaAds": "unavailable - Meta Ads connector failed to connect this run (502); account 1642736234081287 not queried",
+    "umami": "unavailable - website analytics live on Daniel's computer, not reachable from a scheduled cloud run",
+    "email": "MailerLite not wired up for Tideglyph yet (connector also shows needs_reconnect); email metrics skipped per method"
+   },
+   "ranking": "Could not rank Instagram/Facebook posts by (saves+shares)/reach: no Metricool access this run.",
+   "bestHook": "Not assessable this run: no post-level reach or engagement data (Metricool down).",
+   "weakestHook": "Not assessable this run: no post-level reach or engagement data (Metricool down).",
+   "tiktokFormatTest": "Test runs 12 to 25 Nov; 13 Nov is day 2, far below the 8-posts-per-format floor for even a lean. No format numbers pullable this run (Metricool down). By the schedule, through 13 Nov only about 2 carousels and 2 Reels have posted at all, so a carousel-vs-Reel read is not yet possible regardless of connector status. First lean due 20 Nov, verdict 27 Nov.",
+   "oneChange": "For Monday's batch (Nov 16-22): convert the 18:00 pillar slot from a static card to a Reel/video (make_photo.py --reel), keeping the today's-sky Reel as is. Reason: carried forward from the last three reviews, which all showed Reels reach far more non-followers than static pillars (week 4: about 160 vs 17 on Instagram, roughly 9x). The Nov 9-15 batch still shipped pillars as static POSTs, so this standing, data-backed change is not yet applied. No new numbers this week to supersede it.",
+   "note": "Review-only; no public changes. Data pulls blocked by connector/bridge availability this run, not by the brand. Re-running the review once Metricool and Meta Ads reconnect would recover this week's numbers.",
+   "runType": "review-only; no public changes; data unavailable"
   }
  ],
  "events": [
