@@ -972,6 +972,357 @@
    "oneChange": "For Monday's batch (Nov 16-22): convert the 18:00 pillar slot from a static card to a Reel/video (make_photo.py --reel), keeping the today's-sky Reel as is. Reason: carried forward from the last three reviews, which all showed Reels reach far more non-followers than static pillars (week 4: about 160 vs 17 on Instagram, roughly 9x). The Nov 9-15 batch still shipped pillars as static POSTs, so this standing, data-backed change is not yet applied. No new numbers this week to supersede it.",
    "note": "Review-only; no public changes. Data pulls blocked by connector/bridge availability this run, not by the brand. Re-running the review once Metricool and Meta Ads reconnect would recover this week's numbers.",
    "runType": "review-only; no public changes; data unavailable"
+  },
+  {
+   "date": "2026-11-16",
+   "type": "weekly-batch-scheduled",
+   "window": "2026-11-16 to 2026-11-22",
+   "brandId": 7442919,
+   "brand": "Tideglyph",
+   "timezone": "Africa/Johannesburg",
+   "slots": "07:00 today's sky Reel (IG REEL + FB REEL), 18:00 pillar photo card (IG POST + FB POST), plus TikTok format test 2/day at 07:00 and 19:00",
+   "model": "Monday batch firing 05:33 SAST. Next-7-days window Nov 16 to Nov 22; prior batch stopped at Nov 15 so this run covered the full week. Photo-led visuals only (make_photo.py): sky Reels reels-photo/, pillars pillars-photo/. Each slot separate Metricool posts, autoPublish true. 07:00 IG+FB REEL on the MP4, videoCoverMilliseconds 7500. 18:00 IG+FB POST on the pillar PNG. IG captions end 'Find your big three, free: link in bio.'; FB captions end 'Find your big three, free:' + tagged /chart link (every post /chart since 11 Nov), utm_content YYYY-MM-DD_sky or _pillar. TikTok gets NO sky Reel during the format test; it gets the two test posts instead.",
+   "pillarRotation": "Nov 16 one in twelve, Nov 17 what the free chart shows, Nov 18 the journal, Nov 19 don't know your birth time, Nov 20 plain explainer (inner planets Mercury/Venus/Mars), Nov 21 privacy, Nov 22 sign spotlight (Scorpio-to-Sagittarius handover). All seven, one per day, no repeats. Explainer topic inner planets chosen because the last explainers were Moon sign (Nov 13), rising sign (Nov 8) and big three (Oct 31).",
+   "renderer": "make_photo.py only (photo-led, Daniel 11 Nov). Sky photos rotated sky-starfield/dusk/moon-water/dawn (no consecutive repeat); pillar photos people-crowd/phone/journal/window/portrait/home (no consecutive repeat). Reels carry the owned ambient bed. isAiGenerated/isAigc left false (scrim-and-type over AI stills).",
+   "posts": [
+    {
+     "date": "2026-11-16",
+     "slot": "07:00",
+     "network": "instagram",
+     "kind": "today's sky Reel",
+     "transit": "Mars conjunction Jupiter",
+     "metricoolId": 429566475
+    },
+    {
+     "date": "2026-11-16",
+     "slot": "07:00",
+     "network": "facebook",
+     "kind": "today's sky Reel",
+     "transit": "Mars conjunction Jupiter",
+     "metricoolId": 429566484
+    },
+    {
+     "date": "2026-11-16",
+     "slot": "07:00",
+     "network": "tiktok",
+     "kind": "format-test carousel",
+     "idea": "rising-sign",
+     "metricoolId": 429566496
+    },
+    {
+     "date": "2026-11-16",
+     "slot": "18:00",
+     "network": "instagram",
+     "kind": "pillar",
+     "pillar": "one in twelve",
+     "metricoolId": 429566506
+    },
+    {
+     "date": "2026-11-16",
+     "slot": "18:00",
+     "network": "facebook",
+     "kind": "pillar",
+     "pillar": "one in twelve",
+     "metricoolId": 429566510
+    },
+    {
+     "date": "2026-11-16",
+     "slot": "19:00",
+     "network": "tiktok",
+     "kind": "format-test reel",
+     "idea": "rising-sign",
+     "metricoolId": 429566521
+    },
+    {
+     "date": "2026-11-17",
+     "slot": "07:00",
+     "network": "instagram",
+     "kind": "today's sky Reel",
+     "transit": "Mars conjunction Jupiter",
+     "metricoolId": 429566788
+    },
+    {
+     "date": "2026-11-17",
+     "slot": "07:00",
+     "network": "facebook",
+     "kind": "today's sky Reel",
+     "transit": "Mars conjunction Jupiter",
+     "metricoolId": 429566796
+    },
+    {
+     "date": "2026-11-17",
+     "slot": "07:00",
+     "network": "tiktok",
+     "kind": "format-test reel",
+     "idea": "mercury-sign",
+     "metricoolId": 429566808
+    },
+    {
+     "date": "2026-11-17",
+     "slot": "18:00",
+     "network": "instagram",
+     "kind": "pillar",
+     "pillar": "what the free chart shows",
+     "metricoolId": 429566814
+    },
+    {
+     "date": "2026-11-17",
+     "slot": "18:00",
+     "network": "facebook",
+     "kind": "pillar",
+     "pillar": "what the free chart shows",
+     "metricoolId": 429566821
+    },
+    {
+     "date": "2026-11-17",
+     "slot": "19:00",
+     "network": "tiktok",
+     "kind": "format-test carousel",
+     "idea": "mercury-sign",
+     "metricoolId": 429566830
+    },
+    {
+     "date": "2026-11-18",
+     "slot": "07:00",
+     "network": "instagram",
+     "kind": "today's sky Reel",
+     "transit": "Sun square Jupiter",
+     "metricoolId": 429567025
+    },
+    {
+     "date": "2026-11-18",
+     "slot": "07:00",
+     "network": "facebook",
+     "kind": "today's sky Reel",
+     "transit": "Sun square Jupiter",
+     "metricoolId": 429567035
+    },
+    {
+     "date": "2026-11-18",
+     "slot": "07:00",
+     "network": "tiktok",
+     "kind": "format-test carousel",
+     "idea": "mars-sign",
+     "metricoolId": 429567050
+    },
+    {
+     "date": "2026-11-18",
+     "slot": "18:00",
+     "network": "instagram",
+     "kind": "pillar",
+     "pillar": "the journal",
+     "metricoolId": 429567057
+    },
+    {
+     "date": "2026-11-18",
+     "slot": "18:00",
+     "network": "facebook",
+     "kind": "pillar",
+     "pillar": "the journal",
+     "metricoolId": 429567070
+    },
+    {
+     "date": "2026-11-18",
+     "slot": "19:00",
+     "network": "tiktok",
+     "kind": "format-test reel",
+     "idea": "mars-sign",
+     "metricoolId": 429567079
+    },
+    {
+     "date": "2026-11-19",
+     "slot": "07:00",
+     "network": "instagram",
+     "kind": "today's sky Reel",
+     "transit": "Sun square Mars",
+     "metricoolId": 429567216
+    },
+    {
+     "date": "2026-11-19",
+     "slot": "07:00",
+     "network": "facebook",
+     "kind": "today's sky Reel",
+     "transit": "Sun square Mars",
+     "metricoolId": 429567222
+    },
+    {
+     "date": "2026-11-19",
+     "slot": "07:00",
+     "network": "tiktok",
+     "kind": "format-test reel",
+     "idea": "same-day-different-chart",
+     "metricoolId": 429567525
+    },
+    {
+     "date": "2026-11-19",
+     "slot": "18:00",
+     "network": "instagram",
+     "kind": "pillar",
+     "pillar": "don't know your birth time",
+     "metricoolId": 429567529
+    },
+    {
+     "date": "2026-11-19",
+     "slot": "18:00",
+     "network": "facebook",
+     "kind": "pillar",
+     "pillar": "don't know your birth time",
+     "metricoolId": 429567534
+    },
+    {
+     "date": "2026-11-19",
+     "slot": "19:00",
+     "network": "tiktok",
+     "kind": "format-test carousel",
+     "idea": "same-day-different-chart",
+     "metricoolId": 429567541
+    },
+    {
+     "date": "2026-11-20",
+     "slot": "07:00",
+     "network": "instagram",
+     "kind": "today's sky Reel",
+     "transit": "Sun square Mars",
+     "metricoolId": 429567856
+    },
+    {
+     "date": "2026-11-20",
+     "slot": "07:00",
+     "network": "facebook",
+     "kind": "today's sky Reel",
+     "transit": "Sun square Mars",
+     "metricoolId": 429567863
+    },
+    {
+     "date": "2026-11-20",
+     "slot": "07:00",
+     "network": "tiktok",
+     "kind": "format-test carousel",
+     "idea": "saturn-sign",
+     "metricoolId": 429567869
+    },
+    {
+     "date": "2026-11-20",
+     "slot": "18:00",
+     "network": "instagram",
+     "kind": "pillar",
+     "pillar": "a plain explainer (inner planets)",
+     "metricoolId": 429567875
+    },
+    {
+     "date": "2026-11-20",
+     "slot": "18:00",
+     "network": "facebook",
+     "kind": "pillar",
+     "pillar": "a plain explainer (inner planets)",
+     "metricoolId": 429567881
+    },
+    {
+     "date": "2026-11-20",
+     "slot": "19:00",
+     "network": "tiktok",
+     "kind": "format-test reel",
+     "idea": "saturn-sign",
+     "metricoolId": 429567882
+    },
+    {
+     "date": "2026-11-21",
+     "slot": "07:00",
+     "network": "instagram",
+     "kind": "today's sky Reel",
+     "transit": "Sun square Mars",
+     "metricoolId": 429568124
+    },
+    {
+     "date": "2026-11-21",
+     "slot": "07:00",
+     "network": "facebook",
+     "kind": "today's sky Reel",
+     "transit": "Sun square Mars",
+     "metricoolId": 429568128
+    },
+    {
+     "date": "2026-11-21",
+     "slot": "07:00",
+     "network": "tiktok",
+     "kind": "format-test reel",
+     "idea": "venus-sign",
+     "metricoolId": 429568135
+    },
+    {
+     "date": "2026-11-21",
+     "slot": "18:00",
+     "network": "instagram",
+     "kind": "pillar",
+     "pillar": "privacy",
+     "metricoolId": 429568150
+    },
+    {
+     "date": "2026-11-21",
+     "slot": "18:00",
+     "network": "facebook",
+     "kind": "pillar",
+     "pillar": "privacy",
+     "metricoolId": 429568161
+    },
+    {
+     "date": "2026-11-21",
+     "slot": "19:00",
+     "network": "tiktok",
+     "kind": "format-test carousel",
+     "idea": "venus-sign",
+     "metricoolId": 429568174
+    },
+    {
+     "date": "2026-11-22",
+     "slot": "07:00",
+     "network": "instagram",
+     "kind": "today's sky Reel",
+     "transit": "Sun square Mars",
+     "metricoolId": 429568378
+    },
+    {
+     "date": "2026-11-22",
+     "slot": "07:00",
+     "network": "facebook",
+     "kind": "today's sky Reel",
+     "transit": "Sun square Mars",
+     "metricoolId": 429568385
+    },
+    {
+     "date": "2026-11-22",
+     "slot": "07:00",
+     "network": "tiktok",
+     "kind": "format-test carousel",
+     "idea": "whole-chart-not-horoscope",
+     "metricoolId": 429568394
+    },
+    {
+     "date": "2026-11-22",
+     "slot": "18:00",
+     "network": "instagram",
+     "kind": "pillar",
+     "pillar": "sign spotlight (Sagittarius handover)",
+     "metricoolId": 429568405
+    },
+    {
+     "date": "2026-11-22",
+     "slot": "18:00",
+     "network": "facebook",
+     "kind": "pillar",
+     "pillar": "sign spotlight (Sagittarius handover)",
+     "metricoolId": 429568416
+    },
+    {
+     "date": "2026-11-22",
+     "slot": "19:00",
+     "network": "tiktok",
+     "kind": "format-test reel",
+     "idea": "whole-chart-not-horoscope",
+     "metricoolId": 429568426
+    }
+   ],
+   "note": "Veto model: all 42 posts publish automatically unless Daniel edits or pulls them in Metricool. Media pushed to OmnistrataMedia main; raw PNG and MP4 URLs confirmed 200 before scheduling. One correction this run: the Nov 19 Facebook sky Reel was created twice by mistake; the duplicate (id 429567630, uuid 421324997953208981) was set to autoPublish false / draft true so it will NOT publish, and is flagged for Daniel to delete in Metricool. Reflective sky headlines flagged in the veto summary for Daniel's eye (none are predictions)."
   }
  ],
  "events": [
@@ -1034,6 +1385,48 @@
      "07:00": "reel 424932781",
      "19:00": "carousel 424932795",
      "idea": "moon-sign"
+    },
+    {
+     "date": "2026-11-16",
+     "07:00": "carousel 429566496",
+     "19:00": "reel 429566521",
+     "idea": "rising-sign"
+    },
+    {
+     "date": "2026-11-17",
+     "07:00": "reel 429566808",
+     "19:00": "carousel 429566830",
+     "idea": "mercury-sign"
+    },
+    {
+     "date": "2026-11-18",
+     "07:00": "carousel 429567050",
+     "19:00": "reel 429567079",
+     "idea": "mars-sign"
+    },
+    {
+     "date": "2026-11-19",
+     "07:00": "reel 429567525",
+     "19:00": "carousel 429567541",
+     "idea": "same-day-different-chart"
+    },
+    {
+     "date": "2026-11-20",
+     "07:00": "carousel 429567869",
+     "19:00": "reel 429567882",
+     "idea": "saturn-sign"
+    },
+    {
+     "date": "2026-11-21",
+     "07:00": "reel 429568135",
+     "19:00": "carousel 429568174",
+     "idea": "venus-sign"
+    },
+    {
+     "date": "2026-11-22",
+     "07:00": "carousel 429568394",
+     "19:00": "reel 429568426",
+     "idea": "whole-chart-not-horoscope"
     }
    ]
   },
