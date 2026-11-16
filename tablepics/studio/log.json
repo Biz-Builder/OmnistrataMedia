@@ -567,6 +567,57 @@
         "Campaign 'TP | Year-end | Traffic | Nov 2026' launched 12 Nov, so this week has at most about 1.5 days of ad data even once reachable.",
         "No numbers were invented; nothing public, scheduled or paid was changed."
       ]
+    },
+    {
+      "date": "2026-11-16",
+      "type": "batch",
+      "window": "2026-11-16 to 2026-11-29",
+      "posts": [],
+      "queued_checked": [
+        {
+          "date": "2026-11-17 18:30",
+          "metricool_id": [
+            421384328,
+            421384337
+          ]
+        },
+        {
+          "date": "2026-11-20 18:30",
+          "metricool_id": [
+            421384348,
+            421384354
+          ]
+        },
+        {
+          "date": "2026-11-24 18:30",
+          "metricool_id": [
+            425054838,
+            425054851
+          ]
+        },
+        {
+          "date": "2026-11-27 18:30",
+          "metricool_id": [
+            425056208,
+            425056238
+          ]
+        }
+      ],
+      "drafts_left_as_drafts": [
+        425052317,
+        425052323,
+        425052598,
+        425052614,
+        425052631,
+        425052637
+      ],
+      "note": "Monday batch. All four Reel slots in the 14-day window (Tue 17, Fri 20, Tue 24, Fri 27 Nov, 18:30) were already filled with separate Instagram and Facebook Reels, so nothing was built or scheduled and no media pushed. Nothing already scheduled was changed. The 13 Nov Friday review had no data, so no new change to apply. Next empty slot: Tue 1 Dec 18:30, the first wedding Reel (weddings from 1 Dec). Confluence 'Organic now' got a one-line note.",
+      "open_items": {
+        "refund_check_19_nov": "Resolved for now: the 19 Nov pricing carousel (425052323) is a Metricool draft since 12 Nov and will not publish.",
+        "live_site": "tablepics.co.za still not readable from the cloud run: WebFetch permission timed out again. Needed before the 1 Dec wedding Reels.",
+        "tablepics_com": "Reel end card and QR use tablepics.com (redirects to tablepics.co.za per Confluence). No action.",
+        "cover_photo_swaps": "Moot while carousels are drafts."
+      }
     }
   ]
 }
