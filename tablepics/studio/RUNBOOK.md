@@ -36,6 +36,7 @@ The single source of truth for TablePics organic content. The Monday batch and t
 - Organic reach stayed at 0 to 7 people a post with no saves or shares, so carousels stopped. Reels only, Tue and Fri 18:30. The best Reels become ad creatives.
 - The eight queued carousels (12 to 29 Nov) and the 13 Nov wedding Reel were turned into Metricool drafts, not deleted. Leave them as drafts unless Daniel asks.
 - Paid: one campaign "TP | Year-end | Traffic | Nov 2026" (id 120250990153830507), R1,000 spend cap, ends 25 Nov 23:59. Ad set A sends to /year-end-functions (R36/day), ad set B to /demo (R35/day), same three ads in each (January, No app, Phones Reel), utm_campaign=tablepics_yearend_nov26, utm_content=<ad>-<event|demo>. Weddings get the next budget from 1 Dec.
+- Changed 19 Nov (Daniel approved): January paused in both sets. Ad set A now sends to /reserve with two new ads, No app (120251113159300507) and Phones Reel (120251113161530507), utm_content noapp-reserve and phones-reserve; the three event-page ads are paused. When Alex replies on the Event Pages comment that "Reserve free" is live on the event pages, propose switching A back to /year-end-functions.
 - New features to promote: "Reserve free, pay later" (/reserve) and the sample album (/demo). Headline approved for /reserve: "Date not set yet? Reserve your album free."
 
 ## The weekly plan
