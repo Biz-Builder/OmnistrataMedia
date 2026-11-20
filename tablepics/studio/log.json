@@ -618,6 +618,166 @@
         "tablepics_com": "Reel end card and QR use tablepics.com (redirects to tablepics.co.za per Confluence). No action.",
         "cover_photo_swaps": "Moot while carousels are drafts."
       }
+    },
+    {
+      "date": "2026-11-20",
+      "type": "review",
+      "period": "2026-11-14 to 2026-11-20 (scheduled run, Fri 20 Nov 16:20 SAST). Organic includes the 13 Nov Reel, which the 13 Nov review could not read.",
+      "numbers": {
+        "organic": [
+          {
+            "date": "2026-11-13 18:30",
+            "angle": "reserve free, pay later",
+            "instagram": {
+              "reach": 7,
+              "saves": 0,
+              "shares": 0,
+              "likes": 0,
+              "comments": 0,
+              "views": 8,
+              "avg_watch_s": 2.5,
+              "skip_rate_pct": 83.3
+            },
+            "facebook": {
+              "reach": 0,
+              "likes": 0,
+              "views": 4,
+              "umami_visits": 0
+            }
+          },
+          {
+            "date": "2026-11-17 18:30",
+            "angle": "team photos on everyone's phone",
+            "instagram": {
+              "reach": 11,
+              "saves": 0,
+              "shares": 0,
+              "likes": 0,
+              "comments": 0,
+              "views": 11,
+              "avg_watch_s": 1.9,
+              "skip_rate_pct": 90.9
+            },
+            "facebook": {
+              "reach": 0,
+              "likes": 0,
+              "views": 3,
+              "umami_visits": 0
+            }
+          }
+        ],
+        "organic_note": "20 Nov Reel publishes at 18:30, after this run. Metricool's Facebook Reels data has no shares or link clicks and shows reach 0 next to 3 to 4 views; reactions 0.",
+        "umami": {
+          "visitors": 357,
+          "visits": 372,
+          "pageviews": 430,
+          "bounce_rate_pct": 32.5,
+          "channels": {
+            "paid_ads": 307,
+            "direct": 38,
+            "organic_social": 10,
+            "organic_search": 1,
+            "referral": 1
+          },
+          "utm_content_ads": {
+            "noapp-demo": 131,
+            "noapp-event": 112,
+            "phones-demo": 29,
+            "phones-event": 18,
+            "january-event": 6,
+            "phones-reserve": 4,
+            "noapp-reserve": 4,
+            "january-demo": 3
+          },
+          "organic_facebook_tablepics_organic": 0,
+          "funnel": {
+            "choose-tier": 1,
+            "order-start": 2,
+            "order-submit": 0,
+            "payment-cancelled": 0,
+            "paid": 0
+          },
+          "funnel_note": "Both order starts came from visitors outside ZA (SE 19 Nov, IE 14 Nov) via Facebook, likely not real buyers. The 5 form-submit events are on guest album pages (/e/:token), not orders."
+        },
+        "meta_ads_week": {
+          "spend": "R429.54",
+          "landing_page_views": 266,
+          "cost_per_lpv": "R1.61",
+          "ads": [
+            {
+              "ad": "No app | A Event page",
+              "id": "120250990163670507",
+              "spend": "R178.62",
+              "lpv": 102,
+              "cost_per_lpv": "R1.75",
+              "ctr_all": "4.40%"
+            },
+            {
+              "ad": "No app | B Sample album",
+              "id": "120250990163770507",
+              "spend": "R161.27",
+              "lpv": 110,
+              "cost_per_lpv": "R1.47",
+              "ctr_all": "5.54%"
+            },
+            {
+              "ad": "Phones Reel | B Sample album",
+              "id": "120250990167220507",
+              "spend": "R39.06",
+              "lpv": 26,
+              "cost_per_lpv": "R1.50",
+              "ctr_all": "1.38%"
+            },
+            {
+              "ad": "Phones Reel | A Event page",
+              "id": "120250990167040507",
+              "spend": "R21.61",
+              "lpv": 17,
+              "cost_per_lpv": "R1.27",
+              "ctr_all": "1.43%"
+            },
+            {
+              "ad": "January | A (paused 19 Nov)",
+              "id": "120250990163550507",
+              "spend": "R13.22",
+              "lpv": 8,
+              "cost_per_lpv": "R1.65",
+              "ctr_all": "2.84%"
+            },
+            {
+              "ad": "January | B (paused 19 Nov)",
+              "id": "120250990163740507",
+              "spend": "R8.76",
+              "lpv": 2,
+              "cost_per_lpv": "R4.38",
+              "ctr_all": "2.49%"
+            },
+            {
+              "ad": "No app | A Reserve (paused 19 Nov)",
+              "id": "120251113159300507",
+              "spend": "R7.00",
+              "lpv": 1,
+              "cost_per_lpv": "R7.00",
+              "ctr_all": "0.64%"
+            }
+          ]
+        },
+        "campaign_to_date": {
+          "spend": "R574.42 of R1,000",
+          "landing_page_views": 371,
+          "cost_per_lpv": "R1.55",
+          "ends": "2026-11-27 23:59"
+        }
+      },
+      "ranking_saves_plus_shares_per_reach": "Tied at 0 for both Reels (0 saves, 0 shares). Not yet meaningful at 7 to 11 reach; read on reach and hold instead.",
+      "best_hook": "17 Nov 'Team photos? On everyone's phone.': the most reach (11). It names a pain every organiser knows, but 91% still swiped away in 3 seconds.",
+      "weakest_hook": "13 Nov 'Date not set yet? Reserve it free.': the least reach (7). It leads with an offer that only makes sense to someone who already knows the product.",
+      "change": "Monday's batch: open the 1 Dec wedding Reel with the 'no app' problem (guests will not download an app), the angle that wins in the ads (4.4 to 5.5% click rate against 1.4% for the phones Reel). Everything else in the template stays.",
+      "ad_proposal": "No change proposed. No app already takes most of the spend, the Phones Reel still buys views at R1.27 to R1.50, and the cap lasts to 27 Nov at R59 a day. Once Daniel approves the Black Friday terms, the offer ads could replace the Phones Reel (Daniel to approve).",
+      "notes": [
+        "Report only: nothing posted, scheduled, sent or changed in Metricool or Meta Ads.",
+        "Confluence page 18186247: Results log row added, Where we are lines refreshed (v14)."
+      ]
     }
   ]
 }
