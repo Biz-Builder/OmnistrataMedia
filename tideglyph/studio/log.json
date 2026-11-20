@@ -1323,6 +1323,33 @@
     }
    ],
    "note": "Veto model: all 42 posts publish automatically unless Daniel edits or pulls them in Metricool. Media pushed to OmnistrataMedia main; raw PNG and MP4 URLs confirmed 200 before scheduling. One correction this run: the Nov 19 Facebook sky Reel was created twice by mistake; the duplicate (id 429567630, uuid 421324997953208981) was set to autoPublish false / draft true so it will NOT publish, and is flagged for Daniel to delete in Metricool. Reflective sky headlines flagged in the veto summary for Daniel's eye (none are predictions)."
+  },
+  {
+   "date": "2026-11-20",
+   "type": "review",
+   "week": "2026-11-14 to 2026-11-20",
+   "networks": [
+    "facebook",
+    "instagram",
+    "tiktok"
+   ],
+   "status": "Week 6 Friday review. Review-only run: nothing posted, scheduled or changed; no ad, budget or campaign touched. Metricool, Meta Ads and GitHub connectors all worked this run. Umami not reachable (website analytics live on Daniel's computer, not bridged into a scheduled cloud run). No numbers invented.",
+   "numbers": {
+    "instagram": "Static 18:00 pillars reached almost nobody: 1 to 3 people each (Nov 16 one-in-twelve 1, Nov 15 privacy 1, Nov 17 1, Nov 18 3, Nov 19 0 still fresh), 0 saves, 0 shares, 0 likes on every one. 07:00 sky Reels reached more but still small: Nov 13 98, Nov 16 101, Nov 15 35, Nov 14 13; Nov 17 to 19 only 3 to 4 (fresh). 0 saves, 0 shares, 0 likes on every sky Reel too.",
+    "facebook": "Static 18:00 pillars reached 0 to 1 people, 0 shares, 0 reactions. 07:00 sky Reels: reach reported 0 by the connector but video views up to 125 (Nov 15), 26 (Nov 13/16), 0 actions on all. No saves metric on FB.",
+    "tiktok": "Format test, see tiktokFormatTest below.",
+    "metaAds": "Account 1642736234081287 last 7 days. Tideglyph campaign 'TG | Big three | Traffic | Nov 2026' ACTIVE: spend R496.05, 180 landing page views, 334 link clicks, reach 13,343, impressions 22,663 (cost per landing page view about R2.76, CPC about R1.49). The account also holds TablePics (TP) campaigns; excluded from this Tideglyph review per brand isolation.",
+    "umami": "unavailable - website analytics live on Daniel's computer, not reachable from a scheduled cloud run (no device bridge). /chart visitors by utm_source, form-start and chart-shown counts could not be pulled.",
+    "email": "MailerLite not wired up for Tideglyph yet; email metrics skipped per method."
+   },
+   "ranking": "Intended metric (saves+shares)/reach was 0 for every Instagram and Facebook post this week: no post earned a single save or share on either network (sky Reels and pillars alike). So the metric cannot separate hooks this week; ranked by reach instead as the only differentiator.",
+   "bestHook": "By reach (engagement was zero everywhere): the 07:00 sky-Reel hooks reached furthest, e.g. Nov 16 'Big energy, with room to think it through. What would you begin if the doubt were quieter?' (IG reach 101) and Nov 13 'Big drive, a practical mood to hold it' (IG reach 98). Caveat: these two are the oldest Reels of the week, so age flatters them; none drove a save or share.",
+   "weakestHook": "The 18:00 static pillar cards, as a format: every pillar reached 1 to 3 people on IG and 0 to 1 on FB with zero saves and zero shares. The weakness is the static format, not the wording; strong pillar lines (one in twelve, privacy) reached almost no one because a static card does not get shown to non-followers.",
+   "tiktokFormatTest": "Interim LEAN (verdict due 27 Nov). Data for 12 to 19 Nov: 8 carousels and 8 Reels with data, one of each per day so both formats share the same age mix (fair comparison). Average views: carousels 455 vs Reels 223, so carousels about 2.0x Reels on views (+104%), above the 50% rule threshold on views. Likes also favour carousels (79 total vs 23). Top posts are carousels (rising-sign carousel 921, then 555/549/531); best Reel was no-birth-time 551. Shares negligible both (1 carousel share total, 0 Reel). NOTE: the Metricool TikTok post connector does not expose saves, profile visits or follows per post, so (shares+saves)/view, profile visits and follows could not be computed; only views, shares, likes, comments are available. Lean: carousels are ahead on the one comparable action metric (views). Not a verdict; 27 Nov read decides, and it should flag that saves/profile-visits/follows are unavailable from Metricool so the verdict will rest mainly on views.",
+   "oneChange": "For Monday's batch (Nov 23 to 29): build the 18:00 pillar as a Reel/short video (make_photo.py --reel) on Instagram and Facebook, not a static card. Reason: this week reconfirms it for the fourth review running. Static pillars reached 1 to 3 people on IG and 0 to 1 on FB with zero saves/shares, while Reels reach 30 to 100x more non-followers. The Nov 16 batch still shipped pillars as static POSTs, so this standing, data-backed change is still not applied. Hold TikTok on Reels vs carousels until the 27 Nov verdict per the runbook (today is only a lean).",
+   "crossBrandLesson": "Candidate cross-brand lesson (offered to Daniel, not yet filed): within one brand, a controlled TikTok carousel-vs-Reel test has carousels reaching about 2x the views of Reels through 8 posts each, echoing BBD's experience that TikTok grows on carousels. Still a lean, not a verdict; revisit after 27 Nov before treating it as a rule for every brand.",
+   "note": "Review-only; no public changes. Connectors (Metricool, Meta Ads, GitHub) worked this run; Umami blocked only by the missing device bridge in a scheduled run, not by the brand. Meta account is shared with TablePics; only the Tideglyph campaign reported.",
+   "runType": "review-only; no public changes; Metricool + Meta Ads data pulled; Umami unavailable"
   }
  ],
  "events": [
