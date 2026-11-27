@@ -1350,6 +1350,34 @@
    "crossBrandLesson": "Candidate cross-brand lesson (offered to Daniel, not yet filed): within one brand, a controlled TikTok carousel-vs-Reel test has carousels reaching about 2x the views of Reels through 8 posts each, echoing BBD's experience that TikTok grows on carousels. Still a lean, not a verdict; revisit after 27 Nov before treating it as a rule for every brand.",
    "note": "Review-only; no public changes. Connectors (Metricool, Meta Ads, GitHub) worked this run; Umami blocked only by the missing device bridge in a scheduled run, not by the brand. Meta account is shared with TablePics; only the Tideglyph campaign reported.",
    "runType": "review-only; no public changes; Metricool + Meta Ads data pulled; Umami unavailable"
+  },
+  {
+   "date": "2026-11-27",
+   "type": "review",
+   "week": "2026-11-21 to 2026-11-27",
+   "networks": [
+    "facebook",
+    "instagram",
+    "tiktok"
+   ],
+   "status": "Week 7 Friday review. Review-only run: nothing posted, scheduled or changed; no ad, budget or campaign touched. Metricool, Meta Ads and GitHub connectors worked. Umami not reachable (website analytics live on Daniel's computer, not bridged into a scheduled cloud run). MailerLite not wired up for Tideglyph, so email metrics skipped. No numbers invented.",
+   "keyFinding": "POSTING STALLED. The Monday 23 Nov batch did not run: no organic post went out on any network after 22 Nov (a 5-day blackout, 23 to 27 Nov), and nothing is scheduled ahead. Every scheduled post in Metricool was created 16 Nov and the series ends 22 Nov. This needs fixing before any content tweak matters.",
+   "numbers": {
+    "instagram": "Only 21 to 22 Nov posted (tail of the 16 Nov batch); nothing after. Sky Reels (07:00): 21 Nov reach 8 / 8 views, 22 Nov reach 9 / 10 views. Static pillars (18:00): 21 Nov privacy reach 1, 22 Nov Sagittarius sign-spotlight reach 2. 0 saves, 0 shares, 0 likes, 0 comments, 0 follows on every post.",
+    "facebook": "Only 21 to 22 Nov pillars in feed data: 21 Nov privacy reach 0, 22 Nov Sagittarius reach 1. 0 shares, 0 reactions, 0 comments, 0 link clicks. (FB has no per-post saves metric.)",
+    "tiktok": "Format test, see tiktokFormatTest below. No normal TikTok sky Reel ran during the test window.",
+    "metaAds": "Account 1642736234081287, last 7 days. Tideglyph campaign 'TG | Big three | Traffic | Nov 2026' ACTIVE: spend R432.40, 159 landing page views (cost per landing page view about R2.72), 301 link clicks, reach 9,447, impressions 15,906, CPC about R1.20. The account also holds TablePics (TP) campaigns; excluded from this Tideglyph review per brand isolation.",
+    "umami": "unavailable - website analytics live on Daniel's computer, not reachable from a scheduled cloud run (no device bridge). /chart visitors by utm_source, form-start and chart-shown counts could not be pulled.",
+    "email": "MailerLite not wired up for Tideglyph yet; email metrics skipped per method."
+   },
+   "ranking": "Intended metric (saves+shares)/reach was 0 for every Instagram and Facebook post this week (5th week running): no post earned a save or share on either network. Ranked by reach as the only differentiator, but the week is thin (only 21 to 22 Nov posted).",
+   "bestHook": "By reach (engagement zero everywhere): the 07:00 sky Reel again travelled furthest. Furthest single post was the 22 Nov sky Reel 'Momentum that finally feels in step. What are you ready to begin again?' (IG reach 9, 10 views). Reach this tiny only because posting stopped after 22 Nov.",
+   "weakestHook": "The 18:00 static pillar cards again: 21 Nov privacy (IG reach 1, FB reach 0) and 22 Nov Sagittarius sign-spotlight (IG reach 2, FB reach 1), zero actions. The weakness is the static format, not the words: the Sagittarius pillar actually avoided the generic Sun-sign opener the runbook warns against (it argued against season-sign generalisation) and still reached almost no one, because a static card is not shown to non-followers.",
+   "tiktokFormatTest": "VERDICT (test complete): KEEP REELS. Full test = 11 carousels + 11 Reels with data (12 to 22 Nov); the planned 23 to 25 Nov posts were never scheduled, but 11 per format clears the 8-post bar so this is a verdict, not a lean. Average views: carousels 375.4 vs Reels 255.2, carousel +47 percent, below the 50 percent threshold. (shares+saves)/view not computable: Metricool exposes no TikTok saves, profile visits or follows per post; shares were 1 (all 11 carousels) vs 0 (all 11 Reels), too few to judge. Likes favoured carousels (82 vs 48). Neither comparable metric clears +50 percent, so the rule keeps Reels. Near miss: carousels led on views (+47 percent) and won 8 of 11 same-idea matchups and the median, so Daniel may re-test with saves data or override if TikTok becomes a priority. Verdict written into RUNBOOK.md TikTok format test section. From 26 Nov TikTok gets the 07:00 today's-sky Reel only (same MP4 as IG/FB), no second daily post, no carousels.",
+   "oneChange": "For next Monday's batch: build the 18:00 pillar as a Reel/short video (make_photo.py --reel) on Instagram and Facebook, not a static card. Reason: 5th review running that static pillars reach 0 to 2 people with zero saves/shares while sky Reels reach far more non-followers; the change keeps being deferred. URGENT PREREQUISITE, bigger than the one change: the Monday batch must actually run (it missed 23 Nov) and backfill the 23 to 27 Nov gap, or there is no batch to change.",
+   "crossBrandLesson": "Candidate cross-brand lesson (offered to Daniel): a scheduled weekly batch that fires-and-forgets has a single point of failure. Tideglyph's 23 Nov batch did not run and five days of posts were silently lost because nothing watches for an empty forward schedule. Every brand on the same pattern (BBD, TablePics) should have the Friday review assert that posts exist for the coming 7 days, not only report last week. Offered, not yet filed.",
+   "note": "Review-only; no public changes. Connectors (Metricool, Meta Ads, GitHub) worked; Umami blocked only by the missing device bridge in a scheduled run.",
+   "runType": "review-only; no public changes; Metricool + Meta Ads data pulled; Umami unavailable; posting-stalled incident flagged"
   }
  ],
  "events": [

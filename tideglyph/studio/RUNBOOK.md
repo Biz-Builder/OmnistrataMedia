@@ -7,7 +7,7 @@ The self-contained engine for Tideglyph's organic posts. A fresh cloud session u
 - Media host: this repo, Biz-Builder/OmnistrataMedia (public). Raw URL pattern: https://raw.githubusercontent.com/Biz-Builder/OmnistrataMedia/main/<path>
   - Today's sky cards: tideglyph/todays-sky/YYYY-MM-DD.png. Today's sky Reels: tideglyph/reels/YYYY-MM-DD.mp4. Pillar cards: tideglyph/pillars/YYYY-MM-DD.png.
 - Timezone: Africa/Johannesburg (UTC+02:00). Daily slots: 07:00 (today's sky, as a Reel) and 18:00 (a pillar, static card, US-facing).
-- Networks: Facebook and Instagram, as SEPARATE posts (from 26 Oct 2026). TikTok @tideglyph (Business account, connected to brand 7442919 on 7 Nov 2026) gets the 07:00 Reel only, as its own third post. EXCEPTION 12 to 25 Nov 2026: the TikTok format test below replaces this.
+- Networks: Facebook and Instagram, as SEPARATE posts (from 26 Oct 2026). TikTok @tideglyph (Business account, connected to brand 7442919 on 7 Nov 2026) gets the 07:00 Reel only, as its own third post. The TikTok format test (12 to 25 Nov 2026) replaced this for that window; it concluded with the verdict keep Reels (27 Nov 2026, see the format-test section), so from 26 Nov 2026 TikTok is back to the 07:00 Reel only.
 
 ## Why the format is what it is (decided 24 Oct 2026)
 - Organic reach was 34 people across 24 posts in week 2. Static posts on a new account reach almost only followers. Reels are the format Instagram shows to non-followers, so the daily today's sky post is a Reel.
@@ -93,3 +93,11 @@ If the Metricool connector is NOT available in this session: still generate, bui
 - Caption: one or two lines of the idea, a comment prompt where it fits, then "Find your big three: tideglyph.com/chart" and four hashtags.
 - Scheduled so far: 12 to 15 Nov (log.json event "tiktok-format-test"). The Monday batch builds the rest through 25 Nov.
 - Read-out (Friday reviews of 20 and 27 Nov): per format, average views, (shares + saves) per view, profile visits and follows. If carousels beat Reels by 50% or more on views or on shares plus saves per view, carousels become TikTok's main format; if not, keep Reels. Under 8 posts per format is a lean, not a verdict.
+
+### VERDICT (27 Nov 2026): keep Reels
+Measured over the full test: 11 carousels and 11 Reels with data (12 to 22 Nov). The planned 23 to 25 Nov posts were never scheduled (the Nov 23 Monday batch did not run), but 11 per format clears the 8-post bar, so this is a verdict, not a lean.
+- Average views: carousels 375 vs Reels 255, carousel +47 percent. Below the 50 percent threshold.
+- (shares + saves) per view: not computable. Metricool exposes no TikTok saves, profile visits or follows per post; shares were 1 across all 11 carousels and 0 across all 11 Reels, too few to judge. Likes favoured carousels (82 vs 48).
+- Neither comparable metric clears +50 percent, so the rule keeps Reels. Near miss: carousels did lead on views (+47 percent) and won 8 of the 11 same-idea matchups, so if TikTok becomes a priority, Daniel may choose to re-test with saves data or override this.
+
+What TikTok gets from 26 Nov 2026: the normal format resumes. TikTok gets the single 07:00 today's-sky Reel per day only (the same MP4 as the Instagram and Facebook 07:00 Reel, videoCoverMilliseconds 7500), isAigc false. No second daily TikTok post, no carousels. The Monday batch builds TikTok this way.
