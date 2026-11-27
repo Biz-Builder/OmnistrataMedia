@@ -778,6 +778,190 @@
         "Report only: nothing posted, scheduled, sent or changed in Metricool or Meta Ads.",
         "Confluence page 18186247: Results log row added, Where we are lines refreshed (v14)."
       ]
+    },
+    {
+      "date": "2026-11-27",
+      "type": "review",
+      "period": "2026-11-21 to 2026-11-27 (scheduled run, Fri 27 Nov about 16:25 SAST). Organic includes the 20 Nov Reel, which published after the 20 Nov review. The 27 Nov Reel publishes at 18:30, after this run.",
+      "numbers": {
+        "organic": [
+          {
+            "date": "2026-11-20 18:30",
+            "angle": "dinner photos on everyone's phone",
+            "hook": "Dinner photos? On everyone's phone.",
+            "instagram": {
+              "reach": 13,
+              "saves": 0,
+              "shares": 0,
+              "likes": 1,
+              "comments": 0,
+              "views": 15,
+              "avg_watch_s": 4.2,
+              "skip_rate_pct": 64.3
+            },
+            "facebook": {
+              "reach": 0,
+              "reactions": 0,
+              "views": 2,
+              "umami_visits": 0
+            }
+          },
+          {
+            "date": "2026-11-24 18:30",
+            "angle": "sample album",
+            "hook": "Never seen one? See a sample album.",
+            "instagram": {
+              "reach": 6,
+              "saves": 0,
+              "shares": 0,
+              "likes": 0,
+              "comments": 0,
+              "views": 5,
+              "avg_watch_s": 1.9,
+              "skip_rate_pct": 60.0
+            },
+            "facebook": {
+              "reach": 0,
+              "reactions": 0,
+              "views": 0,
+              "umami_visits": 0
+            }
+          }
+        ],
+        "organic_note": "Metricool's Facebook Reels data has no shares or link clicks; Umami shows 0 visits with utm_campaign tablepics_organic from 20 to 27 Nov. Instagram reach is not 0, so no app numbers were needed.",
+        "umami": {
+          "visitors": 230,
+          "visits": 240,
+          "pageviews": 283,
+          "bounce_rate_pct": 28.8,
+          "avg_visit_s": 9,
+          "channels": {
+            "paid_ads": 203,
+            "direct": 19,
+            "organic_social": 8,
+            "organic_search": 1
+          },
+          "utm_source": {
+            "meta": 203,
+            "ig": 3
+          },
+          "utm_content_ads": {
+            "noapp-demo": 62,
+            "noapp-event": 41,
+            "bf-noapp-demo": 33,
+            "bf-noapp-event": 29,
+            "phones-event": 17,
+            "bf-phones-event": 16,
+            "bf-phones-demo": 3,
+            "phones-demo": 3
+          },
+          "organic_facebook_tablepics_organic": 0,
+          "funnel": {
+            "choose-tier": 2,
+            "order-start": 1,
+            "order-submit": 0,
+            "payment-cancelled": 0,
+            "paid": 0
+          },
+          "funnel_note": "All three funnel events from South African Android phones: order start on / (23 Nov), tier taps on /year-end-functions (24 Nov, Instagram webview) and / (26 Nov)."
+        },
+        "meta_ads_week": {
+          "spend": "R378.93",
+          "landing_page_views": 157,
+          "cost_per_lpv": "R2.41",
+          "ads": [
+            {
+              "ad": "No app | B Sample album (paused 24 Nov)",
+              "id": "120250990163770507",
+              "spend": "R85.50",
+              "lpv": 51,
+              "cost_per_lpv": "R1.68",
+              "ctr_all": "5.93%"
+            },
+            {
+              "ad": "Black Friday | No app | B Sample album",
+              "id": "120251176332230507",
+              "spend": "R84.80",
+              "lpv": 20,
+              "cost_per_lpv": "R4.24",
+              "ctr_all": "3.61%"
+            },
+            {
+              "ad": "No app | A Event page (paused 24 Nov)",
+              "id": "120250990163670507",
+              "spend": "R59.99",
+              "lpv": 36,
+              "cost_per_lpv": "R1.67",
+              "ctr_all": "5.40%"
+            },
+            {
+              "ad": "Black Friday | No app | A Event page",
+              "id": "120251176330740507",
+              "spend": "R53.77",
+              "lpv": 21,
+              "cost_per_lpv": "R2.56",
+              "ctr_all": "3.70%"
+            },
+            {
+              "ad": "Phones Reel | A Event page (paused 24 Nov)",
+              "id": "120250990167040507",
+              "spend": "R48.23",
+              "lpv": 14,
+              "cost_per_lpv": "R3.45",
+              "ctr_all": "2.37%"
+            },
+            {
+              "ad": "Black Friday | Phones Reel | A Event page",
+              "id": "120251176331210507",
+              "spend": "R32.82",
+              "lpv": 12,
+              "cost_per_lpv": "R2.74",
+              "ctr_all": "2.64%"
+            },
+            {
+              "ad": "Phones Reel | B Sample album (paused 24 Nov)",
+              "id": "120250990167220507",
+              "spend": "R11.85",
+              "lpv": 3,
+              "cost_per_lpv": "R3.95",
+              "ctr_all": "1.07%"
+            },
+            {
+              "ad": "Black Friday | Phones Reel | B Sample album",
+              "id": "120251176332440507",
+              "spend": "R1.97",
+              "lpv": 0,
+              "cost_per_lpv": null,
+              "ctr_all": "1.59%"
+            }
+          ],
+          "black_friday_ads_since_24_nov": {
+            "spend": "R173.36",
+            "lpv": 53,
+            "cost_per_lpv": "R3.27"
+          },
+          "older_ads_21_to_24_nov": {
+            "spend": "R205.57",
+            "lpv": 104,
+            "cost_per_lpv": "R1.98"
+          }
+        },
+        "campaign_to_date": {
+          "spend": "R973.18 of the planned R1,180 (cap R1,800)",
+          "landing_page_views": 528,
+          "cost_per_lpv": "R1.84",
+          "ends": "2026-11-30 23:59"
+        }
+      },
+      "ranking_saves_plus_shares_per_reach": "Tied at 0 for both Reels (0 saves, 0 shares). Read on reach and hold instead.",
+      "best_hook": "20 Nov 'Dinner photos? On everyone's phone.': most reach (13) and the longest hold so far (4.2 s against 1.9 to 2.5 s before). It names one moment of the night and the pain right after it.",
+      "weakest_hook": "24 Nov 'Never seen one? See a sample album.': least reach (6), 1.9 s hold. It asks a stranger to go and look at something before giving a reason to care.",
+      "change": "Monday's wedding Reels: the hook names one moment of the night and its problem (for example 'First dance? Filmed on 80 phones.'), never an offer or an invitation to look.",
+      "ad_proposal": "For Daniel to approve, not made: the Black Friday No app ads cost R2.56 to R4.24 a landing page view at 3.6 to 3.7% click rate, against R1.67 to R1.68 and 5.4 to 5.9% for the older No app ads. Run the two older No app ads again beside the offer ads to 30 Nov, same daily budgets. The Black Friday Phones Reel in set B barely delivers (R1.97), so it needs no action. Spend check on 29 Nov stays.",
+      "notes": [
+        "Report only: nothing posted, scheduled, sent or changed in Metricool or Meta Ads.",
+        "Confluence page 18186247: Results log row added, Where we are lines refreshed (v18)."
+      ]
     }
   ]
 }
